@@ -137,7 +137,7 @@ body {
     position: absolute;
     inset: 0;
     border-radius: inherit;
-    padding: 1px;
+  padding: 2px; // thicker border for smoother corners
     background: linear-gradient(90deg, #ff9d42, #ff4fd8, #5d00ff);
     -webkit-mask:
       linear-gradient(#fff 0 0) content-box,
@@ -854,7 +854,7 @@ body {
         position: absolute;
         inset: 0; // cover whole button
         border-radius: inherit;
-        padding: 1px; // thickness of the gradient border
+  padding: 2px; // thicker gradient border for smoother corners
         background: linear-gradient(90deg, #ff9d42, #ff4fd8, #5d00ff);
         -webkit-mask:
           linear-gradient(#fff 0 0) content-box,
