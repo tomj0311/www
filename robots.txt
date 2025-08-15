@@ -1,0 +1,7 @@
+# robots.txt for https://www.hub8.ai/
+# Update the domain above if different.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.hub8.ai/sitemap.xml
