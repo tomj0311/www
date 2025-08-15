@@ -23,13 +23,13 @@
             <a class="nav-link" href="<?php echo $is_main_page ? '#about' : 'index.php#about'; ?>">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="automation.php">Automation</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="<?php echo $is_main_page ? '#services' : 'index.php#services'; ?>">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo $is_main_page ? '#contact' : 'index.php#contact'; ?>">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="automation.php">GIA</a>
           </li>
         </ul>
         <form class="search-bar" method="GET" action="search.php">
