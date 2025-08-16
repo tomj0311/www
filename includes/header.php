@@ -2,7 +2,7 @@
   <div class="container-fluid px-5">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <!-- Logo -->
-      <a class="navbar-brand me-4" href="index.php">
+  <a class="navbar-brand me-4" href="<?php echo (basename($_SERVER['PHP_SELF']) === 'index.php' || basename($_SERVER['PHP_SELF']) === '') ? '#home' : 'index.php#home'; ?>">
         <img src="Assests/Images/logo.svg" alt="<?php echo htmlspecialchars($site_name ?? 'Hub8.ai'); ?> Logo">
       </a>
 
@@ -20,24 +20,27 @@
           $is_main_page = ($current_page == 'index.php' || $current_page == '');
           ?>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $is_main_page ? '#about' : 'index.php#about'; ?>">About</a>
+            <a class="nav-link <?php echo $is_main_page ? 'main-page-link' : ''; ?>" href="<?php echo $is_main_page ? '#home' : 'index.php#home'; ?>">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $is_main_page ? '#services' : 'index.php#services'; ?>">Services</a>
+            <a class="nav-link <?php echo $is_main_page ? 'main-page-link' : ''; ?>" href="<?php echo $is_main_page ? '#about' : 'index.php#about'; ?>">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $is_main_page ? '#contact' : 'index.php#contact'; ?>">Contact</a>
+            <a class="nav-link <?php echo $is_main_page ? 'main-page-link' : ''; ?>" href="<?php echo $is_main_page ? '#services' : 'index.php#services'; ?>">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="automation.php">GIA</a>
+            <a class="nav-link <?php echo $is_main_page ? 'main-page-link' : ''; ?>" href="<?php echo $is_main_page ? '#contact' : 'index.php#contact'; ?>">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link <?php echo $current_page == 'automation.php' ? 'active' : ''; ?>" href="automation.php">GIA</a>
           </li>
         </ul>
         <form class="search-bar" method="GET" action="search.php">
           <input type="text" name="q" class="form-control" placeholder="Search" value="<?php echo htmlspecialchars($_GET['q'] ?? ''); ?>">
         </form>
         <div class="btn-wrap">
-          <a href="signup.php" class="btn btn-outline-light login">Sign Up</a>
-          <a href="login.php" class="btn btn-gradient">Login</a>
+          <a href="signup.php" class="btn btn-outline-light login <?php echo $current_page == 'signup.php' ? 'active' : ''; ?>">Sign Up</a>
+          <a href="login.php" class="btn btn-gradient <?php echo $current_page == 'login.php' ? 'active' : ''; ?>">Login</a>
         </div>
       </div>
     </nav>

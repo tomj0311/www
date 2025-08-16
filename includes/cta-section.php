@@ -3,7 +3,7 @@
     <p class="cta-subtitle">Ready to Save Time and Money?</p>
     <h2 class="cta-title">
       Start automating your business today with <br>
-      Hub8.ai's simple AI solutions.
+      Hub8.ai's smarter AI solutions.
     </h2>
     <p class="cta-description">
       Join thousands of businesses that are already working smarter, not harder.

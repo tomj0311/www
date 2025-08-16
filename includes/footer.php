@@ -6,7 +6,7 @@
         <div class="footer-brand">
           <img src="Assests/Images/logo.svg" alt="Hub8.ai" class="footer-logo">
           <p class="footer-description">
-            Simple AI automation for your business. Save time and money with AI that's easy to use.
+            Intelligent AI automation for your business. Save time and money with AI that's easy to use.
           </p>
         </div>
       </div>

@@ -26,7 +26,16 @@ define('DEBUG_MODE', true);
 // 2. Create a GA4 property for your website
 // 3. Copy the Measurement ID (starts with G-)
 // 4. Replace the placeholder below
-define('GA_MEASUREMENT_ID', 'G-XXXXXXXXXX'); // Replace with your actual GA4 ID like 'G-ABC123DEF4'
+define('GA_MEASUREMENT_ID', 'G-3BYC9QXYLL'); // Your actual GA4 Measurement ID
+
+// Microsoft Clarity
+// IMPORTANT: Replace 'XXXXXXXXXX' with your actual Microsoft Clarity Project ID
+// To get your Clarity Project ID:
+// 1. Go to https://clarity.microsoft.com/
+// 2. Create a new project for your website
+// 3. Copy the Project ID (10-character alphanumeric string)
+// 4. Replace the placeholder below
+define('CLARITY_PROJECT_ID', 'svlb54gxdq'); // Your actual Clarity Project ID
 
 // Email Configuration (for contact forms)
 // Receiver for contact form

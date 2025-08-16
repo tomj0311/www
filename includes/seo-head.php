@@ -22,6 +22,9 @@ $page_type = $page_type ?? "website";
 
 // Get Google Analytics ID from config
 $ga_measurement_id = defined('GA_MEASUREMENT_ID') ? GA_MEASUREMENT_ID : "G-XXXXXXXXXX";
+
+// Get Microsoft Clarity Project ID from config
+$clarity_project_id = defined('CLARITY_PROJECT_ID') ? CLARITY_PROJECT_ID : "XXXXXXXXXX";
 ?>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -63,6 +66,7 @@ $ga_measurement_id = defined('GA_MEASUREMENT_ID') ? GA_MEASUREMENT_ID : "G-XXXXX
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.clarity.ms">
 
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -80,6 +84,17 @@ $ga_measurement_id = defined('GA_MEASUREMENT_ID') ? GA_MEASUREMENT_ID : "G-XXXXX
             page_title: '<?php echo addslashes($page_title); ?>',
             page_location: '<?php echo addslashes($canonical_url); ?>'
         });
+    </script>
+    <?php endif; ?>
+
+    <!-- Microsoft Clarity -->
+    <?php if ($clarity_project_id !== "XXXXXXXXXX"): ?>
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "<?php echo htmlspecialchars($clarity_project_id); ?>");
     </script>
     <?php endif; ?>
 
@@ -117,4 +132,27 @@ $ga_measurement_id = defined('GA_MEASUREMENT_ID') ? GA_MEASUREMENT_ID : "G-XXXXX
         }
         <?php endif; ?>
     }
+    </script>
+
+    <!-- Prevent flash of unstyled content -->
+    <script>
+        // Add loading class immediately to prevent flash
+        (function() {
+            const html = document.documentElement;
+            html.classList.add('page-loading');
+            html.style.background = '#000'; // Ensure consistent background
+            
+            // Also handle body when it's available
+            if (document.body) {
+                document.body.classList.add('loading');
+                document.body.style.background = '#000';
+            } else {
+                document.addEventListener('DOMContentLoaded', function() {
+                    if (document.body) {
+                        document.body.classList.add('loading');
+                        document.body.style.background = '#000';
+                    }
+                });
+            }
+        })();
     </script>

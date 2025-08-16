@@ -579,7 +579,8 @@ body {
 
   /* Mobile view adjustments */
   @media (max-width: 576px) {
-    padding: 10px 0;
+  // Increase breathing room on mobile
+  padding: 32px 0;
 
     .small-heading {
       font-size: 1.125rem;
@@ -595,22 +596,33 @@ body {
       margin-bottom: 30px;
     }
 
-    .ai-cards {
-      .ai-card {
-        padding: 20px;
+    // Apply spacing to mobile carousel cards (not wrapped in .ai-cards)
+    #aiCarousel {
+      .carousel-inner { padding: 0 12px; }
+      .carousel-item { padding: 0 4px; }
+    }
 
-        .icon-title {
-          gap: 10px;
+    .ai-card {
+      padding: 24px;
+      margin: 10px 0 16px;
+      border-radius: 12px;
 
-          h3 {
-            font-size: 1rem; // 16px
-          }
+      .icon-title {
+        gap: 10px;
+
+        h3 {
+          font-size: 1rem; // 16px
         }
 
-        p {
-          font-size: 0.875rem; // 14px
+        img {
+          width: 44px;
+          height: auto;
+          // Stop icon animations on mobile
+          animation: none !important;
         }
       }
+
+      p { font-size: 0.875rem; // 14px }
     }
   }
 }
@@ -1027,4 +1039,5 @@ body {
 
 .feature p {
   color: rgba(255, 255, 255, 0.6);
+}
 }

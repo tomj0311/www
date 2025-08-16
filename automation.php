@@ -22,12 +22,12 @@ require_once 'config.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="gradient-text">Generative Intelligent Automation</h1>
-                    <p class="description">Experience the future of automation with GIA - where artificial intelligence doesn't just follow rules, it creates, learns, and evolves to transform your business operations.</p>
-                    <a href="contact.php" class="btn-gradient-border">Start Your Automation Journey</a>
+                    <h1 class="gradient-text" data-animate="fade-up">Generative Intelligent Automation</h1>
+                    <p class="description" data-animate="fade-up">Experience the future of automation with GIA - where artificial intelligence doesn't just follow rules, it creates, learns, and evolves to transform your business operations.</p>
+                    <a href="contact.php" class="btn-gradient-border" data-animate="fade-up">Start Your Automation Journey</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="Assests/Images/gia.png" alt="GIA Platform" class="img-fluid">
+                    <img src="Assests/Images/gia.png" alt="GIA Platform" class="img-fluid animate-float hero-image" data-animate="fade-in">
                 </div>
             </div>
         </div>

@@ -9,6 +9,48 @@
     document.documentElement.classList.add('reduced-motion');
   }
 
+  // Prevent initial flash by adding loading class immediately
+  document.documentElement.classList.add('page-loading');
+  document.body.classList.add('loading');
+
+  // Check if we're coming from an internal navigation
+  const isInternalNavigation = sessionStorage.getItem('internalNav') === 'true';
+  
+  // Remove flag immediately to avoid affecting subsequent navigations
+  sessionStorage.removeItem('internalNav');
+
+  // Remove loading class and add loaded class when page is ready
+  function handlePageLoad() {
+    // If it's internal navigation, reduce delay for smoother experience
+    const delay = isInternalNavigation ? 50 : 150;
+    
+    setTimeout(() => {
+      // Use multiple requestAnimationFrame for better timing
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          document.documentElement.classList.remove('page-loading');
+          document.body.classList.remove('loading');
+          document.body.classList.add('loaded');
+          
+          // Remove the loading overlay after a brief delay
+          setTimeout(() => {
+            const overlay = document.querySelector('.page-loading::before');
+            if (overlay) overlay.style.display = 'none';
+          }, 100);
+        });
+      });
+    }, delay);
+  }
+
+  // Handle page load for smooth entry
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(handlePageLoad, 150);
+    });
+  } else {
+    setTimeout(handlePageLoad, 100);
+  }
+
   // Observe elements with data-animate
   const animated = new Set();
   const defaultMap = {
@@ -106,7 +148,7 @@
           setTimeout(() => {
             animateTo(el, def);
             el.classList.add('is-inview');
-          }, isHeroElement ? 150 : 0);
+          }, isHeroElement ? 300 : 50);
         });
         animated.add(el);
         // Don't unobserve for banner elements to prevent re-triggering
@@ -293,8 +335,18 @@
     if (a.hasAttribute('data-bs-toggle')) return;
 
     e.preventDefault();
+    
+    // Mark this as internal navigation for the next page
+    sessionStorage.setItem('internalNav', 'true');
+    
+    // Add loading class immediately to prevent flash
+    document.documentElement.classList.add('page-loading');
     document.body.classList.add('page-fade-out');
-    setTimeout(() => { window.location.href = url.href; }, 160);
+    
+    // Navigate after fade completes
+    setTimeout(() => { 
+      window.location.href = url.href; 
+    }, 200);
   }, true);
 
   // Interactive tilt-on-hover for cards (no library)
@@ -360,24 +412,115 @@
   document.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
-  // Active section highlighting for navbar links
-  const sectionAnchors = Array.from(document.querySelectorAll('a.nav-link[href^="#"]').values());
-  const sections = sectionAnchors
-    .map(a => [a, document.querySelector(a.getAttribute('href'))])
-    .filter(([, el]) => !!el);
+  // Enhanced navigation highlighting for all link formats
+  function initializeNavHighlighting() {
+    // Get current page info
+    const currentPage = window.location.pathname.split('/').pop() || 'index.php';
+    const currentHash = window.location.hash;
+    const isMainPage = currentPage === 'index.php' || currentPage === '' || currentPage.endsWith('/');
+    
+    // Get all nav links
+    const allNavLinks = document.querySelectorAll('.nav-link');
+    
+    // Handle section-based highlighting for main page
+    if (isMainPage) {
+      // Get section anchors (both #section and index.php#section formats)
+      const sectionAnchors = Array.from(allNavLinks).filter(a => {
+        const href = a.getAttribute('href') || '';
+        return href.startsWith('#') || href.startsWith('index.php#');
+      });
+      
+      // Map links to their corresponding sections
+      const sections = sectionAnchors
+        .map(a => {
+          const href = a.getAttribute('href') || '';
+          const hash = href.startsWith('#') ? href : '#' + href.split('#')[1];
+          const element = document.querySelector(hash);
+          return [a, element, hash];
+        })
+        .filter(([, el]) => !!el);
 
-  const highlight = () => {
-    const y = window.scrollY + 100; // offset
-    let activeA = null;
-    for (const [a, el] of sections) {
-      const rect = el.getBoundingClientRect();
-      const top = rect.top + window.scrollY;
-      if (y >= top && y < top + el.offsetHeight) { activeA = a; break; }
+      // Section highlighting function
+      const highlightActiveSection = () => {
+        const scrollY = window.scrollY + 120; // offset for fixed header
+        let activeLink = null;
+        let smallestDistance = Infinity;
+        
+        // Find the section that's currently most visible
+        for (const [link, element, hash] of sections) {
+          const rect = element.getBoundingClientRect();
+          const elementTop = rect.top + window.scrollY;
+          const elementBottom = elementTop + element.offsetHeight;
+          
+          // Check if we're within this section
+          if (scrollY >= elementTop - 100 && scrollY < elementBottom) {
+            const distance = Math.abs(scrollY - elementTop);
+            if (distance < smallestDistance) {
+              smallestDistance = distance;
+              activeLink = link;
+            }
+          }
+        }
+        
+        // If no section is clearly active, check if we're at the top
+        if (!activeLink && window.scrollY < 200) {
+          activeLink = sections.find(([, , hash]) => hash === '#home')?.[0];
+        }
+        
+        // Apply active class
+        sectionAnchors.forEach(link => {
+          link.classList.toggle('active', link === activeLink);
+        });
+      };
+      
+      // Set up scroll listener for section highlighting
+      document.addEventListener('scroll', highlightActiveSection, { passive: true });
+      
+      // Initial highlight
+      setTimeout(highlightActiveSection, 100);
+      
+      // Handle hash changes
+      window.addEventListener('hashchange', () => {
+        setTimeout(highlightActiveSection, 100);
+      });
+      
+    } else {
+      // Handle page-based highlighting for other pages
+      allNavLinks.forEach(link => {
+        const href = link.getAttribute('href') || '';
+        let isActive = false;
+        
+        // Check if this link points to the current page
+        if (href === currentPage || 
+            (currentPage === 'automation.php' && href === 'automation.php') ||
+            (href.endsWith(currentPage) && !href.includes('#'))) {
+          isActive = true;
+        }
+        
+        link.classList.toggle('active', isActive);
+      });
     }
-    sectionAnchors.forEach(a => a.classList.toggle('active', a === activeA));
-  };
-  document.addEventListener('scroll', highlight, { passive: true });
-  highlight();
+    
+    // Handle navigation clicks with active state
+    allNavLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        const href = this.getAttribute('href') || '';
+        
+        // If it's a same-page anchor, don't change active immediately 
+        // (let scroll handler manage it)
+        if (href.startsWith('#') || (href.startsWith('index.php#') && isMainPage)) {
+          return;
+        }
+        
+        // For page navigation, immediately set active state
+        allNavLinks.forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+  }
+  
+  // Initialize navigation highlighting
+  initializeNavHighlighting();
 
   // Click ripple on .btn and .btn-gradient-border
   function attachRipple(el) {

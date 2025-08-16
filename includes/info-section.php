@@ -8,7 +8,7 @@
         </h2>
         <p>Hub8.ai makes it easy to automate your repetitive tasks. Your data stays safe on your systems 
           while AI handles the boring work, so you can focus on what really matters.</p>
-        <a href="about.php" class="underline-link">Learn More About Hub8.ai</a>
+        <a href="automation.php" class="underline-link">Learn More About GIA (Generative Intelligent Automation)</a>
       </div>
 
       <!-- Left: Image (comes second on mobile) -->

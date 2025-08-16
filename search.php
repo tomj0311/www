@@ -7,10 +7,22 @@ if (!empty($search_query)) {
     // Simple search content - in a real application, you'd search a database
     $content_pages = [
         [
-            'title' => 'Generative Intelligent Automation',
-            'url' => 'index.php#about',
+            'title' => 'Generative Intelligent Automation (GIA)',
+            'url' => 'automation.php',
+            'description' => 'Discover Hub8.ai\'s revolutionary GIA platform - the future of intelligent automation that learns, adapts, and evolves with your business needs.',
+            'keywords' => 'GIA, generative intelligent automation, automation, AI, GPT, intelligent, workflow, platform'
+        ],
+        [
+            'title' => 'GIA Platform Features',
+            'url' => 'automation.php#features',
+            'description' => 'Experience the future of automation with GIA - where artificial intelligence doesn\'t just follow rules, it creates, learns, and evolves.',
+            'keywords' => 'GIA, platform, features, intelligent automation, AI, machine learning, adaptive'
+        ],
+        [
+            'title' => 'Home - Hub8.ai Intelligence',
+            'url' => 'index.php',
             'description' => 'Automate workflows with local GPT intelligence, 300+ integrations, and full on-premise control.',
-            'keywords' => 'automation, AI, GPT, intelligent, workflow'
+            'keywords' => 'automation, AI, GPT, intelligent, workflow, hub8, home'
         ],
         [
             'title' => 'Contact Hub8.ai',
@@ -21,14 +33,14 @@ if (!empty($search_query)) {
         [
             'title' => 'About Hub8.ai',
             'url' => 'about.php',
-            'description' => 'Learn about our mission to revolutionize business automation with intelligent AI.',
-            'keywords' => 'about, mission, company, technology'
+            'description' => 'Learn about our mission to revolutionize business automation with intelligent AI and GIA technology.',
+            'keywords' => 'about, mission, company, technology, GIA, intelligent automation'
         ],
         [
-            'title' => 'AI Technologies',
+            'title' => 'AI Technologies & Services',
             'url' => 'index.php#services',
             'description' => 'Genetic algorithms, large language models, machine learning systems, and secure infrastructure.',
-            'keywords' => 'AI, technology, genetic algorithms, machine learning, LLM'
+            'keywords' => 'AI, technology, genetic algorithms, machine learning, LLM, services'
         ]
     ];
     
