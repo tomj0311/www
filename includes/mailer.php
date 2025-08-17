@@ -125,7 +125,22 @@ function smtp_mail_send(string $to, string $subject, string $plain, string $html
     if (!empty($opts['force_mail'])) {
         return php_mail_send($to, $subject, $plain, $html, $opts);
     }
-    return 'SMTP transport requires PHPMailer. Install via Composer: composer require phpmailer/phpmailer';
+    
+    // Detailed error for debugging
+    $error_details = [];
+    $error_details[] = 'SMTP transport requires PHPMailer. Install via Composer: composer require phpmailer/phpmailer';
+    
+    // Check if autoloader exists
+    if (!file_exists(__DIR__ . '/../vendor/autoload.php')) {
+        $error_details[] = 'Autoloader not found at: ' . __DIR__ . '/../vendor/autoload.php';
+    }
+    
+    // Check if PHPMailer directory exists
+    if (!is_dir(__DIR__ . '/../vendor/phpmailer')) {
+        $error_details[] = 'PHPMailer directory not found at: ' . __DIR__ . '/../vendor/phpmailer';
+    }
+    
+    return implode(' | ', $error_details);
 }
 
 // Reuse helpers from google_gmail.php for header formatting
