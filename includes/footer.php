@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="footer-brand">
-          <img src="Assests/Images/logo.svg" alt="Hub8.ai" class="footer-logo">
+          <img src="Assests/Images/logo.png" alt="Hub8.ai" class="footer-logo">
           <p class="footer-description">
             Intelligent AI automation for your business. Save time and money with AI that's easy to use.
           </p>

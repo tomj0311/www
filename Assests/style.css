@@ -144,6 +144,13 @@ section[id],
 }
 .site-header .navbar-brand img {
   margin-right: 40px;
+  height: 60px; /* fine-tuned smaller */
+  width: auto;
+}
+@media (max-width: 576px) {
+  .site-header .navbar-brand img {
+    height: 44px; /* fine-tuned smaller on mobile */
+  }
 }
 .site-header .nav-link {
   color: #E6E6F0;

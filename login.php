@@ -29,7 +29,7 @@ $page_title = "Login to Hub8.ai - Access Your AI Dashboard";
 $page_description = "Login to your Hub8.ai account to access your AI automation dashboard and manage your intelligent workflows.";
 $page_keywords = "Hub8.ai login, AI dashboard, automation login, user account access";
 $canonical_url = "https://www.hub8.ai/login.php";
-$og_image = "https://www.hub8.ai/Assests/Images/logo.svg";
+$og_image = "https://www.hub8.ai/Assests/Images/logo.png";
 $page_type = "webpage";
 
 // Include config for SEO constants

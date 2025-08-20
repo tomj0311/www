@@ -112,7 +112,7 @@ $clarity_project_id = defined('CLARITY_PROJECT_ID') ? CLARITY_PROJECT_ID : "XXXX
             "name": "<?php echo addslashes($site_name); ?>",
             "logo": {
                 "@type": "ImageObject",
-                "url": "<?php echo addslashes((SITE_URL ?? 'https://www.hub8.ai') . '/Assests/Images/logo.svg'); ?>"
+                "url": "<?php echo addslashes((SITE_URL ?? 'https://www.hub8.ai') . '/Assests/Images/logo.png'); ?>"
             }
         },
         "potentialAction": {

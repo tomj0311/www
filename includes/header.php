@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
       <!-- Logo -->
   <a class="navbar-brand me-4" href="<?php echo (basename($_SERVER['PHP_SELF']) === 'index.php' || basename($_SERVER['PHP_SELF']) === '') ? '#home' : 'index.php#home'; ?>">
-        <img src="Assests/Images/logo.svg" alt="<?php echo htmlspecialchars($site_name ?? 'Hub8.ai'); ?> Logo">
+  <img src="Assests/Images/logo.png" alt="<?php echo htmlspecialchars($site_name ?? 'Hub8.ai'); ?> Logo">
       </a>
 
       <!-- Mobile toggle -->
