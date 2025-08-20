@@ -59,7 +59,9 @@ $clarity_project_id = defined('CLARITY_PROJECT_ID') ? CLARITY_PROJECT_ID : "XXXX
     <meta name="msapplication-TileColor" content="#000000" />
     <meta name="msapplication-config" content="browserconfig.xml" />
 
-    <link rel="icon" type="image/x-icon" href="<?php echo htmlspecialchars((SITE_URL ?? '/') . 'Assests/Images/favicon.ico'); ?>">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="Assests/Images/favicon.ico">
+    <link rel="shortcut icon" href="Assests/Images/favicon.ico">
     <title><?php echo htmlspecialchars($page_title); ?></title>
 
     <!-- Preconnect to external domains -->

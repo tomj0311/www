@@ -149,7 +149,7 @@ section[id],
 }
 @media (max-width: 576px) {
   .site-header .navbar-brand img {
-    height: 44px; /* fine-tuned smaller on mobile */
+  height: 60px; /* match desktop height on mobile */
   }
 }
 .site-header .nav-link {
