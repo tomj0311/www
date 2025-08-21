@@ -40,6 +40,7 @@ body {
     margin-right: 40px;
   height: 60px; // consistent logo height across breakpoints
   width: auto;
+  opacity: 0.8; // reduced by 20%
   }
 
   .nav-link {
@@ -1041,5 +1042,180 @@ body {
 
 .feature p {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* COMING SOON STYLES */
+.coming-soon-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  
+  h2 {
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .lead {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  p {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+/* NEW PAGE STYLES */
+.main-content {
+  padding-top: 0;
+  min-height: calc(100vh - 200px);
+}
+
+.careers-hero, .how-it-works-hero, .platform-hero, .vision-hero,
+.privacy-hero, .terms-hero, .support-hero {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+              url('../Images/bannar-bg.png') center/cover;
+  color: #fff;
+  
+  h1 {
+    background: linear-gradient(to bottom, #ffffff 0%, #bababa 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.feature-card, .step-card, .platform-feature, .vision-feature,
+.support-option {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  h3, h4 {
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
+  }
+}
+
+.step-card {
+  .step-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg, #ff9d42, #ff4fd8);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* ENHANCED FOOTER STYLES */
+.site-footer {
+  .footer-links {
+    li {
+      margin-bottom: 8px;
+    }
+    
+    a {
+      font-size: 13px;
+      opacity: 0.7;
+      
+      &:hover {
+        opacity: 1;
+        color: #ff4fd8;
+      }
+    }
+  }
+  
+  .footer-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-brand {
+    .contact-address {
+      font-size: 13px;
+      opacity: 0.7;
+    }
+  }
+}
+
+/* MODAL STYLES */
+.modal-content {
+  background: rgba(0, 0, 0, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  
+  .modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    
+    .modal-title {
+      color: #fff;
+    }
+    
+    .btn-close {
+      filter: invert(1);
+      opacity: 0.7;
+      
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  
+  .modal-body {
+    color: rgba(255, 255, 255, 0.8);
+    
+    h4 {
+      color: #fff;
+    }
+    
+    .text-primary {
+      color: #ff4fd8 !important;
+    }
+  }
+  
+  .modal-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+@media (max-width: 768px) {
+  .site-footer {
+    .footer-title {
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+    
+    .footer-links a {
+      font-size: 12px;
+    }
+  }
+  
+  .coming-soon-card {
+    padding: 2rem 1.5rem;
+  }
+  
+  .feature-card, .step-card, .platform-feature, .vision-feature,
+  .support-option {
+    padding: 1.5rem;
+  }
 }
 }

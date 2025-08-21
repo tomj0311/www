@@ -146,6 +146,7 @@ section[id],
   margin-right: 40px;
   height: 60px; /* fine-tuned smaller */
   width: auto;
+  opacity: 0.8; /* reduced by 20% */
 }
 @media (max-width: 576px) {
   .site-header .navbar-brand img {
@@ -2014,4 +2015,226 @@ body::before {
   .footer-description {
     margin-bottom: 30px;
   }
+}
+
+/* COMING SOON STYLES */
+.coming-soon-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.coming-soon-card h2 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.coming-soon-card .lead {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.coming-soon-card p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* NEW PAGE STYLES */
+.main-content {
+  padding-top: 0;
+  min-height: calc(100vh - 200px);
+}
+
+.careers-hero, .how-it-works-hero, .platform-hero, .vision-hero,
+.privacy-hero, .terms-hero, .support-hero {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+              url('../Images/bannar-bg.png') center/cover;
+  color: #fff;
+}
+
+.careers-hero h1, .how-it-works-hero h1, .platform-hero h1, .vision-hero h1,
+.privacy-hero h1, .terms-hero h1, .support-hero h1 {
+  background: linear-gradient(to bottom, #ffffff 0%, #bababa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feature-card, .step-card, .platform-feature, .vision-feature,
+.support-option {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover, .step-card:hover, .platform-feature:hover, 
+.vision-feature:hover, .support-option:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.feature-card h3, .feature-card h4, .step-card h3, .step-card h4,
+.platform-feature h3, .platform-feature h4, .vision-feature h3, .vision-feature h4,
+.support-option h3, .support-option h4 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.feature-card p, .step-card p, .platform-feature p, .vision-feature p,
+.support-option p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
+}
+
+.step-card .step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(45deg, #ff9d42, #ff4fd8);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+/* ENHANCED FOOTER STYLES */
+.site-footer .footer-links li {
+  margin-bottom: 8px;
+}
+
+.site-footer .footer-links a {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.site-footer .footer-links a:hover {
+  opacity: 1;
+  color: #ff4fd8;
+}
+
+.site-footer .footer-title {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.site-footer .footer-brand .contact-address {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+/* MODAL STYLES */
+.modal-content {
+  background: rgba(0, 0, 0, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.modal-content .modal-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal-content .modal-header .modal-title {
+  color: #fff;
+}
+
+.modal-content .modal-header .btn-close {
+  filter: invert(1);
+  opacity: 0.7;
+}
+
+.modal-content .modal-header .btn-close:hover {
+  opacity: 1;
+}
+
+.modal-content .modal-body {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.modal-content .modal-body h4 {
+  color: #fff;
+}
+
+.modal-content .modal-body .text-primary {
+  color: #ff4fd8 !important;
+}
+
+.modal-content .modal-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .site-footer .footer-title {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  
+  .site-footer .footer-links a {
+    font-size: 12px;
+  }
+  
+  .coming-soon-card {
+    padding: 2rem 1.5rem;
+  }
+  
+  .feature-card, .step-card, .platform-feature, .vision-feature,
+  .support-option {
+    padding: 1.5rem;
+  }
+}
+
+/* Privacy Policy and Terms of Service Content Styles */
+.privacy-policy-content, .terms-of-service-content {
+  color: #fff;
+  line-height: 1.6;
+}
+
+.privacy-policy-content h2, .terms-of-service-content h2 {
+  color: #ff9d42;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.privacy-policy-content h2:first-child, .terms-of-service-content h2:first-child {
+  margin-top: 0;
+}
+
+.privacy-policy-content h4, .terms-of-service-content h4 {
+  color: #fff;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.privacy-policy-content p, .terms-of-service-content p {
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 1rem;
+}
+
+.privacy-policy-content ul, .terms-of-service-content ul {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.privacy-policy-content ul li, .terms-of-service-content ul li {
+  margin-bottom: 0.5rem;
+}
+
+.privacy-policy-content a, .terms-of-service-content a {
+  color: #ff4fd8;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.privacy-policy-content a:hover, .terms-of-service-content a:hover {
+  color: #ff9d42;
+  text-decoration: underline;
 }

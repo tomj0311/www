@@ -2,38 +2,64 @@
 <footer class="site-footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 mb-4 mb-lg-0">
+      <div class="col-lg-4 mb-4 mb-lg-0">
         <div class="footer-brand">
           <img src="Assests/Images/logo.png" alt="Hub8.ai" class="footer-logo">
           <p class="footer-description">
             Intelligent AI automation for your business. Save time and money with AI that's easy to use.
           </p>
+          <div class="footer-contact mt-3">
+            <p class="contact-address mb-2">
+              <strong>USA Office:</strong><br>
+              7901 4TH STREET NORTH STE 300<br>
+              ST. PETERSBURG FL US33702
+            </p>
+          </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-        <h5 class="footer-title">Quick Links</h5>
+      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+        <h5 class="footer-title">Product</h5>
         <ul class="footer-links">
+          <li><a href="platform.php">Platform Overview</a></li>
+          <li><a href="how-it-works.php">How It Works</a></li>
+          <li><a href="automation.php">Automation</a></li>
+          <li><a href="vision-software.php">Vision Software</a></li>
           <?php
           // Get current page to determine navigation context
           $current_page = basename($_SERVER['PHP_SELF']);
           $is_main_page = ($current_page == 'index.php' || $current_page == '');
           ?>
-          <li><a href="<?php echo $is_main_page ? '#home' : 'index.php#home'; ?>">Home</a></li>
-          <li><a href="automation.php">Automation</a></li>
           <li><a href="<?php echo $is_main_page ? '#services' : 'index.php#services'; ?>">Capabilities</a></li>
-          <li><a href="about.php">About</a></li>
-          <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
-      <div class="col-lg-3 col-md-6">
-        <h5 class="footer-title">Contact Info</h5>
-        <div class="footer-contact">
-          <p class="contact-address">
-            USA<br>
-            7901 4TH STREET NORTH STE 300<br>
-            ST. PETERSBURG FL US33702
-          </p>
-        </div>
+      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+        <h5 class="footer-title">Company</h5>
+        <ul class="footer-links">
+          <li><a href="about.php">About Us</a></li>
+          <li><a href="careers.php">Careers</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <li><a href="#" onclick="showComingSoon('Blog')">Blog</a></li>
+          <li><a href="#" onclick="showComingSoon('News')">News</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+        <h5 class="footer-title">Support</h5>
+        <ul class="footer-links">
+          <li><a href="support.php">Help Center</a></li>
+          <li><a href="#" onclick="showComingSoon('Documentation')">Documentation</a></li>
+          <li><a href="#" onclick="showComingSoon('Community')">Community</a></li>
+          <li><a href="#" onclick="showComingSoon('API Reference')">API Reference</a></li>
+          <li><a href="#" onclick="showComingSoon('Status')">System Status</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <h5 class="footer-title">Legal</h5>
+        <ul class="footer-links">
+          <li><a href="privacy-policy.php">Privacy Policy</a></li>
+          <li><a href="terms-of-service.php">Terms of Service</a></li>
+          <li><a href="cookie-policy.php">Cookie Policy</a></li>
+          <li><a href="security.php">Security</a></li>
+        </ul>
       </div>
     </div>
     <hr class="footer-divider">
@@ -70,3 +96,38 @@
     </div>
   </div>
 </footer>
+
+<!-- Coming Soon Modal -->
+<div class="modal fade" id="comingSoonModal" tabindex="-1" aria-labelledby="comingSoonModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="comingSoonModalLabel">Coming Soon</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <div class="mb-3">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12,6 12,12 16,14"></polyline>
+          </svg>
+        </div>
+        <h4 id="comingSoonFeature">Feature</h4>
+        <p class="mb-4">This feature is coming soon! We're working hard to bring you the best experience possible.</p>
+        <p class="text-muted">Stay tuned for updates and new features.</p>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got it</button>
+        <a href="contact.php" class="btn btn-outline-primary">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function showComingSoon(featureName) {
+  document.getElementById('comingSoonFeature').textContent = featureName;
+  var modal = new bootstrap.Modal(document.getElementById('comingSoonModal'));
+  modal.show();
+}
+</script>
