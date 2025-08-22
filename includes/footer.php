@@ -1,4 +1,3 @@
-<!-- FOOTER -->
 <footer class="site-footer">
   <div class="container-fluid">
     <div class="row">
@@ -7,10 +6,10 @@
           <img src="assets/Images/logo.png" alt="Hub8.ai" class="footer-logo">
           <div class="footer-contact mt-1">
             <p class="contact-address mb-2">
-              <strong>Global Headquarters:</strong><br>
+              <strong>Headquarters:</strong><br>
               7901 4TH STREET NORTH STE 300<br>
               ST. PETERSBURG, FL 33702<br>
-              <span class="text-white-75">� Global Operations: UAE • India • Singapore</span>
+              <span class="text-white-75">• Global Operations: UAE • India • Singapore</span>
             </p>
             <p class="contact-info mb-2">
               <strong>Email:</strong> <a href="mailto:contact@hub8.ai">contact@hub8.ai</a><br>

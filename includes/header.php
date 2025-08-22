@@ -23,7 +23,7 @@
             <a class="nav-link <?php echo $is_main_page ? 'main-page-link' : ''; ?>" href="<?php echo $is_main_page ? '#home' : 'index.php#home'; ?>">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php echo $is_main_page ? 'main-page-link' : ''; ?>" href="<?php echo $is_main_page ? '#about' : 'index.php#about'; ?>">About</a>
+            <a class="nav-link <?php echo $current_page == 'about.php' ? 'active' : ''; ?>" href="about.php">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link <?php echo $is_main_page ? 'main-page-link' : ''; ?>" href="<?php echo $is_main_page ? '#services' : 'index.php#services'; ?>">Services</a>

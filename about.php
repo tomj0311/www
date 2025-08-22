@@ -1,7 +1,7 @@
 <?php
-$page_title = "About Hub8.ai - Global AI Automation Leader | USA • UAE • India • Singapore";
-$page_description = "Learn about Hub8.ai, a global AI automation leader with headquarters in St. Petersburg, Florida and operations in UAE, India, and Singapore. Discover how we're revolutionizing business operations worldwide through Generative Intelligent Automation (GIA) technology.";
-$page_keywords = "Hub8.ai about, global AI automation, international AI startup, USA UAE India Singapore operations, Generative Intelligent Automation, GIA technology, global tech company, AI automation solutions, international business automation, intelligent workflow optimization, global AI startup, automation technology company, AI-driven business solutions, international innovation, global tech operations, AI company worldwide, business process automation, intelligent automation startup";
+$page_title = "About Hub8.ai - Tech Startup Automating Complex Processes with AI | USA • UAE • India • Singapore";
+$page_description = "Learn about Hub8.ai, an innovative tech startup with headquarters in St. Petersburg, Florida and operations in UAE, India, and Singapore. Discover our unique approach to automating complex processes using AI, backed by decades of global IT and AI experience.";
+$page_keywords = "Hub8.ai about, AI automation startup, innovative tech startup, USA UAE India Singapore operations, Generative Intelligent Automation, GIA technology, complex process automation, AI automation solutions, intelligent workflow optimization, automation technology startup, AI-driven business solutions, global tech startup, decades IT experience, AI experience, business process automation, intelligent automation startup";
 $canonical_url = "https://www.hub8.ai/about.php";
 $og_image = "https://www.hub8.ai/assets/Images/gia.png";
 $page_type = "webpage";
@@ -22,7 +22,7 @@ require_once 'config.php';
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h1 class="gradient-text">About Hub8.ai</h1>
-                    <p class="description">Headquartered in the vibrant tech hub of St. Petersburg, Florida, with global operations spanning the Middle East (UAE), India, and Southeast Asia (Singapore), Hub8.ai is a cutting-edge technology startup revolutionizing business operations through Generative Intelligent Automation (GIA). We're not just building tools—we're crafting the future where AI transforms how businesses operate, compete, and thrive across the globe.</p>
+                    <p class="description">Headquartered in the vibrant tech hub of St. Petersburg, Florida, with global operations spanning the Middle East (UAE), India, and Southeast Asia (Singapore), Hub8.ai is an innovative technology startup with a unique approach to automating complex processes using AI. Our team brings decades of global experience in IT and AI, crafting intelligent automation solutions that transform how businesses operate and compete worldwide.</p>
                     <a href="contact.php" class="btn-gradient-border">Get Started</a>
                 </div>
                 <div class="col-lg-6">
@@ -38,41 +38,41 @@ require_once 'config.php';
                 <div class="col-lg-8 mx-auto">
                     <h2 class="gradient-text mb-4">Our Story</h2>
                     <p class="lead text-white-50 mb-4">
-                        Founded in the heart of St. Petersburg's thriving tech ecosystem, Hub8.ai has rapidly expanded its global footprint with strategic operations across key international markets. Our team of AI pioneers, automation experts, and business strategists spans multiple continents, united by one mission—to bridge the gap between complex AI technology and practical business solutions worldwide.
+                        Founded in the heart of St. Petersburg's thriving tech ecosystem, Hub8.ai emerged from a vision to tackle one of business's most persistent challenges: automating complex processes that traditional tools couldn't handle. Our founding team, with decades of combined global experience in IT and AI across multiple continents, recognized the gap between existing automation solutions and the sophisticated needs of modern businesses.
                     </p>
                     <p class="text-white-50 mb-5">
-                        What started as a Florida-based response to the growing need for smarter, more adaptive automation has evolved into a comprehensive global platform. With operations in the Middle East through our UAE presence, deep expertise in India's tech landscape, and strategic positioning in Southeast Asia via Singapore, we deliver intelligent automation that transcends geographical boundaries while respecting local business cultures and requirements.
+                        What started as a Florida-based startup focused on intelligent automation has evolved into a comprehensive global platform. With strategic operations in the Middle East through our UAE presence, deep technical expertise in India's innovation landscape, and market access via Singapore, we deliver AI-powered automation that transcends geographical boundaries while respecting local business cultures and requirements. Our unique approach combines cutting-edge AI technology with practical business insights gained from years of international experience.
                     </p>
                     
                     <h3 class="text-white mb-4">Our Mission</h3>
                     <p class="lead text-white-50 mb-5">
-                        To empower businesses worldwide with intelligent automation solutions that drive efficiency, reduce costs, and unlock unprecedented competitive advantages through AI-powered workflow optimization—delivering these innovations across global markets from our strategic hubs in North America, Middle East, Asia, and Southeast Asia.
+                        To empower businesses worldwide with intelligent automation solutions that tackle their most complex processes—leveraging our team's decades of global IT and AI experience to deliver efficiency, reduce operational costs, and unlock new competitive advantages through innovative AI-powered workflow optimization across our strategic hubs in North America, Middle East, Asia, and Southeast Asia.
                     </p>
                     
                     <h3 class="text-white mb-3">What Makes Hub8.ai Different</h3>
                     <div class="row">
                         <div class="col-md-6 mb-4">
                             <div class="feature-box p-4 h-100">
-                                <h5 class="gradient-text">Global Headquarters</h5>
-                                <p class="text-white-50">Proudly headquartered in St. Petersburg, Florida, we combine American innovation with global reach, delivering world-class automation solutions across continents.</p>
+                                <h5 class="gradient-text">Startup Innovation Hub</h5>
+                                <p class="text-white-50">Based in St. Petersburg, Florida, we combine the agility and innovation of a tech startup with the depth of experience from our team's decades in global IT and AI.</p>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4">
                             <div class="feature-box p-4 h-100">
-                                <h5 class="gradient-text">Middle East Operations</h5>
-                                <p class="text-white-50">Strategic presence in the UAE enables us to serve the dynamic Middle Eastern markets with culturally-aware AI automation solutions tailored for regional business needs.</p>
+                                <h5 class="gradient-text">Unique Automation Approach</h5>
+                                <p class="text-white-50">Our proprietary methodology tackles complex processes that traditional automation tools can't handle, using advanced AI to understand and optimize intricate business workflows.</p>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4">
                             <div class="feature-box p-4 h-100">
-                                <h5 class="gradient-text">India Technology Hub</h5>
-                                <p class="text-white-50">Leveraging India's rich tech talent and innovation ecosystem to develop cutting-edge AI solutions while supporting the rapidly growing South Asian market.</p>
+                                <h5 class="gradient-text">Decades of Global Experience</h5>
+                                <p class="text-white-50">Our team brings combined decades of international IT and AI expertise, with deep understanding of diverse business environments across multiple continents and industries.</p>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4">
                             <div class="feature-box p-4 h-100">
-                                <h5 class="gradient-text">Southeast Asia Gateway</h5>
-                                <p class="text-white-50">Singapore operations provide strategic access to Southeast Asia's thriving business landscape, ensuring localized automation solutions for diverse regional markets.</p>
+                                <h5 class="gradient-text">Strategic Global Presence</h5>
+                                <p class="text-white-50">Operations in UAE, India, and Singapore enable us to serve diverse markets with culturally-aware AI automation solutions while maintaining our startup agility.</p>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4">
@@ -155,7 +155,7 @@ require_once 'config.php';
                         </div>
                         <div class="mt-3 p-3" style="background: rgba(255, 255, 255, 0.03); border-radius: 8px;">
                             <p class="text-white-50 mb-0 small">
-                                <strong>Why Global?</strong> Our international presence ensures 24/7 support, cultural understanding, regulatory compliance, and localized AI solutions that respect regional business practices while maintaining our high standards of innovation and quality.
+                                <strong>Why Global Operations?</strong> Our strategic international presence combines startup agility with global expertise, ensuring 24/7 support, cultural understanding, and localized AI solutions that respect regional business practices. This global approach, powered by our team's decades of IT and AI experience, enables us to tackle complex automation challenges that require both technical innovation and cultural intelligence.
                             </p>
                         </div>
                     </div>
@@ -163,10 +163,10 @@ require_once 'config.php';
                     <div class="mt-5 p-4" style="background: rgba(255, 255, 255, 0.05); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);">
                         <h3 class="gradient-text mb-3">Our Vision for the Future</h3>
                         <p class="text-white-50 mb-3">
-                            We envision a world where businesses spend less time on repetitive tasks and more time on innovation, creativity, and growth. Through advanced AI automation delivered via our global network, we're building the foundation for a more efficient, productive, and competitive business landscape that spans continents and cultures.
+                            We envision a world where complex business processes are no longer barriers to growth but catalysts for innovation. Through our unique AI automation approach, backed by decades of global IT and AI experience, we're building solutions that tackle challenges others can't solve—enabling businesses to focus on what truly matters: creativity, strategy, and sustainable growth.
                         </p>
                         <p class="text-white-50">
-                            As we continue to expand from our St. Petersburg headquarters across our global hubs in UAE, India, and Singapore, we remain committed to delivering automation solutions that not only transform operations but also create sustainable competitive advantages for our clients worldwide.
+                            As we continue to evolve from our St. Petersburg startup roots and expand across our global hubs in UAE, India, and Singapore, we remain committed to our core mission: delivering intelligent automation solutions that don't just follow processes, but understand, adapt, and optimize the most complex business workflows for sustainable competitive advantage.
                         </p>
                     </div>
                 </div>
