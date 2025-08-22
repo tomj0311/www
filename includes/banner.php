@@ -24,7 +24,7 @@
       </div>
       <!-- Right image -->
       <div class="col-lg-6 text-center mt-4 mt-lg-0" data-animate="scale-up">
-        <img src="Assests/Images/bannar_side.png" alt="Hub8.ai Banner Illustration" class="img-fluid animate-float hero-image">
+        <img src="assets/Images/bannar_side.png" alt="Hub8.ai Banner Illustration" class="img-fluid animate-float hero-image">
       </div>
     </div>
   </div>

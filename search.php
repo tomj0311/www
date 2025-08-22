@@ -57,7 +57,7 @@ $page_title = !empty($search_query) ? "Search Results for: " . htmlspecialchars(
 $page_description = !empty($search_query) ? "Search results for '" . htmlspecialchars($search_query) . "' on Hub8.ai - Find AI automation solutions and information." : "Search Hub8.ai for AI automation solutions, intelligent workflows, and business process automation information.";
 $page_keywords = "Hub8.ai search, AI automation search, find automation solutions, intelligent workflow search";
 $canonical_url = "https://www.hub8.ai/search.php" . (!empty($search_query) ? "?q=" . urlencode($search_query) : "");
-$og_image = "https://www.hub8.ai/Assests/Images/logo.png";
+$og_image = "https://www.hub8.ai/assets/Images/logo.png";
 $page_type = "webpage";
 
 // Include config for SEO constants
@@ -161,6 +161,6 @@ require_once 'config.php';
     </style>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="Assests/main.js"></script>
+    <script src="assets/main.js"></script>
 </body>
 </html>

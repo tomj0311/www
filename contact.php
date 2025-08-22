@@ -61,11 +61,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 $contact_type = $_GET['type'] ?? 'general';
-$page_title = "Contact Hub8.ai - Get Started with AI Automation";
-$page_description = "Contact Hub8.ai to schedule a consultation or get your impact assessment. Transform your business with intelligent automation.";
-$page_keywords = "contact Hub8.ai, AI consultation, business automation contact, schedule demo, automation assessment";
+$page_title = "Contact Hub8.ai - Get Started with AI Automation | St. Petersburg Tech Startup";
+$page_description = "Contact Hub8.ai, a St. Petersburg, Florida-based AI automation startup, to schedule a consultation or get your impact assessment. Transform your business with intelligent automation from our St. Petersburg headquarters.";
+$page_keywords = "contact Hub8.ai, AI consultation, business automation contact, schedule demo, automation assessment, St. Petersburg AI startup contact, Hub8.ai St. Petersburg, AI automation consultation Florida";
 $canonical_url = "https://www.hub8.ai/contact.php";
-$og_image = "https://www.hub8.ai/Assests/Images/bannar-bg.png";
+$og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
 $page_type = "webpage";
 ?>
 <!DOCTYPE html>
@@ -179,6 +179,6 @@ $page_type = "webpage";
     </style>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="Assests/main.js"></script>
+    <script src="assets/main.js"></script>
 </body>
 </html>

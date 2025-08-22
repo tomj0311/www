@@ -9,7 +9,7 @@ $site_name = "Hub8.ai";
 $page_title = "How It Works - AI Automation Platform | Hub8.ai";
 $page_description = "Discover how Hub8.ai's AI automation platform works. Our simple, versatile platform eliminates complexity and makes automation accessible for any business size.";
 $canonical_url = "https://www.hub8.ai/how-it-works.php";
-$og_image = "https://www.hub8.ai/Assests/Images/bannar-bg.png";
+$og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
 $page_keywords = "how it works, AI automation process, automation platform, workflow automation, AI implementation, business process automation, intelligent automation workflow";
 $page_type = "website";
 ?>
@@ -77,7 +77,7 @@ $page_type = "website";
   <?php include 'includes/footer.php'; ?>
 
   <!-- Bootstrap JS -->
-  <script src="Assests/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="Assests/main.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/main.js"></script>
 </body>
 </html>

@@ -144,13 +144,14 @@ section[id],
 }
 .site-header .navbar-brand img {
   margin-right: 40px;
-  height: 60px; /* fine-tuned smaller */
+  height: 75px; /* increased size */
   width: auto;
-  opacity: 0.8; /* reduced by 20% */
+  opacity: 1.0; /* full brightness */
+  filter: drop-shadow(0 0 15px rgba(255, 79, 216, 0.4)) drop-shadow(0 0 30px rgba(93, 0, 255, 0.3));
 }
 @media (max-width: 576px) {
   .site-header .navbar-brand img {
-  height: 60px; /* match desktop height on mobile */
+  height: 75px; /* match desktop height on mobile */
   }
 }
 .site-header .nav-link {
@@ -175,12 +176,12 @@ section[id],
   border: 1px solid rgba(255, 255, 255, 0.2823529412);
 }
 .site-header .search-bar ::-moz-placeholder {
-  color: rgba(230, 230, 240, 0.31);
+  color: rgba(230, 230, 240, 0.65);
   font-size: 14px;
   font-weight: 400;
 }
 .site-header .search-bar ::placeholder {
-  color: rgba(230, 230, 240, 0.31);
+  color: rgba(230, 230, 240, 0.65);
   font-size: 14px;
   font-weight: 400;
 }
@@ -301,7 +302,7 @@ section[id],
 }
 .banner .banner-content p {
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.75);
   opacity: 0;
   transform: translateY(20px);
   animation: heroTextReveal 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.8s forwards;
@@ -610,7 +611,7 @@ html.reduced-motion .hero-image {
   margin-bottom: 2.5rem;
   font-size: 1.125rem;
   line-height: 1.6;
-  color: rgba(255, 255, 255, 0.3764705882);
+  color: rgba(255, 255, 255, 0.75);
   max-width: 52ch;
   font-weight: 300;
 }
@@ -925,7 +926,7 @@ html.reduced-motion .hero-image {
 }
 
 .hub8-section {
-  background: url("../Assests/Images/impac") center/cover no-repeat;
+  background: url("../assets/Images/impac") center/cover no-repeat;
   color: #fff;
   padding: 120px 0;
 }
@@ -1077,7 +1078,7 @@ html.reduced-motion .hero-image {
 
 .capabilities {
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Assests/Images/Capabilities.png") center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/Images/Capabilities.png") center/cover no-repeat;
   background-blend-mode: overlay;
   color: #fff;
   padding: 120px 0;
@@ -1169,7 +1170,7 @@ html.reduced-motion .hero-image {
 .capabilities .feature .text-wrap p {
   margin: 0;
   font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.3764705882);
+  color: rgba(255, 255, 255, 0.75);
   font-weight: 200;
 }
 @media (max-width: 768px) {
@@ -1518,6 +1519,12 @@ body::before {
   padding-right: clamp(32px, 8vw, 160px) !important;
 }
 
+/* Footer horizontal breathing room to match header */
+.site-footer .container-fluid {
+  padding-left: clamp(32px, 8vw, 160px) !important;
+  padding-right: clamp(32px, 8vw, 160px) !important;
+}
+
 /*# sourceMappingURL=style.css.map */
 
 /* Extra visual flourishes */
@@ -1643,12 +1650,12 @@ body::before {
 
 /* Pulse effect for logo */
 .navbar-brand img {
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .navbar-brand:hover img {
   transform: scale(1.05);
-  filter: drop-shadow(0 0 10px rgba(255, 79, 216, 0.3));
+  filter: drop-shadow(0 0 20px rgba(255, 79, 216, 0.6)) drop-shadow(0 0 40px rgba(93, 0, 255, 0.5)) drop-shadow(0 0 60px rgba(255, 157, 66, 0.3));
 }
 
 /* Enhanced animated underlines and active states for nav links */
@@ -1889,8 +1896,8 @@ body::before {
 }
 
 .footer-logo {
-  height: 40px;
-  margin-bottom: 20px;
+  height: 75px;
+  margin-bottom: 0;
 }
 
 .footer-description {
@@ -2237,4 +2244,69 @@ body::before {
 .privacy-policy-content a:hover, .terms-of-service-content a:hover {
   color: #ff9d42;
   text-decoration: underline;
+}
+
+/* Text visibility improvements for mobile and accessibility */
+.text-white-75 {
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.text-white-65 {
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+/* Override low contrast text colors for better mobile visibility */
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.75) !important; /* Increased from 0.5 to 0.75 */
+}
+
+/* Fix text-muted to be more visible on dark backgrounds */
+.text-muted {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+/* Ensure minimum contrast for any low opacity text */
+.text-body-secondary, .text-secondary {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Improve small text visibility */
+.small, small {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Mobile-specific improvements */
+@media (max-width: 768px) {
+  .text-white-50 {
+    color: rgba(255, 255, 255, 0.85) !important; /* Even more visible on mobile */
+  }
+  
+  .text-muted {
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
+  
+  .text-white-75 {
+    color: rgba(255, 255, 255, 0.85) !important; /* Boost visibility on small screens */
+  }
+  
+  /* Improve placeholder visibility on mobile */
+  .search-bar ::placeholder {
+    color: rgba(230, 230, 240, 0.75) !important;
+  }
+  
+  /* Ensure readability of descriptive text on mobile */
+  .automation-cards .automation-cards__desc {
+    color: rgba(255, 255, 255, 0.85) !important;
+  }
+  
+  .capabilities .feature .text-wrap p {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+  
+  /* Improve banner subtitle visibility on mobile */
+  .banner .banner-content p {
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
 }

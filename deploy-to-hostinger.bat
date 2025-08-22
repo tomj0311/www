@@ -27,7 +27,7 @@ xcopy "*.md" "deployment-temp\" /Y
 
 REM Copy directories
 xcopy "vendor" "deployment-temp\vendor\" /E /I /Y
-xcopy "Assests" "deployment-temp\Assests\" /E /I /Y
+xcopy "assets" "deployment-temp\assets\" /E /I /Y
 xcopy "includes" "deployment-temp\includes\" /E /I /Y
 xcopy "frontend" "deployment-temp\frontend\" /E /I /Y
 

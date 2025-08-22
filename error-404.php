@@ -12,8 +12,8 @@ $page_title = "Page Not Found - Hub8.ai";
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Assests/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Assests/style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <?php include 'includes/header.php'; ?>
@@ -40,6 +40,6 @@ $page_title = "Page Not Found - Hub8.ai";
     <?php include 'includes/footer.php'; ?>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="Assests/main.js"></script>
+    <script src="assets/main.js"></script>
 </body>
 </html>

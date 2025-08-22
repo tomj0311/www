@@ -9,7 +9,7 @@ $site_name = "Hub8.ai";
 $page_title = "Platform Overview - AI Automation Solutions | Hub8.ai";
 $page_description = "The Hub8.ai platform eliminates the need for complex coding and technical expertise. Discover our comprehensive AI automation platform designed for businesses of all sizes.";
 $canonical_url = "https://www.hub8.ai/platform.php";
-$og_image = "https://www.hub8.ai/Assests/Images/bannar-bg.png";
+$og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
 $page_keywords = "platform overview, AI automation platform, no-code automation, business automation platform, intelligent automation, automation software, AI platform";
 $page_type = "website";
 ?>
@@ -80,7 +80,7 @@ $page_type = "website";
   <?php include 'includes/footer.php'; ?>
 
   <!-- Bootstrap JS -->
-  <script src="Assests/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="Assests/main.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/main.js"></script>
 </body>
 </html>

@@ -1,9 +1,9 @@
 <?php
-$page_title = "Hub8.ai - Generative Intelligent Automation Platform";
-$page_description = "Discover Hub8.ai's revolutionary GIA platform - the future of intelligent automation that learns, adapts, and evolves with your business needs.";
-$page_keywords = "generative intelligent automation, GIA platform, AI automation, intelligent workflows, machine learning automation, business process automation";
+$page_title = "Hub8.ai - Generative Intelligent Automation Platform | St. Petersburg AI Innovation";
+$page_description = "Discover Hub8.ai's revolutionary GIA platform from our St. Petersburg, Florida technology hub - the future of intelligent automation that learns, adapts, and evolves with your business needs.";
+$page_keywords = "generative intelligent automation, GIA platform, AI automation, intelligent workflows, machine learning automation, business process automation, St. Petersburg AI technology, Hub8.ai GIA, intelligent automation solutions, AI workflow optimization";
 $canonical_url = "https://www.hub8.ai/automation.php";
-$og_image = "https://www.hub8.ai/Assests/Images/gia.png";
+$og_image = "https://www.hub8.ai/assets/Images/gia.png";
 $page_type = "webpage";
 
 // Include config for SEO constants
@@ -27,7 +27,7 @@ require_once 'config.php';
                     <a href="contact.php" class="btn-gradient-border" data-animate="fade-up">Start Your Automation Journey</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="Assests/Images/gia.png" alt="GIA Platform" class="img-fluid animate-float hero-image" data-animate="fade-in">
+                    <img src="assets/Images/gia.png" alt="GIA Platform" class="img-fluid animate-float hero-image" data-animate="fade-in">
                 </div>
             </div>
         </div>
@@ -299,7 +299,7 @@ require_once 'config.php';
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="Assests/Images/technologyical_egde.png" alt="Technology Edge" class="img-fluid">
+                    <img src="assets/Images/technologyical_egde.png" alt="Technology Edge" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -398,6 +398,6 @@ require_once 'config.php';
     </style>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="Assests/main.js"></script>
+    <script src="assets/main.js"></script>
 </body>
 </html>

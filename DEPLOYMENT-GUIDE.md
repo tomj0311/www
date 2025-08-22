@@ -32,7 +32,7 @@ public_html/
 │   ├── impact-section.php
 │   ├── cta-section.php
 │   └── capabilities.php
-└── Assests/
+└── assets/
     ├── main.js
     ├── style.css
     ├── style.css.map

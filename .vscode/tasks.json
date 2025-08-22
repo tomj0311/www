@@ -1,84 +1,106 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "Start Local PHP Server",
-            "type": "shell",
-            "command": "c:\\xampp\\php\\php.exe",
-            "args": ["-S", "localhost:8000"],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false,
-                "clear": false
-            },
-            "isBackground": true,
-            "problemMatcher": [],
-            "runOptions": {
-                "instanceLimit": 1
-            }
-        },
-        {
-            "label": "Open in Browser",
-            "type": "shell",
-            "command": "start",
-            "args": ["http://localhost:8000"],
-            "group": "build",
-            "presentation": {
-                "echo": true,
-                "reveal": "silent",
-                "focus": false,
-                "panel": "shared"
-            },
-            "dependsOn": "Start Local PHP Server"
-        },
-        {
-            "label": "Deploy to Hostinger",
-            "type": "shell",
-            "command": "echo",
-            "args": ["Deployment started. Use SFTP: Upload Project to deploy all files."],
-            "group": "build",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": true,
-                "clear": false
-            },
-            "problemMatcher": []
-        },
-        {
-            "label": "Upload Modified Files",
-            "type": "shell", 
-            "command": "echo",
-            "args": ["Use SFTP: Upload Changed Files to upload only modified files."],
-            "group": "build",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared"
-            }
-        },
-        {
-            "label": "Sync with Hostinger",
-            "type": "shell",
-            "command": "echo", 
-            "args": ["Use SFTP: Sync Remote -> Local or SFTP: Sync Local -> Remote as needed."],
-            "group": "build",
-            "presentation": {
-                "echo": true,
-                "reveal": "always", 
-                "focus": false,
-                "panel": "shared"
-            }
-        }
-    ]
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Local PHP Server",
+			"type": "shell",
+			"command": "c:\\xampp\\php\\php.exe",
+			"args": [
+				"-S",
+				"localhost:8000"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": false
+			},
+			"isBackground": true,
+			"problemMatcher": [],
+			"runOptions": {
+				"instanceLimit": 1
+			}
+		},
+		{
+			"label": "Open in Browser",
+			"type": "shell",
+			"command": "start",
+			"args": [
+				"http://localhost:8000"
+			],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "silent",
+				"focus": false,
+				"panel": "shared"
+			},
+			"dependsOn": "Start Local PHP Server"
+		},
+		{
+			"label": "Deploy to Hostinger",
+			"type": "shell",
+			"command": "echo",
+			"args": [
+				"Deployment started. Use SFTP: Upload Project to deploy all files."
+			],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Upload Modified Files",
+			"type": "shell",
+			"command": "echo",
+			"args": [
+				"Use SFTP: Upload Changed Files to upload only modified files."
+			],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared"
+			}
+		},
+		{
+			"label": "Sync with Hostinger",
+			"type": "shell",
+			"command": "echo",
+			"args": [
+				"Use SFTP: Sync Remote -> Local or SFTP: Sync Local -> Remote as needed."
+			],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared"
+			}
+		},
+		{
+			"label": "Start Local PHP Server Port 8001",
+			"type": "shell",
+			"command": "c:\\xampp\\php\\php.exe",
+			"args": [
+				"-S",
+				"localhost:8001"
+			],
+			"isBackground": true,
+			"group": "build"
+		}
+	]
 }

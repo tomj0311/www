@@ -1,18 +1,20 @@
 <!-- FOOTER -->
 <footer class="site-footer">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-lg-4 mb-4 mb-lg-0">
         <div class="footer-brand">
-          <img src="Assests/Images/logo.png" alt="Hub8.ai" class="footer-logo">
-          <p class="footer-description">
-            Intelligent AI automation for your business. Save time and money with AI that's easy to use.
-          </p>
-          <div class="footer-contact mt-3">
+          <img src="assets/Images/logo.png" alt="Hub8.ai" class="footer-logo">
+          <div class="footer-contact mt-1">
             <p class="contact-address mb-2">
-              <strong>USA Office:</strong><br>
+              <strong>Global Headquarters:</strong><br>
               7901 4TH STREET NORTH STE 300<br>
-              ST. PETERSBURG FL US33702
+              ST. PETERSBURG, FL 33702<br>
+              <span class="text-white-75">� Global Operations: UAE • India • Singapore</span>
+            </p>
+            <p class="contact-info mb-2">
+              <strong>Email:</strong> <a href="mailto:contact@hub8.ai">contact@hub8.ai</a><br>
+              <strong>Phone:</strong> <a href="tel:+18004828724">1-800-HUB8-AI</a>
             </p>
           </div>
         </div>
@@ -66,7 +68,7 @@
     <div class="row align-items-center">
       <div class="col-md-6">
         <p class="copyright">
-          &copy; <?php echo date('Y'); ?> Hub8.ai. All rights reserved.
+          &copy; <?php echo date('Y'); ?> Hub8 Technologies LLC. All rights reserved.
         </p>
       </div>
       <div class="col-md-6 text-md-end">

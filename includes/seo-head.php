@@ -15,7 +15,7 @@ $site_name = $site_name ?? SITE_NAME ?? "Hub8.ai";
 $page_title = $page_title ?? "Hub8.ai — Simple AI Automation for Your Business";
 $page_description = $page_description ?? "Save time and money with AI automation that's easy to use. Hub8.ai handles your repetitive tasks with dynamic workflows and AI-generated processes, giving you a competitive advantage and significant cost savings so you can focus on growing your business.";
 $canonical_url = $canonical_url ?? (SITE_URL ?? "https://www.hub8.ai") . $_SERVER['REQUEST_URI'];
-$og_image = $og_image ?? (SITE_URL ?? "https://www.hub8.ai") . "/Assests/Images/bannar-bg.png";
+$og_image = $og_image ?? (SITE_URL ?? "https://www.hub8.ai") . "/assets/Images/bannar-bg.png";
 $page_keywords = $page_keywords ?? "AI automation, business automation, intelligent automation, GPT, machine learning, productivity, dynamic workflows, AI-generated workflows, competitive advantage, cost advantage, automated business processes, intelligent workflow optimization, AI-driven cost reduction, competitive edge automation, smart business workflows, AI workflow builder, automated decision making, business process optimization, intelligent task automation, AI competitive strategy, cost-effective automation, automated workflow management, AI business intelligence, smart process automation";
 $author = $author ?? "Hub8.ai";
 $page_type = $page_type ?? "website";
@@ -60,8 +60,8 @@ $clarity_project_id = defined('CLARITY_PROJECT_ID') ? CLARITY_PROJECT_ID : "XXXX
     <meta name="msapplication-config" content="browserconfig.xml" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="Assests/Images/favicon.ico">
-    <link rel="shortcut icon" href="Assests/Images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/Images/favicon.ico">
+    <link rel="shortcut icon" href="assets/Images/favicon.ico">
     <title><?php echo htmlspecialchars($page_title); ?></title>
 
     <!-- Preconnect to external domains -->
@@ -72,8 +72,8 @@ $clarity_project_id = defined('CLARITY_PROJECT_ID') ? CLARITY_PROJECT_ID : "XXXX
 
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Assests/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Assests/style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
 
     <!-- Google tag (gtag.js) -->
     <?php if ($ga_measurement_id !== "G-XXXXXXXXXX"): ?>
@@ -114,7 +114,7 @@ $clarity_project_id = defined('CLARITY_PROJECT_ID') ? CLARITY_PROJECT_ID : "XXXX
             "name": "<?php echo addslashes($site_name); ?>",
             "logo": {
                 "@type": "ImageObject",
-                "url": "<?php echo addslashes((SITE_URL ?? 'https://www.hub8.ai') . '/Assests/Images/logo.png'); ?>"
+                "url": "<?php echo addslashes((SITE_URL ?? 'https://www.hub8.ai') . '/assets/Images/logo.png'); ?>"
             }
         },
         "potentialAction": {

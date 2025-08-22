@@ -9,7 +9,7 @@ $site_name = "Hub8.ai";
 $page_title = "Security - Hub8.ai";
 $page_description = "Learn about Hub8.ai's security measures and how we protect your data with industry-leading security practices and technologies.";
 $canonical_url = "https://www.hub8.ai/security.php";
-$og_image = "https://www.hub8.ai/Assests/Images/bannar-bg.png";
+$og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
 $page_keywords = "security, data protection, cybersecurity, encryption, data security, privacy protection";
 $page_type = "website";
 ?>
@@ -209,7 +209,7 @@ $page_type = "website";
   <?php include 'includes/footer.php'; ?>
 
   <!-- Bootstrap JS -->
-  <script src="Assests/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="Assests/main.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/main.js"></script>
 </body>
 </html>

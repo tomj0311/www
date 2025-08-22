@@ -9,7 +9,7 @@ $site_name = "Hub8.ai";
 $page_title = "Vision Software - AI-Powered Solutions | Hub8.ai";
 $page_description = "Hub8.ai's AI-powered vision software helps businesses turn automation challenges into competitive advantages with intelligent computer vision solutions.";
 $canonical_url = "https://www.hub8.ai/vision-software.php";
-$og_image = "https://www.hub8.ai/Assests/Images/bannar-bg.png";
+$og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
 $page_keywords = "vision software, computer vision, AI vision, image recognition, visual automation, machine vision, AI-powered vision, intelligent vision systems";
 $page_type = "website";
 ?>
@@ -74,7 +74,7 @@ $page_type = "website";
   <?php include 'includes/footer.php'; ?>
 
   <!-- Bootstrap JS -->
-  <script src="Assests/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="Assests/main.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/main.js"></script>
 </body>
 </html>

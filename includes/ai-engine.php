@@ -50,7 +50,7 @@ $ai_technologies = [
         <div class="carousel-item <?php echo $index === 0 ? 'active' : ''; ?>">
           <div class="ai-card" data-animate="fade-in">
             <div class="icon-title">
-              <img src="Assests/Images/<?php echo htmlspecialchars($tech['icon']); ?>" 
+              <img src="assets/Images/<?php echo htmlspecialchars($tech['icon']); ?>" 
                    alt="<?php echo htmlspecialchars($tech['title']); ?>" 
                    class="<?php echo htmlspecialchars($tech['animation_class']); ?>" />
               <h3><?php echo htmlspecialchars($tech['title']); ?></h3>
@@ -76,7 +76,7 @@ $ai_technologies = [
       <div class="col-lg-6 col-12">
         <div class="ai-card tilt" data-animate="<?php echo htmlspecialchars($tech['card_animation']); ?>">
           <div class="icon-title">
-            <img src="Assests/Images/<?php echo htmlspecialchars($tech['icon']); ?>" 
+            <img src="assets/Images/<?php echo htmlspecialchars($tech['icon']); ?>" 
                  alt="<?php echo htmlspecialchars($tech['title']); ?>" 
                  class="<?php echo htmlspecialchars($tech['animation_class']); ?>" />
             <h3><?php echo htmlspecialchars($tech['title']); ?></h3>

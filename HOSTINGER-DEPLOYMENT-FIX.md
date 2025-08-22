@@ -19,7 +19,7 @@ When deploying to Hostinger, you MUST include these directories/files:
 - `composer.json`
 - `composer.lock`
 - All your PHP files
-- `Assests/` directory
+- `assets/` directory
 - `includes/` directory
 - `frontend/` directory (if used)
 

@@ -107,7 +107,7 @@ winscp.com /command "open sftp://username:password@hostname/" "put *.* /public_h
 ```
 /public_html/          ← Your website root
 ├── index.php
-├── Assests/
+├── assets/
 ├── includes/
 └── ...other files
 ```

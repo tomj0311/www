@@ -34,7 +34,7 @@ $capabilities = [
       <div class="col-lg-6">
         <?php foreach ($capabilities as $index => $capability): ?>
         <div class="feature <?php echo $index === count($capabilities) - 1 ? 'last' : ''; ?>" data-animate="slide-right">
-          <img src="Assests/Images/star.svg" alt="Star Icon" class="icon">
+          <img src="assets/Images/star.svg" alt="Star Icon" class="icon">
           <div class="text-wrap">
             <h5><?php echo htmlspecialchars($capability['title']); ?></h5>
             <p><?php echo htmlspecialchars($capability['description']); ?></p>

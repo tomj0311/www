@@ -9,7 +9,7 @@ $site_name = "Hub8.ai";
 $page_title = "Terms of Service - Hub8.ai";
 $page_description = "Read Hub8.ai's terms of service to understand the terms and conditions for using our AI automation platform and services.";
 $canonical_url = "https://www.hub8.ai/terms-of-service.php";
-$og_image = "https://www.hub8.ai/Assests/Images/bannar-bg.png";
+$og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
 $page_keywords = "terms of service, terms and conditions, user agreement, service agreement, legal terms";
 $page_type = "website";
 ?>
@@ -126,7 +126,7 @@ $page_type = "website";
   <?php include 'includes/footer.php'; ?>
 
   <!-- Bootstrap JS -->
-  <script src="Assests/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="Assests/main.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/main.js"></script>
 </body>
 </html>

@@ -29,7 +29,7 @@ $page_title = "Login to Hub8.ai - Access Your AI Dashboard";
 $page_description = "Login to your Hub8.ai account to access your AI automation dashboard and manage your intelligent workflows.";
 $page_keywords = "Hub8.ai login, AI dashboard, automation login, user account access";
 $canonical_url = "https://www.hub8.ai/login.php";
-$og_image = "https://www.hub8.ai/Assests/Images/logo.png";
+$og_image = "https://www.hub8.ai/assets/Images/logo.png";
 $page_type = "webpage";
 
 // Include config for SEO constants
@@ -111,6 +111,6 @@ require_once 'config.php';
     </style>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="Assests/main.js"></script>
+    <script src="assets/main.js"></script>
 </body>
 </html>
