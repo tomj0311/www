@@ -176,6 +176,40 @@ $page_type = "webpage";
     .contact-form .form-control::placeholder {
         color: rgba(255, 255, 255, 0.6);
     }
+
+    /* Fix Inquiry Type dropdown on dark theme */
+    .contact-form select,
+    .contact-form select.form-control,
+    #inquiry_type {
+        background: #1a1a1a !important;
+        color: #ffffff !important;
+        border: 1px solid rgba(255, 255, 255, 0.2) !important;
+        border-radius: 8px !important;
+        appearance: none !important;
+        -webkit-appearance: none !important;
+        -moz-appearance: none !important;
+        background-image: none !important; /* stop repeating chevrons */
+        background-repeat: no-repeat !important;
+        background-position: right 0.75rem center !important;
+        background-size: 16px 12px !important;
+        padding-right: 2.25rem !important; /* space for arrow if any */
+    }
+
+    .contact-form select:focus,
+    #inquiry_type:focus {
+        outline: none !important;
+        background: #1a1a1a !important;
+        border-color: #09EEFD !important;
+        box-shadow: 0 0 0 0.2rem rgba(9, 238, 253, 0.25) !important;
+        color: #ffffff !important;
+    }
+
+    /* Ensure dropdown options are readable */
+    #inquiry_type option,
+    .contact-form select option {
+        background-color: #1a1a1a !important;
+        color: #ffffff !important;
+    }
     </style>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

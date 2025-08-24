@@ -124,6 +124,17 @@ section[id],
   scroll-margin-top: 88px; /* header height + a bit */
 }
 
+/* Increase anchor offset on small screens where header is taller */
+@media (max-width: 576px) {
+  section[id],
+  [id^="about"],
+  [id^="services"],
+  [id^="contact"],
+  #home {
+    scroll-margin-top: 120px;
+  }
+}
+
 /* Container padding fix for mobile */
 @media (max-width: 576px) {
   .container {
@@ -1236,7 +1247,7 @@ html.reduced-motion .hero-image {
 /* MOBILE HEADER LAYOUT */
 @media (max-width: 576px) {
   body {
-    padding-top: 100px; /* Increased padding for mobile due to wrapped layout */
+  padding-top: 120px; /* Slightly increased to prevent top content cut-off on mobile */
   }
   .site-header .navbar {
     flex-wrap: wrap;
