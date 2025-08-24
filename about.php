@@ -20,12 +20,12 @@ require_once 'config.php';
     <section class="banner">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-animate="fade-in">
                     <h1 class="gradient-text">About Hub8.ai</h1>
                     <p class="description">Headquartered in the vibrant tech hub of St. Petersburg, Florida, with global operations spanning the Middle East (UAE), India, and Southeast Asia (Singapore), Hub8.ai is an innovative technology startup with a unique approach to automating complex processes using AI. Our team brings decades of global experience in IT and AI, crafting intelligent automation solutions that transform how businesses operate and compete worldwide.</p>
                     <a href="contact.php" class="btn-gradient-border">Get Started</a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-animate="slide-in-right">
                     <img src="assets/Images/gia.png" alt="About Hub8.ai" class="img-fluid">
                 </div>
             </div>
@@ -36,46 +36,46 @@ require_once 'config.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="gradient-text mb-4">Our Story</h2>
-                    <p class="lead text-white-50 mb-4">
+                    <h2 class="gradient-text mb-4" data-animate="fade-in">Our Story</h2>
+                    <p class="lead text-white-50 mb-4" data-animate="slide-in-up">
                         Founded in the heart of St. Petersburg's thriving tech ecosystem, Hub8.ai emerged from a vision to tackle one of business's most persistent challenges: automating complex processes that traditional tools couldn't handle. Our founding team, with decades of combined global experience in IT and AI across multiple continents, recognized the gap between existing automation solutions and the sophisticated needs of modern businesses.
                     </p>
-                    <p class="text-white-50 mb-5">
+                    <p class="text-white-50 mb-5" data-animate="slide-in-up">
                         What started as a Florida-based startup focused on intelligent automation has evolved into a comprehensive global platform. With strategic operations in the Middle East through our UAE presence, deep technical expertise in India's innovation landscape, and market access via Singapore, we deliver AI-powered automation that transcends geographical boundaries while respecting local business cultures and requirements. Our unique approach combines cutting-edge AI technology with practical business insights gained from years of international experience.
                     </p>
                     
-                    <h3 class="text-white mb-4">Our Mission</h3>
-                    <p class="lead text-white-50 mb-5">
+                    <h3 class="text-white mb-4" data-animate="fade-in">Our Mission</h3>
+                    <p class="lead text-white-50 mb-5" data-animate="slide-in-up">
                         To empower businesses worldwide with intelligent automation solutions that tackle their most complex processes—leveraging our team's decades of global IT and AI experience to deliver efficiency, reduce operational costs, and unlock new competitive advantages through innovative AI-powered workflow optimization across our strategic hubs in North America, Middle East, Asia, and Southeast Asia.
                     </p>
                     
-                    <h3 class="text-white mb-3">What Makes Hub8.ai Different</h3>
+                    <h3 class="text-white mb-3" data-animate="fade-in">What Makes Hub8.ai Different</h3>
                     <div class="row">
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
                                 <h5 class="gradient-text">Startup Innovation Hub</h5>
                                 <p class="text-white-50">Based in St. Petersburg, Florida, we combine the agility and innovation of a tech startup with the depth of experience from our team's decades in global IT and AI.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
                                 <h5 class="gradient-text">Unique Automation Approach</h5>
                                 <p class="text-white-50">Our proprietary methodology tackles complex processes that traditional automation tools can't handle, using advanced AI to understand and optimize intricate business workflows.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
                                 <h5 class="gradient-text">Decades of Global Experience</h5>
                                 <p class="text-white-50">Our team brings combined decades of international IT and AI expertise, with deep understanding of diverse business environments across multiple continents and industries.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
                                 <h5 class="gradient-text">Strategic Global Presence</h5>
                                 <p class="text-white-50">Operations in UAE, India, and Singapore enable us to serve diverse markets with culturally-aware AI automation solutions while maintaining our startup agility.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
                                 <h5 class="gradient-text">Generative Intelligence</h5>
                                 <p class="text-white-50">Our proprietary GIA technology doesn't just follow rules—it generates intelligent workflows that adapt and evolve with your business needs.</p>
@@ -99,13 +99,13 @@ require_once 'config.php';
                                 <p class="text-white-50">Seamlessly connect with your existing ecosystem of tools and systems without disrupting current workflows or requiring extensive training.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
                                 <h5 class="gradient-text">24/7 Global Support</h5>
                                 <p class="text-white-50">With operations across multiple time zones—from Florida to UAE, India to Singapore—we provide round-the-clock support and seamless service delivery.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
                                 <h5 class="gradient-text">Cultural Intelligence</h5>
                                 <p class="text-white-50">Our global presence enables deep understanding of regional business practices, ensuring AI solutions that respect local cultures while delivering universal efficiency.</p>
@@ -113,10 +113,10 @@ require_once 'config.php';
                         </div>
                     </div>
                     
-                    <div class="mt-5 p-4" style="background: linear-gradient(135deg, rgba(234, 168, 67, 0.1) 0%, rgba(249, 41, 213, 0.1) 50%, rgba(9, 238, 253, 0.1) 100%); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);">
+                    <div class="mt-5 p-4" data-animate="slide-in-up" style="background: linear-gradient(135deg, rgba(234, 168, 67, 0.1) 0%, rgba(249, 41, 213, 0.1) 50%, rgba(9, 238, 253, 0.1) 100%); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);">
                         <h3 class="gradient-text mb-4">🌍 Global Operations & Presence</h3>
                         <div class="row">
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-3" data-animate="fade-in">
                                 <div class="d-flex align-items-start">
                                     <span class="me-3 fs-4">🇺🇸</span>
                                     <div>
@@ -125,7 +125,7 @@ require_once 'config.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-3" data-animate="fade-in">
                                 <div class="d-flex align-items-start">
                                     <span class="me-3 fs-4">🇦🇪</span>
                                     <div>
@@ -134,7 +134,7 @@ require_once 'config.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-3" data-animate="fade-in">
                                 <div class="d-flex align-items-start">
                                     <span class="me-3 fs-4">🇮🇳</span>
                                     <div>
@@ -143,7 +143,7 @@ require_once 'config.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-6 mb-3" data-animate="fade-in">
                                 <div class="d-flex align-items-start">
                                     <span class="me-3 fs-4">🇸🇬</span>
                                     <div>
@@ -160,12 +160,12 @@ require_once 'config.php';
                         </div>
                     </div>
                     
-                    <div class="mt-5 p-4" style="background: rgba(255, 255, 255, 0.05); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);">
+                    <div class="mt-5 p-4" data-animate="slide-in-up" style="background: rgba(255, 255, 255, 0.05); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);">
                         <h3 class="gradient-text mb-3">Our Vision for the Future</h3>
-                        <p class="text-white-50 mb-3">
+                        <p class="text-white-50 mb-3" data-animate="fade-in">
                             We envision a world where complex business processes are no longer barriers to growth but catalysts for innovation. Through our unique AI automation approach, backed by decades of global IT and AI experience, we're building solutions that tackle challenges others can't solve—enabling businesses to focus on what truly matters: creativity, strategy, and sustainable growth.
                         </p>
-                        <p class="text-white-50">
+                        <p class="text-white-50" data-animate="fade-in">
                             As we continue to evolve from our St. Petersburg startup roots and expand across our global hubs in UAE, India, and Singapore, we remain committed to our core mission: delivering intelligent automation solutions that don't just follow processes, but understand, adapt, and optimize the most complex business workflows for sustainable competitive advantage.
                         </p>
                     </div>

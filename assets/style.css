@@ -250,6 +250,25 @@ section[id],
   opacity: 0.9;
 }
 
+/* Navbar toggler styles for dark theme */
+.site-header .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.3);
+  padding: 4px 8px;
+}
+
+.site-header .navbar-toggler:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.site-header .navbar-toggler:focus {
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.site-header .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 /* Gradient Text */
 .gradient-text {
   background: linear-gradient(90deg, #ef7b75, #f25c99, #f63fba, #d2359e, #a14a4a);
@@ -499,29 +518,26 @@ html.reduced-motion .hero-image {
   }
   #navbarRight .nav-link {
     width: 100%;
-    padding: 0.75rem 0rem;
+    padding: 0.75rem 1rem;
     text-align: left;
   }
-  .search-bar {
-    width: 100%;
+  #navbarRight.show {
+    background: rgba(0, 0, 0, 0.95);
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+  #navbarRight .search-bar {
     margin: 1rem 0;
   }
-  .search-bar input {
-    width: 100%;
-  }
-  .btn-wrap {
+  #navbarRight .btn-wrap {
     display: flex;
-    width: 100%;
+    flex-direction: column;
     gap: 0.5rem;
     margin-top: 1rem;
   }
-  .login,
-  .btn-gradient {
-    flex: 1;
-    text-align: center;
-    white-space: nowrap;
-  }
 }
+
 /* Info Section */
 .info-section {
   padding: 120px 0;
