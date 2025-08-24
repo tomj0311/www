@@ -428,6 +428,199 @@ section[id],
   border: none !important;
 }
 
+/* BANNER CAROUSEL STYLES */
+.banner-carousel {
+  position: relative;
+  overflow: hidden;
+  margin-top: clamp(20px, 3vw, 32px);
+}
+
+.carousel-slide {
+  padding: 4rem 0;
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.banner-carousel .banner-content h1 {
+  font-size: 3.75rem;
+  padding-bottom: 12px;
+  font-weight: 200;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: heroTitleReveal 1.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s forwards;
+}
+
+.banner-carousel .banner-content p {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: heroTextReveal 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.8s forwards;
+}
+
+/* Center-aligned content for slides 2, 3, 4 */
+.banner-carousel .banner-content.text-center p {
+  text-align: center !important;
+}
+
+.banner-carousel .banner-content.text-center .description {
+  text-align: center !important;
+}
+
+/* Star icon styling */
+.star-icon {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: heroTextReveal 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s forwards;
+}
+
+.star-img {
+  width: 32px;
+  height: 32px;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
+/* Carousel indicators custom styling */
+.carousel-indicators {
+  bottom: 30px;
+  margin-bottom: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  margin: 0 6px;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicators .active {
+  background: linear-gradient(45deg, #EAA843, #F929D5, #050AB3, #09EEFD);
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Carousel controls custom styling */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-control-prev {
+  left: 30px;
+}
+
+.carousel-control-next {
+  right: 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+}
+
+/* Responsive styles for carousel */
+@media (min-width: 1200px) {
+  .banner-carousel .banner-content.text-lg-start p {
+    max-width: 76%;
+  }
+  
+  .banner-carousel .banner-content.text-center p {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-slide {
+    padding: 2rem 0;
+    min-height: 60vh;
+  }
+  
+  .banner-carousel .banner-content h1 {
+    font-size: 2.5rem;
+    padding-bottom: 8px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .carousel-control-prev {
+    left: 15px;
+  }
+  
+  .carousel-control-next {
+    right: 15px;
+  }
+  
+  .carousel-indicators {
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-slide {
+    padding: 1.5rem 0;
+    min-height: 50vh;
+  }
+  
+  .banner-carousel .banner-content h1 {
+    font-size: 2rem;
+    padding-bottom: 8px;
+  }
+  
+  .banner-carousel .banner-content p {
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
+  .banner-carousel .btn-gradient-border {
+    margin-top: 1rem;
+  }
+  
+  .star-img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none; /* Hide controls on very small screens */
+  }
+}
+
+/* Ensure carousel items maintain proper animations */
+.carousel-item.active .banner-content h1,
+.carousel-item.active .banner-content p,
+.carousel-item.active .star-icon {
+  animation-play-state: running;
+}
+
 /* AGGRESSIVE OVERRIDE - Remove ALL backgrounds from banner image area */
 .banner img,
 .banner .hero-image,

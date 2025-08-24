@@ -261,7 +261,47 @@
   if (window.bootstrap) {
     document.querySelectorAll('.carousel').forEach((c) => {
       try {
-        bootstrap.Carousel.getOrCreateInstance(c, { interval: 4000, ride: true, pause: false, touch: true });
+        // Special settings for hero carousel
+        if (c.id === 'heroCarousel') {
+          const heroCarousel = bootstrap.Carousel.getOrCreateInstance(c, { 
+            interval: 7000, 
+            ride: true, 
+            pause: 'hover', 
+            touch: true,
+            keyboard: true,
+            wrap: true
+          });
+
+          // Add custom animation reset on slide change
+          c.addEventListener('slide.bs.carousel', function (e) {
+            // Reset animations on the incoming slide
+            const nextSlide = e.relatedTarget;
+            const animatedElements = nextSlide.querySelectorAll('.banner-content h1, .banner-content p, .star-icon');
+            
+            // Reset animation state
+            animatedElements.forEach(el => {
+              el.style.animation = 'none';
+              el.style.opacity = '0';
+              el.style.transform = 'translateY(30px)';
+            });
+            
+            // Restart animations after a brief delay
+            setTimeout(() => {
+              animatedElements.forEach((el, index) => {
+                if (el.classList.contains('star-icon')) {
+                  el.style.animation = 'heroTextReveal 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s forwards';
+                } else if (el.tagName === 'H1') {
+                  el.style.animation = 'heroTitleReveal 1.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s forwards';
+                } else if (el.tagName === 'P') {
+                  el.style.animation = 'heroTextReveal 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.8s forwards';
+                }
+              });
+            }, 100);
+          });
+        } else {
+          // Default settings for other carousels
+          bootstrap.Carousel.getOrCreateInstance(c, { interval: 4000, ride: true, pause: false, touch: true });
+        }
       } catch (e) { /* no-op */ }
     });
   }

@@ -6,7 +6,7 @@ date_default_timezone_set('UTC');
 
 // Basic SEO and Meta Information
 $site_name = "Hub8.ai";
-$page_title = "Hub8.ai — Tech Startup Automating Complex Processes with AI | USA • UAE • India • Singapore";
+$page_title = "Hub8.ai — Automating Complex Processes with AI | USA • UAE • India • Singapore";
 $page_description = "Transform your business with intelligent AI automation from Hub8.ai, an innovative tech startup with operations in USA, UAE, India, and Singapore. Our unique approach to automating complex processes, backed by decades of global IT and AI experience, delivers competitive advantages worldwide.";
 $canonical_url = "https://www.hub8.ai/";
 $og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";

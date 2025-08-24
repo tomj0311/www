@@ -1,0 +1,171 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient definitions for glowing effects -->
+    <radialGradient id="chipGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#2a4d7a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2332;stop-opacity:1" />
+    </radialGradient>
+    
+    <linearGradient id="circuitGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff006e;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#8338ec;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#3a86ff;stop-opacity:0.4" />
+    </linearGradient>
+    
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e0e0e0;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#c0c0c0;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Circuit glow filter -->
+    <filter id="circuitGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#0a0a1a"/>
+  
+  <!-- Circuit patterns radiating from center -->
+  
+  <!-- Top-left circuit lines -->
+  <g stroke="url(#circuitGlow)" stroke-width="1.5" fill="none" filter="url(#circuitGlow)">
+    <path d="M50 50 L120 50 L120 80 L150 80"/>
+    <path d="M60 40 L100 40 L100 70 L130 70"/>
+    <path d="M70 60 L110 60 L110 90 L140 90"/>
+    <path d="M40 70 L80 70 L80 100 L120 100"/>
+  </g>
+  
+  <!-- Top-right circuit lines -->
+  <g stroke="url(#circuitGlow)" stroke-width="1.5" fill="none" filter="url(#circuitGlow)">
+    <path d="M350 50 L280 50 L280 80 L250 80"/>
+    <path d="M340 40 L300 40 L300 70 L270 70"/>
+    <path d="M330 60 L290 60 L290 90 L260 90"/>
+    <path d="M360 70 L320 70 L320 100 L280 100"/>
+  </g>
+  
+  <!-- Bottom-left circuit lines -->
+  <g stroke="url(#circuitGlow)" stroke-width="1.5" fill="none" filter="url(#circuitGlow)">
+    <path d="M50 250 L120 250 L120 220 L150 220"/>
+    <path d="M60 260 L100 260 L100 230 L130 230"/>
+    <path d="M70 240 L110 240 L110 210 L140 210"/>
+    <path d="M40 230 L80 230 L80 200 L120 200"/>
+  </g>
+  
+  <!-- Bottom-right circuit lines -->
+  <g stroke="url(#circuitGlow)" stroke-width="1.5" fill="none" filter="url(#circuitGlow)">
+    <path d="M350 250 L280 250 L280 220 L250 220"/>
+    <path d="M340 260 L300 260 L300 230 L270 230"/>
+    <path d="M330 240 L290 240 L290 210 L260 210"/>
+    <path d="M360 230 L320 230 L320 200 L280 200"/>
+  </g>
+  
+  <!-- Circuit connection points (small glowing dots) -->
+  <g fill="#ff006e" filter="url(#glow)">
+    <circle cx="120" cy="50" r="2"/>
+    <circle cx="280" cy="50" r="2"/>
+    <circle cx="120" cy="250" r="2"/>
+    <circle cx="280" cy="250" r="2"/>
+    <circle cx="150" cy="80" r="1.5"/>
+    <circle cx="250" cy="80" r="1.5"/>
+    <circle cx="150" cy="220" r="1.5"/>
+    <circle cx="250" cy="220" r="1.5"/>
+  </g>
+  
+  <!-- Additional scattered circuit dots -->
+  <g fill="#8338ec" opacity="0.8">
+    <circle cx="70" cy="90" r="1"/>
+    <circle cx="330" cy="90" r="1"/>
+    <circle cx="70" cy="210" r="1"/>
+    <circle cx="330" cy="210" r="1"/>
+    <circle cx="90" cy="120" r="1"/>
+    <circle cx="310" cy="120" r="1"/>
+    <circle cx="90" cy="180" r="1"/>
+    <circle cx="310" cy="180" r="1"/>
+  </g>
+  
+  <!-- Central chip/processor -->
+  <rect x="160" y="120" width="80" height="60" rx="8" ry="8" 
+        fill="url(#chipGradient)" 
+        stroke="#4a6fa5" 
+        stroke-width="2" 
+        filter="url(#glow)"/>
+  
+  <!-- Chip pins/connectors -->
+  <g fill="#2a4d7a" stroke="#4a6fa5" stroke-width="1">
+    <!-- Top pins -->
+    <rect x="170" y="115" width="8" height="5" rx="1"/>
+    <rect x="182" y="115" width="8" height="5" rx="1"/>
+    <rect x="194" y="115" width="8" height="5" rx="1"/>
+    <rect x="206" y="115" width="8" height="5" rx="1"/>
+    <rect x="218" y="115" width="8" height="5" rx="1"/>
+    
+    <!-- Bottom pins -->
+    <rect x="170" y="180" width="8" height="5" rx="1"/>
+    <rect x="182" y="180" width="8" height="5" rx="1"/>
+    <rect x="194" y="180" width="8" height="5" rx="1"/>
+    <rect x="206" y="180" width="8" height="5" rx="1"/>
+    <rect x="218" y="180" width="8" height="5" rx="1"/>
+    
+    <!-- Left pins -->
+    <rect x="155" y="130" width="5" height="8" rx="1"/>
+    <rect x="155" y="142" width="5" height="8" rx="1"/>
+    <rect x="155" y="154" width="5" height="8" rx="1"/>
+    <rect x="155" y="166" width="5" height="8" rx="1"/>
+    
+    <!-- Right pins -->
+    <rect x="240" y="130" width="5" height="8" rx="1"/>
+    <rect x="240" y="142" width="5" height="8" rx="1"/>
+    <rect x="240" y="154" width="5" height="8" rx="1"/>
+    <rect x="240" y="166" width="5" height="8" rx="1"/>
+  </g>
+  
+  <!-- GIA Text -->
+  <text x="200" y="160" text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-size="24" 
+        font-weight="bold" 
+        fill="url(#textGradient)" 
+        filter="url(#glow)">GIA</text>
+  
+  <!-- Additional circuit details on the chip -->
+  <g stroke="#4a6fa5" stroke-width="0.5" fill="none" opacity="0.6">
+    <rect x="168" y="128" width="12" height="4" rx="1"/>
+    <rect x="220" y="128" width="12" height="4" rx="1"/>
+    <rect x="168" y="168" width="12" height="4" rx="1"/>
+    <rect x="220" y="168" width="12" height="4" rx="1"/>
+  </g>
+  
+  <!-- Glowing particles scattered around -->
+  <g fill="#ff006e" opacity="0.6">
+    <circle cx="80" cy="80" r="0.5"/>
+    <circle cx="320" cy="80" r="0.5"/>
+    <circle cx="80" cy="220" r="0.5"/>
+    <circle cx="320" cy="220" r="0.5"/>
+    <circle cx="60" cy="150" r="0.5"/>
+    <circle cx="340" cy="150" r="0.5"/>
+  </g>
+  
+  <g fill="#3a86ff" opacity="0.4">
+    <circle cx="100" cy="60" r="0.5"/>
+    <circle cx="300" cy="60" r="0.5"/>
+    <circle cx="100" cy="240" r="0.5"/>
+    <circle cx="300" cy="240" r="0.5"/>
+    <circle cx="40" cy="150" r="0.5"/>
+    <circle cx="360" cy="150" r="0.5"/>
+  </g>
+</svg>

@@ -1,7 +1,7 @@
 <?php
-$page_title = "About Hub8.ai - Tech Startup Automating Complex Processes with AI | USA • UAE • India • Singapore";
-$page_description = "Learn about Hub8.ai, an innovative tech startup with headquarters in St. Petersburg, Florida and operations in UAE, India, and Singapore. Discover our unique approach to automating complex processes using AI, backed by decades of global IT and AI experience.";
-$page_keywords = "Hub8.ai about, AI automation startup, innovative tech startup, USA UAE India Singapore operations, Generative Intelligent Automation, GIA technology, complex process automation, AI automation solutions, intelligent workflow optimization, automation technology startup, AI-driven business solutions, global tech startup, decades IT experience, AI experience, business process automation, intelligent automation startup";
+$page_title = "About Hub8.ai - Revolutionary AI Automation Technology | Generative Intelligent Automation Platform";
+$page_description = "Discover Hub8.ai's revolutionary approach to automating complex processes with AI. Our Generative Intelligent Automation (GIA) technology learns, adapts, and optimizes workflows using advanced AI, backed by decades of global IT and AI experience.";
+$page_keywords = "Hub8.ai about, AI automation technology, Generative Intelligent Automation, GIA technology, complex process automation, AI automation solutions, intelligent workflow optimization, automation technology platform, AI-driven business solutions, machine learning automation, decades IT experience, AI experience, business process automation, intelligent automation platform";
 $canonical_url = "https://www.hub8.ai/about.php";
 $og_image = "https://www.hub8.ai/assets/Images/gia.png";
 $page_type = "webpage";
@@ -22,7 +22,7 @@ require_once 'config.php';
             <div class="row align-items-center">
                 <div class="col-lg-6" data-animate="fade-in">
                     <h1 class="gradient-text">About Hub8.ai</h1>
-                    <p class="description">Headquartered in the vibrant tech hub of St. Petersburg, Florida, with global operations spanning the Middle East (UAE), India, and Southeast Asia (Singapore), Hub8.ai is an innovative technology startup with a unique approach to automating complex processes using AI. Our team brings decades of global experience in IT and AI, crafting intelligent automation solutions that transform how businesses operate and compete worldwide.</p>
+                    <p class="description">Hub8.ai delivers advanced business automation through our Generative Intelligent Automation (GIA) technology. Our AI-powered platform learns and adapts to optimize complex business processes. With decades of global IT and AI experience, we provide intelligent automation solutions that enhance business operations and drive competitive advantage.</p>
                     <a href="contact.php" class="btn-gradient-border">Get Started</a>
                 </div>
                 <div class="col-lg-6" data-animate="slide-in-right">
@@ -38,90 +38,90 @@ require_once 'config.php';
                 <div class="col-lg-8 mx-auto">
                     <h2 class="gradient-text mb-4" data-animate="fade-in">Our Story</h2>
                     <p class="lead text-white-50 mb-4" data-animate="slide-in-up">
-                        Founded in the heart of St. Petersburg's thriving tech ecosystem, Hub8.ai emerged from a vision to tackle one of business's most persistent challenges: automating complex processes that traditional tools couldn't handle. Our founding team, with decades of combined global experience in IT and AI across multiple continents, recognized the gap between existing automation solutions and the sophisticated needs of modern businesses.
+                        Hub8.ai was founded to address a critical gap in business automation. Traditional tools struggle with complex processes that require intelligent decision-making. Our team combines decades of global IT and AI expertise to create solutions that go beyond simple rule-based automation.
                     </p>
                     <p class="text-white-50 mb-5" data-animate="slide-in-up">
-                        What started as a Florida-based startup focused on intelligent automation has evolved into a comprehensive global platform. With strategic operations in the Middle East through our UAE presence, deep technical expertise in India's innovation landscape, and market access via Singapore, we deliver AI-powered automation that transcends geographical boundaries while respecting local business cultures and requirements. Our unique approach combines cutting-edge AI technology with practical business insights gained from years of international experience.
+                        Our Generative Intelligent Automation platform learns from business workflows and continuously improves performance. With global operations ensuring comprehensive support, we deliver AI-powered automation that maintains high standards of data privacy and security while adapting to diverse business requirements.
                     </p>
                     
                     <h3 class="text-white mb-4" data-animate="fade-in">Our Mission</h3>
                     <p class="lead text-white-50 mb-5" data-animate="slide-in-up">
-                        To empower businesses worldwide with intelligent automation solutions that tackle their most complex processes—leveraging our team's decades of global IT and AI experience to deliver efficiency, reduce operational costs, and unlock new competitive advantages through innovative AI-powered workflow optimization across our strategic hubs in North America, Middle East, Asia, and Southeast Asia.
+                        To advance business automation through intelligent technology that handles complex processes. We leverage our team's global IT and AI expertise to deliver solutions that improve efficiency, reduce costs, and provide competitive advantages through advanced workflow optimization.
                     </p>
                     
                     <h3 class="text-white mb-3" data-animate="fade-in">What Makes Hub8.ai Different</h3>
                     <div class="row">
                         <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
-                                <h5 class="gradient-text">Startup Innovation Hub</h5>
-                                <p class="text-white-50">Based in St. Petersburg, Florida, we combine the agility and innovation of a tech startup with the depth of experience from our team's decades in global IT and AI.</p>
+                                <h5 class="gradient-text">Generative Intelligence Technology</h5>
+                                <p class="text-white-50">Our GIA technology creates intelligent workflows that adapt to your business needs using advanced machine learning.</p>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
-                                <h5 class="gradient-text">Unique Automation Approach</h5>
-                                <p class="text-white-50">Our proprietary methodology tackles complex processes that traditional automation tools can't handle, using advanced AI to understand and optimize intricate business workflows.</p>
+                                <h5 class="gradient-text">Advanced Automation Approach</h5>
+                                <p class="text-white-50">We handle complex processes that traditional automation tools cannot manage, using AI to understand and optimize business workflows.</p>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
-                                <h5 class="gradient-text">Decades of Global Experience</h5>
-                                <p class="text-white-50">Our team brings combined decades of international IT and AI expertise, with deep understanding of diverse business environments across multiple continents and industries.</p>
+                                <h5 class="gradient-text">Continuous Learning AI</h5>
+                                <p class="text-white-50">Our platform learns from every interaction, continuously optimizing performance and identifying new efficiency opportunities.</p>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
-                                <h5 class="gradient-text">Strategic Global Presence</h5>
-                                <p class="text-white-50">Operations in UAE, India, and Singapore enable us to serve diverse markets with culturally-aware AI automation solutions while maintaining our startup agility.</p>
+                                <h5 class="gradient-text">Complete Data Privacy & Security</h5>
+                                <p class="text-white-50">Your data remains within your infrastructure. Our AI operates on-premise, ensuring privacy, security, and compliance control.</p>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
-                                <h5 class="gradient-text">Generative Intelligence</h5>
-                                <p class="text-white-50">Our proprietary GIA technology doesn't just follow rules—it generates intelligent workflows that adapt and evolve with your business needs.</p>
+                                <h5 class="gradient-text">300+ System Integrations</h5>
+                                <p class="text-white-50">Connect seamlessly with existing tools and systems without disrupting workflows or requiring extensive training.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
-                                <h5 class="gradient-text">Complete Data Privacy</h5>
-                                <p class="text-white-50">Your data never leaves your infrastructure. Our AI runs entirely on-premise, ensuring absolute privacy, security, and compliance control.</p>
+                                <h5 class="gradient-text">Global AI Expertise</h5>
+                                <p class="text-white-50">Our team brings decades of international IT and AI experience across diverse business environments and industries.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
-                                <h5 class="gradient-text">Continuous Learning</h5>
-                                <p class="text-white-50">Unlike static automation tools, our platform learns from every interaction, continuously optimizing performance and discovering new efficiency opportunities.</p>
+                                <h5 class="gradient-text">Adaptive Intelligence</h5>
+                                <p class="text-white-50">Our AI understands context and anticipates needs, proactively optimizing processes using pattern recognition and predictive analytics.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
-                                <h5 class="gradient-text">300+ Integrations</h5>
-                                <p class="text-white-50">Seamlessly connect with your existing ecosystem of tools and systems without disrupting current workflows or requiring extensive training.</p>
+                                <h5 class="gradient-text">Enterprise Scalability</h5>
+                                <p class="text-white-50">Built for enterprise operations with distributed architecture, ensuring consistent performance as your automation needs grow.</p>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
                                 <h5 class="gradient-text">24/7 Global Support</h5>
-                                <p class="text-white-50">With operations across multiple time zones—from Florida to UAE, India to Singapore—we provide round-the-clock support and seamless service delivery.</p>
+                                <p class="text-white-50">With operations across multiple time zones, we provide continuous support and reliable service delivery.</p>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
                                 <h5 class="gradient-text">Cultural Intelligence</h5>
-                                <p class="text-white-50">Our global presence enables deep understanding of regional business practices, ensuring AI solutions that respect local cultures while delivering universal efficiency.</p>
+                                <p class="text-white-50">Our global presence enables understanding of regional business practices, ensuring AI solutions that respect local cultures while delivering efficiency.</p>
                             </div>
                         </div>
                     </div>
                     
                     <div class="mt-5 p-4" data-animate="slide-in-up" style="background: linear-gradient(135deg, rgba(234, 168, 67, 0.1) 0%, rgba(249, 41, 213, 0.1) 50%, rgba(9, 238, 253, 0.1) 100%); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);">
-                        <h3 class="gradient-text mb-4">🌍 Global Operations & Presence</h3>
+                        <h3 class="gradient-text mb-4">🚀 Global Technology Infrastructure</h3>
                         <div class="row">
                             <div class="col-md-6 mb-3" data-animate="fade-in">
                                 <div class="d-flex align-items-start">
                                     <span class="me-3 fs-4">🇺🇸</span>
                                     <div>
-                                        <h5 class="text-white mb-1">United States (Headquarters)</h5>
-                                        <p class="text-white-50 small mb-0">St. Petersburg, Florida - Innovation & Strategic Leadership</p>
+                                        <h5 class="text-white mb-1">US Innovation Hub</h5>
+                                        <p class="text-white-50 small mb-0">Advanced AI Research & Development Center</p>
                                     </div>
                                 </div>
                             </div>
@@ -129,8 +129,8 @@ require_once 'config.php';
                                 <div class="d-flex align-items-start">
                                     <span class="me-3 fs-4">🇦🇪</span>
                                     <div>
-                                        <h5 class="text-white mb-1">Middle East Operations</h5>
-                                        <p class="text-white-50 small mb-0">United Arab Emirates - Regional Hub for Middle East Markets</p>
+                                        <h5 class="text-white mb-1">Middle East Technology Center</h5>
+                                        <p class="text-white-50 small mb-0">Enterprise Solutions & Regional AI Support</p>
                                     </div>
                                 </div>
                             </div>
@@ -138,8 +138,8 @@ require_once 'config.php';
                                 <div class="d-flex align-items-start">
                                     <span class="me-3 fs-4">🇮🇳</span>
                                     <div>
-                                        <h5 class="text-white mb-1">India Technology Center</h5>
-                                        <p class="text-white-50 small mb-0">AI Development & South Asian Market Operations</p>
+                                        <h5 class="text-white mb-1">AI Development Lab</h5>
+                                        <p class="text-white-50 small mb-0">Machine Learning Engineering & Automation R&D</p>
                                     </div>
                                 </div>
                             </div>
@@ -147,15 +147,15 @@ require_once 'config.php';
                                 <div class="d-flex align-items-start">
                                     <span class="me-3 fs-4">🇸🇬</span>
                                     <div>
-                                        <h5 class="text-white mb-1">Southeast Asia Gateway</h5>
-                                        <p class="text-white-50 small mb-0">Singapore - Strategic Hub for ASEAN Markets</p>
+                                        <h5 class="text-white mb-1">ASEAN Technology Gateway</h5>
+                                        <p class="text-white-50 small mb-0">Regional AI Infrastructure & Support Hub</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="mt-3 p-3" style="background: rgba(255, 255, 255, 0.03); border-radius: 8px;">
                             <p class="text-white-50 mb-0 small">
-                                <strong>Why Global Operations?</strong> Our strategic international presence combines startup agility with global expertise, ensuring 24/7 support, cultural understanding, and localized AI solutions that respect regional business practices. This global approach, powered by our team's decades of IT and AI experience, enables us to tackle complex automation challenges that require both technical innovation and cultural intelligence.
+                                <strong>Distributed AI Infrastructure:</strong> Our global technology centers provide 24/7 AI development, system monitoring, and localized support. This approach ensures maximum uptime, faster response times, and regionally-aware solutions while maintaining high standards of security and performance.
                             </p>
                         </div>
                     </div>
@@ -163,10 +163,10 @@ require_once 'config.php';
                     <div class="mt-5 p-4" data-animate="slide-in-up" style="background: rgba(255, 255, 255, 0.05); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);">
                         <h3 class="gradient-text mb-3">Our Vision for the Future</h3>
                         <p class="text-white-50 mb-3" data-animate="fade-in">
-                            We envision a world where complex business processes are no longer barriers to growth but catalysts for innovation. Through our unique AI automation approach, backed by decades of global IT and AI experience, we're building solutions that tackle challenges others can't solve—enabling businesses to focus on what truly matters: creativity, strategy, and sustainable growth.
+                            We envision artificial intelligence that enhances how businesses operate and grow. Through our Generative Intelligent Automation technology and decades of global IT and AI expertise, we deliver solutions that handle complex automation challenges—enabling businesses to focus on innovation and strategic growth.
                         </p>
                         <p class="text-white-50" data-animate="fade-in">
-                            As we continue to evolve from our St. Petersburg startup roots and expand across our global hubs in UAE, India, and Singapore, we remain committed to our core mission: delivering intelligent automation solutions that don't just follow processes, but understand, adapt, and optimize the most complex business workflows for sustainable competitive advantage.
+                            As we advance AI automation technology, we remain committed to delivering intelligent solutions that understand, learn, and optimize complex business workflows. Our goal is to create AI that works alongside humans, enhancing productivity while maintaining complete privacy, security, and control over business-critical data.
                         </p>
                     </div>
                 </div>

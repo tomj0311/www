@@ -244,7 +244,7 @@ require_once 'config.php';
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="industry-card p-4 text-center">
                         <div class="industry-icon mb-3">
-                            <span style="font-size: 3rem;">�</span>
+                            <span style="font-size: 3rem;">💰</span>
                         </div>
                         <h5 class="text-white mb-3">Finance & Insurance</h5>
                         <p class="text-white-50">Risk assessment, fraud detection, compliance automation, and intelligent underwriting processes.</p>
@@ -259,7 +259,7 @@ require_once 'config.php';
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="industry-card p-4 text-center">
                         <div class="industry-icon mb-3">
-                            <span style="font-size: 3rem;">�</span>
+                            <span style="font-size: 3rem;">🏥</span>
                         </div>
                         <h5 class="text-white mb-3">Healthcare</h5>
                         <p class="text-white-50">Patient management, clinical documentation, administrative tasks, and personalized care coordination.</p>
@@ -274,7 +274,7 @@ require_once 'config.php';
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="industry-card p-4 text-center">
                         <div class="industry-icon mb-3">
-                            <span style="font-size: 3rem;">�</span>
+                            <span style="font-size: 3rem;">🏭</span>
                         </div>
                         <h5 class="text-white mb-3">Manufacturing & Energy</h5>
                         <p class="text-white-50">Predictive maintenance, quality control, supply chain optimization, and equipment lifecycle management.</p>
