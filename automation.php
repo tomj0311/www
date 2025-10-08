@@ -41,9 +41,9 @@ require_once 'config.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="gradient-text mb-4">About GIA</h2>
+                    <h2 class="gradient-text mb-4">About GIA Platform</h2>
                     <p class="lead text-white-50 mb-5">
-                        GIA is an innovative platform specializing in generative intelligent automation, designed to streamline complex processes using advanced AI. Our approach empowers businesses with AI agents that integrate seamlessly into enterprise environments, drawing on cutting-edge generative models to automate, reason, and optimize operations globally.
+                        GIA (Generative Intelligent Automation) is a revolutionary Python-based platform that dynamically generates executable BPMN 2.0 workflows at runtime. Unlike traditional automation systems that rely on static, pre-defined processes, GIA creates and adapts business processes on-the-fly from natural language, APIs, IoT streams, and diverse data payloads—enabling true hyper-automation for complex, regulated industries.
                     </p>
                 </div>
             </div>
@@ -62,8 +62,8 @@ require_once 'config.php';
                                 </defs>
                             </svg>
                         </div>
-                        <h5 class="gradient-text">Innovative Approach</h5>
-                        <p class="text-white-50">Pioneering generative AI-driven automation for regulated sectors with cutting-edge technology</p>
+                        <h5 class="gradient-text">Runtime Workflow Generation</h5>
+                        <p class="text-white-50">Dynamically creates executable BPMN workflows from heterogeneous inputs—no static templates required</p>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
@@ -79,8 +79,8 @@ require_once 'config.php';
                                 </defs>
                             </svg>
                         </div>
-                        <h5 class="gradient-text">Global Expertise</h5>
-                        <p class="text-white-50">Leveraging extensive experience in AI, IT, and industry-specific challenges worldwide</p>
+                        <h5 class="gradient-text">Decentralized Agent Discovery</h5>
+                        <p class="text-white-50">Autonomous agent self-discovery and collaboration using ML-driven capability matching</p>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
@@ -96,8 +96,8 @@ require_once 'config.php';
                                 </defs>
                             </svg>
                         </div>
-                        <h5 class="gradient-text">Transformative Solutions</h5>
-                        <p class="text-white-50">Delivering intelligent automation that enhances efficiency, compliance, and competitiveness</p>
+                        <h5 class="gradient-text">Hybrid BPA-RPA Fusion</h5>
+                        <p class="text-white-50">Seamlessly integrates Business Process Automation and Robotic Process Automation with real-time adaptation</p>
                     </div>
                 </div>
             </div>
@@ -109,82 +109,124 @@ require_once 'config.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center mb-5">
-                    <h2 class="gradient-text mb-4">The Promise of Enterprise AI Agents with GIA</h2>
+                    <h2 class="gradient-text mb-4">GIA Platform: Revolutionary Differentiators</h2>
                     <p class="lead text-white-50">
-                        2025 heralds the era of AI agents—sophisticated systems powered by GIA that revolutionize workflows through advanced capabilities.
+                        GIA introduces groundbreaking capabilities that fundamentally distinguish it from traditional automation platforms, offering unprecedented flexibility, autonomy, and intelligence.
                     </p>
                     <div class="alert alert-info bg-transparent border-info text-info mt-4">
-                        <i class="fas fa-quote-left"></i> "Gartner predicts AI agents in 33% of enterprise software by 2028, shaping 15% of strategic decisions." <i class="fas fa-quote-right"></i>
+                        <i class="fas fa-quote-left"></i> "Patent-pending technology enabling runtime BPMN generation, decentralized agent ecosystems, and adaptive BPA-RPA fusion for true hyper-automation." <i class="fas fa-quote-right"></i>
                     </div>
                 </div>
             </div>
             
             <div class="row">
                 <div class="col-lg-4 mb-4">
-                    <div class="capability-card p-4 h-100 text-center">
-                        <div class="mb-3">
-                            <i class="fas fa-brain fa-3x" style="color: #F929D5;"></i>
+                    <div class="capability-card p-4 h-100">
+                        <div class="mb-3 text-center">
+                            <i class="fas fa-project-diagram fa-3x" style="color: #F929D5;"></i>
                         </div>
-                        <h4 class="text-white mb-3">Contextual Reasoning</h4>
-                        <p class="text-white-50">
-                            Nuanced interpretation of business data and scenarios with deep understanding of context and implications.
+                        <h4 class="text-white mb-3">Dynamic Process Generation</h4>
+                        <p class="text-white-50 mb-3">
+                            Unlike static BPMN orchestrators (Camunda, UiPath), GIA generates complete executable workflows at runtime from natural language, IoT data, or API inputs—enabling emergent process synthesis.
                         </p>
+                        <ul class="text-white-50 small">
+                            <li>Real-time workflow adaptation to business changes</li>
+                            <li>No pre-defined templates required</li>
+                            <li>Processes evolve with data payloads</li>
+                            <li>Python-optimized for AI/data handling</li>
+                        </ul>
                     </div>
                 </div>
                 
                 <div class="col-lg-4 mb-4">
-                    <div class="capability-card p-4 h-100 text-center">
-                        <div class="mb-3">
-                            <i class="fas fa-chess fa-3x" style="color: #09EEFD;"></i>
+                    <div class="capability-card p-4 h-100">
+                        <div class="mb-3 text-center">
+                            <i class="fas fa-network-wired fa-3x" style="color: #09EEFD;"></i>
                         </div>
-                        <h4 class="text-white mb-3">Strategic Planning</h4>
-                        <p class="text-white-50">
-                            Multi-step process mapping with contingencies and adaptive planning for complex business scenarios.
+                        <h4 class="text-white mb-3">Autonomous Agent Ecosystem</h4>
+                        <p class="text-white-50 mb-3">
+                            Agents autonomously discover and recruit peers using Python ML (scikit-learn clustering) or distributed protocols—eliminating centralized coordination bottlenecks.
                         </p>
+                        <ul class="text-white-50 small">
+                            <li>Decentralized capability matching</li>
+                            <li>Self-organizing agent networks</li>
+                            <li>Scalable without central database</li>
+                            <li>Emergent task delegation</li>
+                        </ul>
                     </div>
                 </div>
                 
                 <div class="col-lg-4 mb-4">
-                    <div class="capability-card p-4 h-100 text-center">
-                        <div class="mb-3">
-                            <i class="fas fa-robot fa-3x" style="color: #F929D5;"></i>
+                    <div class="capability-card p-4 h-100">
+                        <div class="mb-3 text-center">
+                            <i class="fas fa-sync-alt fa-3x" style="color: #F929D5;"></i>
                         </div>
-                        <h4 class="text-white mb-3">Autonomous Execution</h4>
-                        <p class="text-white-50">
-                            End-to-end task handling with minimal intervention while maintaining quality and compliance standards.
+                        <h4 class="text-white mb-3">Adaptive BPA-RPA Fusion</h4>
+                        <p class="text-white-50 mb-3">
+                            Seamlessly integrates Business Process Automation (orchestration) and Robotic Process Automation (task execution) where RPA outputs dynamically modify BPA flows in real-time.
                         </p>
+                        <ul class="text-white-50 small">
+                            <li>Closed-loop automation adaptation</li>
+                            <li>RPA anomalies spawn new process branches</li>
+                            <li>Beyond sequential invocation</li>
+                            <li>Real-time process restructuring</li>
+                        </ul>
                     </div>
                 </div>
             </div>
             
-            <!-- AI Evolution Timeline -->
-            <div class="row mt-5">
-                <div class="col-12">
-                    <h3 class="gradient-text text-center mb-4">AI Evolution Timeline (2023-2025)</h3>
-                    <div class="timeline">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="timeline-item p-4 text-center">
-                                    <div class="timeline-year gradient-text h4">2023</div>
-                                    <h5 class="text-white">GenAI Emergence</h5>
-                                    <p class="text-white-50 small">Initial experiments with generative AI; limited proof-of-concepts; focus on text generation and basic tasks.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="timeline-item p-4 text-center">
-                                    <div class="timeline-year gradient-text h4">2024</div>
-                                    <h5 class="text-white">Scaled Deployment</h5>
-                                    <p class="text-white-50 small">Task-specific integrations; broader adoption with ROI tracking; governance frameworks established.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="timeline-item p-4 text-center">
-                                    <div class="timeline-year gradient-text h4">2025</div>
-                                    <h5 class="text-white">Autonomous AI Agents</h5>
-                                    <p class="text-white-50 small">Enterprise-wide use for complex processes; multi-step reasoning; secure system integrations via GIA.</p>
-                                </div>
-                            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4 mb-4">
+                    <div class="capability-card p-4 h-100">
+                        <div class="mb-3 text-center">
+                            <i class="fas fa-shield-alt fa-3x" style="color: #09EEFD;"></i>
                         </div>
+                        <h4 class="text-white mb-3">Multi-LLM Security</h4>
+                        <p class="text-white-50 mb-3">
+                            Supports multiple language models including open-source and small models for optimal security, performance, and cost—reducing dependency on proprietary APIs.
+                        </p>
+                        <ul class="text-white-50 small">
+                            <li>No vendor lock-in</li>
+                            <li>Open-source model support</li>
+                            <li>Secure on-premise LLM deployment</li>
+                            <li>Optimized cost/performance per task</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="capability-card p-4 h-100">
+                        <div class="mb-3 text-center">
+                            <i class="fas fa-server fa-3x" style="color: #F929D5;"></i>
+                        </div>
+                        <h4 class="text-white mb-3">Deploy-Anywhere Architecture</h4>
+                        <p class="text-white-50 mb-3">
+                            On-premise, cloud, or hybrid hosting ensures data sovereignty and compliance flexibility (GDPR, HIPAA)—critical for regulated industries.
+                        </p>
+                        <ul class="text-white-50 small">
+                            <li>Complete data sovereignty control</li>
+                            <li>Air-gapped deployment options</li>
+                            <li>Hybrid cloud-on-prem setups</li>
+                            <li>Regulatory compliance by design</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="capability-card p-4 h-100">
+                        <div class="mb-3 text-center">
+                            <i class="fas fa-heartbeat fa-3x" style="color: #09EEFD;"></i>
+                        </div>
+                        <h4 class="text-white mb-3">Proactive Self-Healing</h4>
+                        <p class="text-white-50 mb-3">
+                            Uses Python AI stack (TensorFlow, PyTorch) for predictive failure detection and autonomous resolution via agent collaboration—minimizing human intervention.
+                        </p>
+                        <ul class="text-white-50 small">
+                            <li>Predictive anomaly detection</li>
+                            <li>Autonomous failure resolution</li>
+                            <li>Collaborative agent repair</li>
+                            <li>Zero-downtime operations</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -196,31 +238,55 @@ require_once 'config.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-                    <h2 class="gradient-text text-center mb-5">AI Agents vs. Traditional Automation</h2>
+                    <h2 class="gradient-text text-center mb-5">GIA vs. Traditional Automation Platforms</h2>
                     <div class="comparison-table">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="comparison-card traditional p-4">
-                                    <h4 class="text-white mb-3">Traditional Tools (RPA)</h4>
-                                    <ul class="text-white-50">
-                                        <li>❌ Rigid, rule-based; breaks easily</li>
-                                        <li>❌ Limited to predefined tasks</li>
-                                        <li>❌ No adaptation without code</li>
-                                        <li>❌ Lacks reasoning</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="comparison-card modern p-4">
-                                    <h4 class="gradient-text mb-3">GIA-Powered AI Agents</h4>
-                                    <ul class="text-white">
-                                        <li>✅ Iterative reasoning for abstract goals</li>
-                                        <li>✅ Adapts to changes dynamically</li>
-                                        <li>✅ Maintains context in multi-step processes</li>
-                                        <li>✅ Executes end-to-end with minimal guidance</li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div class="table-responsive">
+                            <table class="table table-dark table-bordered">
+                                <thead>
+                                    <tr class="gradient-text">
+                                        <th>Feature</th>
+                                        <th>Traditional Platforms</th>
+                                        <th>GIA Platform</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Process Generation</strong></td>
+                                        <td class="text-white-50">Static BPMN templates; predefined workflows; manual redesign required</td>
+                                        <td class="text-success">Runtime BPMN generation from diverse inputs; emergent process synthesis</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Agent Management</strong></td>
+                                        <td class="text-white-50">Centralized database lookup; conductor-mediated assignment</td>
+                                        <td class="text-success">Decentralized self-discovery; autonomous peer recruitment via ML</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>BPA-RPA Integration</strong></td>
+                                        <td class="text-white-50">Sequential invocation; suspension-based chaining</td>
+                                        <td class="text-success">Real-time fusion; RPA outputs adapt BPA flows dynamically</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Self-Healing</strong></td>
+                                        <td class="text-white-50">Reactive log-based diagnosis; manual intervention</td>
+                                        <td class="text-success">Proactive AI-based prediction; autonomous agent collaboration</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>LLM Support</strong></td>
+                                        <td class="text-white-50">Single proprietary model; vendor lock-in</td>
+                                        <td class="text-success">Multi-LLM (open-source, small models); optimized security/cost</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Deployment Options</strong></td>
+                                        <td class="text-white-50">Cloud-centric; limited on-premise flexibility</td>
+                                        <td class="text-success">Deploy-anywhere: on-prem, cloud, hybrid; data sovereignty</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Data Payload Handling</strong></td>
+                                        <td class="text-white-50">Structured inputs only; ETL-focused</td>
+                                        <td class="text-success">Heterogeneous payloads (IoT, JSON, streams); real-time parsing</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -233,181 +299,120 @@ require_once 'config.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center mb-5">
-                    <h2 class="gradient-text mb-4">AI Agents in Regulated and Complex Industries</h2>
+                    <h2 class="gradient-text mb-4">Industry Applications: GIA in Action</h2>
                     <p class="lead text-white-50">
-                        Sectors primed for transformation through GIA's enterprise AI agents, designed specifically for regulated environments.
+                        GIA's unique capabilities enable transformative automation across regulated and complex industries where traditional platforms fail.
                     </p>
                 </div>
             </div>
             
             <div class="row">
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="industry-card p-4 text-center">
-                        <div class="industry-icon mb-3">
-                            <span style="font-size: 3rem;">💰</span>
+                    <div class="industry-card p-4">
+                        <div class="industry-icon mb-3 text-center">
+                            <i class="fas fa-industry fa-3x" style="color: #F929D5;"></i>
                         </div>
-                        <h5 class="text-white mb-3">Finance & Insurance</h5>
-                        <p class="text-white-50">Risk assessment, fraud detection, compliance automation, and intelligent underwriting processes.</p>
+                        <h5 class="text-white mb-3">Predictive Maintenance (Manufacturing)</h5>
+                        <p class="text-white-50 mb-3">Real-time BPMN workflow generation for vibration analysis, FFT processing, and root cause analysis of rotatory equipment.</p>
                         <div class="mt-3">
-                            <small class="text-info">✓ Real-time anomaly detection</small><br>
-                            <small class="text-info">✓ Contextual fraud analysis</small><br>
-                            <small class="text-info">✓ Comprehensive underwriting</small>
+                            <small class="text-info d-block mb-1"><strong>28%</strong> reduction in unplanned downtime</small>
+                            <small class="text-info d-block mb-1"><strong>17%</strong> decrease in maintenance costs</small>
+                            <small class="text-info d-block mb-1"><strong>22%</strong> improvement in equipment lifespan</small>
+                        </div>
+                        <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Dynamic workflow adaptation based on sensor data payloads; autonomous agent discovery for specialist analysis tasks</small>
                         </div>
                     </div>
                 </div>
                 
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="industry-card p-4 text-center">
-                        <div class="industry-icon mb-3">
-                            <span style="font-size: 3rem;">🏥</span>
+                    <div class="industry-card p-4">
+                        <div class="industry-icon mb-3 text-center">
+                            <i class="fas fa-heartbeat fa-3x" style="color: #09EEFD;"></i>
                         </div>
-                        <h5 class="text-white mb-3">Healthcare</h5>
-                        <p class="text-white-50">Patient management, clinical documentation, administrative tasks, and personalized care coordination.</p>
+                        <h5 class="text-white mb-3">Healthcare Lab Automation</h5>
+                        <p class="text-white-50 mb-3">Automated lab testing workflows with anomaly detection from scanned medical images, compliance tracking, and real-time reporting.</p>
                         <div class="mt-3">
-                            <small class="text-info">✓ Personalized patient communication</small><br>
-                            <small class="text-info">✓ Real-time clinical documentation</small><br>
-                            <small class="text-info">✓ Accurate billing with compliance</small>
+                            <small class="text-info d-block mb-1"><strong>40%</strong> faster anomaly detection</small>
+                            <small class="text-info d-block mb-1"><strong>99.7%</strong> compliance adherence</small>
+                            <small class="text-info d-block mb-1"><strong>35%</strong> reduction in manual review time</small>
+                        </div>
+                        <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> On-premise deployment for HIPAA compliance; multi-LLM for secure medical data interpretation</small>
                         </div>
                     </div>
                 </div>
                 
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="industry-card p-4 text-center">
-                        <div class="industry-icon mb-3">
-                            <span style="font-size: 3rem;">🏭</span>
+                    <div class="industry-card p-4">
+                        <div class="industry-icon mb-3 text-center">
+                            <i class="fas fa-boxes fa-3x" style="color: #F929D5;"></i>
                         </div>
-                        <h5 class="text-white mb-3">Manufacturing & Energy</h5>
-                        <p class="text-white-50">Predictive maintenance, quality control, supply chain optimization, and equipment lifecycle management.</p>
+                        <h5 class="text-white mb-3">Supply Chain Optimization</h5>
+                        <p class="text-white-50 mb-3">Dynamic vendor sync processes, automated order processing, and real-time inventory management based on predictive analytics.</p>
                         <div class="mt-3">
-                            <small class="text-info">✓ 28% reduction in unplanned downtime</small><br>
-                            <small class="text-info">✓ 17% decrease in maintenance costs</small><br>
-                            <small class="text-info">✓ 22% improvement in equipment lifespan</small>
+                            <small class="text-info d-block mb-1"><strong>45%</strong> improvement in order fulfillment</small>
+                            <small class="text-info d-block mb-1"><strong>32%</strong> reduction in inventory costs</small>
+                            <small class="text-info d-block mb-1"><strong>52%</strong> faster vendor response time</small>
+                        </div>
+                        <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Runtime process generation from IoT and API feeds; adaptive BPA-RPA for purchase automation</small>
                         </div>
                     </div>
                 </div>
                 
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="industry-card p-4 text-center">
-                        <div class="industry-icon mb-3">
-                            <span style="font-size: 3rem;">🏛️</span>
+                    <div class="industry-card p-4">
+                        <div class="industry-icon mb-3 text-center">
+                            <i class="fas fa-university fa-3x" style="color: #09EEFD;"></i>
                         </div>
-                        <h5 class="text-white mb-3">Government</h5>
-                        <p class="text-white-50">Document processing, citizen services, regulatory oversight, and multilingual support systems.</p>
+                        <h5 class="text-white mb-3">Financial Compliance</h5>
+                        <p class="text-white-50 mb-3">Automated regulatory reporting with real-time fraud detection, risk assessment, and dynamic compliance workflow generation.</p>
                         <div class="mt-3">
-                            <small class="text-info">✓ Intelligent document extraction</small><br>
-                            <small class="text-info">✓ 24/7 multilingual support</small><br>
-                            <small class="text-info">✓ Regulatory guidance automation</small>
+                            <small class="text-info d-block mb-1"><strong>35%</strong> improved risk detection accuracy</small>
+                            <small class="text-info d-block mb-1"><strong>60%</strong> reduction in compliance processing time</small>
+                            <small class="text-info d-block mb-1"><strong>Zero</strong> regulatory penalties post-deployment</small>
+                        </div>
+                        <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Proactive self-healing for regulatory changes; deploy-anywhere for data sovereignty requirements</small>
                         </div>
                     </div>
                 </div>
                 
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="industry-card p-4 text-center">
-                        <div class="industry-icon mb-3">
-                            <span style="font-size: 3rem;">✈️</span>
+                    <div class="industry-card p-4">
+                        <div class="industry-icon mb-3 text-center">
+                            <i class="fas fa-atom fa-3x" style="color: #F929D5;"></i>
                         </div>
-                        <h5 class="text-white mb-3">Travel & Hospitality</h5>
-                        <p class="text-white-50">Disruption management, personalization, automated bookings, and guest experience optimization.</p>
+                        <h5 class="text-white mb-3">Energy & Utilities</h5>
+                        <p class="text-white-50 mb-3">Grid optimization through predictive analytics, equipment monitoring, and automated incident response workflows.</p>
                         <div class="mt-3">
-                            <small class="text-info">✓ 72% reduction in manual interventions</small><br>
-                            <small class="text-info">✓ 38% increase in satisfaction</small><br>
-                            <small class="text-info">✓ Hyper-personalized experiences</small>
+                            <small class="text-info d-block mb-1"><strong>38%</strong> reduction in grid downtime</small>
+                            <small class="text-info d-block mb-1"><strong>42%</strong> faster incident resolution</small>
+                            <small class="text-info d-block mb-1"><strong>25%</strong> improvement in energy distribution</small>
+                        </div>
+                        <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Real-time IoT payload processing; decentralized agent discovery for distributed grid management</small>
                         </div>
                     </div>
                 </div>
                 
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="industry-card p-4 text-center">
-                        <div class="industry-icon mb-3">
-                            <span style="font-size: 3rem;">🏢</span>
+                    <div class="industry-card p-4">
+                        <div class="industry-icon mb-3 text-center">
+                            <i class="fas fa-building fa-3x" style="color: #09EEFD;"></i>
                         </div>
-                        <h5 class="text-white mb-3">Enterprise</h5>
-                        <p class="text-white-50">Cross-departmental integration, intelligent document processing, and workflow automation at scale.</p>
+                        <h5 class="text-white mb-3">Enterprise Document Processing</h5>
+                        <p class="text-white-50 mb-3">Intelligent document extraction, classification, and workflow routing across 300+ system integrations.</p>
                         <div class="mt-3">
-                            <small class="text-info">✓ 35% improved risk detection</small><br>
-                            <small class="text-info">✓ 42% faster decisions</small><br>
-                            <small class="text-info">✓ Enhanced compliance</small>
+                            <small class="text-info d-block mb-1"><strong>72%</strong> reduction in manual processing</small>
+                            <small class="text-info d-block mb-1"><strong>95%</strong> extraction accuracy</small>
+                            <small class="text-info d-block mb-1"><strong>50%</strong> faster decision cycles</small>
+                        </div>
+                        <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Multi-LLM for document understanding; seamless integration with Google, Microsoft, Zapier, UiPath, Camunda</small>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Case Study & ROI Section -->
-    <section class="py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h2 class="gradient-text mb-4">Case Study: Hotel Chain Personalization Engine</h2>
-                    <p class="text-white-50 mb-4">
-                        <strong>Challenge:</strong> Scaling personalized experiences across 43 properties.<br>
-                        <strong>GIA Solution:</strong> Guest profiles, AI concierge, room customization, staff insights.
-                    </p>
-                    
-                    <div class="row">
-                        <div class="col-6 mb-3">
-                            <div class="stat-box text-center p-3">
-                                <h3 class="gradient-text mb-2">+45%</h3>
-                                <p class="text-white-50 small">Guest Satisfaction</p>
-                            </div>
-                        </div>
-                        <div class="col-6 mb-3">
-                            <div class="stat-box text-center p-3">
-                                <h3 class="gradient-text mb-2">+30%</h3>
-                                <p class="text-white-50 small">Revenue Per Stay</p>
-                            </div>
-                        </div>
-                        <div class="col-6 mb-3">
-                            <div class="stat-box text-center p-3">
-                                <h3 class="gradient-text mb-2">+25%</h3>
-                                <p class="text-white-50 small">Return Bookings</p>
-                            </div>
-                        </div>
-                        <div class="col-6 mb-3">
-                            <div class="stat-box text-center p-3">
-                                <h3 class="gradient-text mb-2">+40%</h3>
-                                <p class="text-white-50 small">Staff Efficiency</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="alert alert-success bg-transparent border-success text-success mt-3">
-                        <strong>ROI: 340% in 18 months</strong> across all properties
-                    </div>
-                </div>
-                
-                <div class="col-lg-6">
-                    <h3 class="gradient-text mb-4">Measuring ROI with GIA</h3>
-                    <div class="metrics-grid">
-                        <div class="metric-item p-3 mb-3" style="background: rgba(255,255,255,0.1); border-radius: 8px;">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="text-white">Efficiency Gains</span>
-                                <span class="gradient-text h5 mb-0">42%</span>
-                            </div>
-                        </div>
-                        <div class="metric-item p-3 mb-3" style="background: rgba(255,255,255,0.1); border-radius: 8px;">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="text-white">Error Reduction</span>
-                                <span class="gradient-text h5 mb-0">65%</span>
-                            </div>
-                        </div>
-                        <div class="metric-item p-3 mb-3" style="background: rgba(255,255,255,0.1); border-radius: 8px;">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="text-white">Cost Savings</span>
-                                <span class="gradient-text h5 mb-0">38%</span>
-                            </div>
-                        </div>
-                        <div class="metric-item p-3 mb-3" style="background: rgba(255,255,255,0.1); border-radius: 8px;">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="text-white">Revenue Impact</span>
-                                <span class="gradient-text h5 mb-0">22%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <p class="text-white-50 mt-3">
-                        <small><strong>Qualitative Benefits:</strong> Enhanced employee satisfaction, improved customer experience, increased organizational agility.</small>
-                    </p>
                 </div>
             </div>
         </div>
@@ -516,7 +521,7 @@ require_once 'config.php';
     <section class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 mb-5">
+                <div class="col-lg-8 mx-auto mb-5">
                     <h3 class="gradient-text mb-4">Best Practices</h3>
                     <div class="practice-list">
                         <div class="practice-item p-3 mb-3" style="background: rgba(255,255,255,0.05); border-radius: 8px;">
@@ -534,39 +539,6 @@ require_once 'config.php';
                         <div class="practice-item p-3 mb-3" style="background: rgba(255,255,255,0.05); border-radius: 8px;">
                             <h6 class="text-white">✓ Scale with Testing</h6>
                             <p class="text-white-50 small mb-0">Gradual expansion with thorough validation at each phase</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-6 mb-5">
-                    <h3 class="gradient-text mb-4">Future Trends: 2025-2027</h3>
-                    <div class="timeline-future">
-                        <div class="trend-item p-3 mb-3" style="background: rgba(255,255,255,0.05); border-radius: 8px;">
-                            <div class="d-flex align-items-center">
-                                <span class="badge bg-info me-3">H2 2025</span>
-                                <div>
-                                    <h6 class="text-white mb-1">Agent Collaboration</h6>
-                                    <p class="text-white-50 small mb-0">Multi-agent systems working together</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trend-item p-3 mb-3" style="background: rgba(255,255,255,0.05); border-radius: 8px;">
-                            <div class="d-flex align-items-center">
-                                <span class="badge bg-success me-3">2026</span>
-                                <div>
-                                    <h6 class="text-white mb-1">Multimodal Integration</h6>
-                                    <p class="text-white-50 small mb-0">Vision, audio, and text processing combined</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trend-item p-3 mb-3" style="background: rgba(255,255,255,0.05); border-radius: 8px;">
-                            <div class="d-flex align-items-center">
-                                <span class="badge bg-warning me-3">2027</span>
-                                <div>
-                                    <h6 class="text-white mb-1">Autonomous Self-Improvement</h6>
-                                    <p class="text-white-50 small mb-0">AI agents that enhance their own capabilities</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -22,7 +22,7 @@ require_once 'config.php';
             <div class="row align-items-center">
                 <div class="col-lg-6" data-animate="fade-in">
                     <h1 class="gradient-text">About Hub8</h1>
-                    <p class="description">Hub8 delivers advanced business automation through our Generative Intelligent Automation (GIA) technology. Our AI-powered platform learns and adapts to optimize complex business processes. With decades of global IT and AI experience, we provide intelligent automation solutions that enhance business operations and drive competitive advantage.</p>
+                    <p class="description">Hub8 delivers revolutionary business automation through our Generative Intelligent Automation (GIA) platform—a patent-pending Python-based system that dynamically generates executable BPMN 2.0 workflows at runtime. Unlike traditional automation tools that rely on static templates, GIA creates, adapts, and optimizes complex business processes on-the-fly using multi-agent AI systems, enabling true hyper-automation for regulated industries worldwide.</p>
                     <a href="contact.php" class="btn-gradient-border">Get Started</a>
                 </div>
                 <div class="col-lg-6" data-animate="slide-in-right">
@@ -38,15 +38,18 @@ require_once 'config.php';
                 <div class="col-lg-8 mx-auto">
                     <h2 class="gradient-text mb-4" data-animate="fade-in">Our Story</h2>
                     <p class="lead text-white-50 mb-4" data-animate="slide-in-up">
-                        Hub8 was founded to address a critical gap in business automation. Traditional tools struggle with complex processes that require intelligent decision-making. Our team combines decades of global IT and AI expertise to create solutions that go beyond simple rule-based automation.
+                        Hub8 was born from a simple observation: businesses were drowning in repetitive tasks while their most valuable asset—their people—spent countless hours on work that didn't require human creativity or judgment.
+                    </p>
+                    <p class="text-white-50 mb-4" data-animate="slide-in-up">
+                        We saw companies struggling with traditional automation tools that broke at the slightest change, required armies of programmers to maintain, and couldn't handle anything beyond the most basic tasks. That's when we knew there had to be a better way.
                     </p>
                     <p class="text-white-50 mb-5" data-animate="slide-in-up">
-                        Our Generative Intelligent Automation platform learns from business workflows and continuously improves performance. With global operations ensuring comprehensive support, we deliver AI-powered automation that maintains high standards of data privacy and security while adapting to diverse business requirements.
+                        Drawing on decades of combined experience in AI and enterprise technology across continents, our founding team built Hub8 to be different. We created GIA—our Generative Intelligent Automation platform—to think, learn, and adapt like a skilled team member, not just follow rigid rules. Today, we help organizations worldwide transform their operations, freeing their people to focus on what truly matters: innovation, strategy, and growth.
                     </p>
                     
                     <h3 class="text-white mb-4" data-animate="fade-in">Our Mission</h3>
                     <p class="lead text-white-50 mb-5" data-animate="slide-in-up">
-                        To advance business automation through intelligent technology that handles complex processes. We leverage our team's global IT and AI expertise to deliver solutions that improve efficiency, reduce costs, and provide competitive advantages through advanced workflow optimization.
+                        To empower businesses with intelligent automation that works the way people think—adapting, learning, and improving over time. We believe technology should enhance human capabilities, not replace them. By automating the mundane, we help organizations unlock their full potential and create more meaningful work for their teams.
                     </p>
                     
                     <h3 class="text-white mb-3" data-animate="fade-in">What Makes Hub8 Different</h3>
