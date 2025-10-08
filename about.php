@@ -117,11 +117,16 @@ require_once 'config.php';
                     </div>
                     
                     <div class="mt-5 p-4" data-animate="slide-in-up" style="background: linear-gradient(135deg, rgba(234, 168, 67, 0.1) 0%, rgba(249, 41, 213, 0.1) 50%, rgba(9, 238, 253, 0.1) 100%); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);">
-                        <h3 class="gradient-text mb-4">🚀 Global Technology Infrastructure</h3>
+                        <div class="d-flex align-items-center mb-4">
+                            <i class="fas fa-globe-americas me-3" style="font-size: 2rem; color: #09EEFD;"></i>
+                            <h3 class="gradient-text mb-0">Global Technology Infrastructure</h3>
+                        </div>
                         <div class="row">
                             <div class="col-md-6 mb-3" data-animate="fade-in">
                                 <div class="d-flex align-items-start">
-                                    <span class="me-3 fs-4">��</span>
+                                    <div class="me-3" style="min-width: 40px; text-align: center;">
+                                        <i class="fas fa-flag" style="font-size: 1.5rem; color: #FF9933;"></i>
+                                    </div>
                                     <div>
                                         <h5 class="text-white mb-1">AI Development Lab</h5>
                                         <p class="text-white-50 small mb-0">Machine Learning Engineering & Automation R&D</p>
@@ -130,7 +135,9 @@ require_once 'config.php';
                             </div>
                             <div class="col-md-6 mb-3" data-animate="fade-in">
                                 <div class="d-flex align-items-start">
-                                    <span class="me-3 fs-4">��</span>
+                                    <div class="me-3" style="min-width: 40px; text-align: center;">
+                                        <i class="fas fa-flag-usa" style="font-size: 1.5rem; color: #B22234;"></i>
+                                    </div>
                                     <div>
                                         <h5 class="text-white mb-1">US Innovation Hub</h5>
                                         <p class="text-white-50 small mb-0">Advanced AI Research & Development Center</p>
@@ -139,7 +146,9 @@ require_once 'config.php';
                             </div>
                             <div class="col-md-6 mb-3" data-animate="fade-in">
                                 <div class="d-flex align-items-start">
-                                    <span class="me-3 fs-4">��</span>
+                                    <div class="me-3" style="min-width: 40px; text-align: center;">
+                                        <i class="fas fa-flag" style="font-size: 1.5rem; color: #00843D;"></i>
+                                    </div>
                                     <div>
                                         <h5 class="text-white mb-1">Middle East Technology Center</h5>
                                         <p class="text-white-50 small mb-0">Enterprise Solutions & Regional AI Support</p>
@@ -148,7 +157,9 @@ require_once 'config.php';
                             </div>
                             <div class="col-md-6 mb-3" data-animate="fade-in">
                                 <div class="d-flex align-items-start">
-                                    <span class="me-3 fs-4">🇸🇬</span>
+                                    <div class="me-3" style="min-width: 40px; text-align: center;">
+                                        <i class="fas fa-flag" style="font-size: 1.5rem; color: #EF3340;"></i>
+                                    </div>
                                     <div>
                                         <h5 class="text-white mb-1">ASEAN Technology Gateway</h5>
                                         <p class="text-white-50 small mb-0">Regional AI Infrastructure & Support Hub</p>

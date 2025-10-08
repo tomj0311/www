@@ -43,7 +43,7 @@ require_once 'config.php';
                 <div class="col-lg-8 mx-auto text-center">
                     <h2 class="gradient-text mb-4">About GIA Platform</h2>
                     <p class="lead text-white-50 mb-5">
-                        GIA (Generative Intelligent Automation) is a revolutionary Python-based platform that dynamically generates executable BPMN 2.0 workflows at runtime. Unlike traditional automation systems that rely on static, pre-defined processes, GIA creates and adapts business processes on-the-fly from natural language, APIs, IoT streams, and diverse data payloads—enabling true hyper-automation for complex, regulated industries.
+                        GIA (Generative Intelligent Automation) is a revolutionary Python-based platform that transforms natural language into executable BPMN 2.0 workflows at runtime. By understanding business intent, GIA automatically generates the necessary scripts, forms, and integrations—creating complete, compliance-ready processes on-the-fly. Whether leveraging pre-built connectors or synthesizing custom code, GIA delivers true hyper-automation for any vertical in highly regulated environments.
                     </p>
                 </div>
             </div>
@@ -62,8 +62,8 @@ require_once 'config.php';
                                 </defs>
                             </svg>
                         </div>
-                        <h5 class="gradient-text">Runtime Workflow Generation</h5>
-                        <p class="text-white-50">Dynamically creates executable BPMN workflows from heterogeneous inputs—no static templates required</p>
+                        <h5 class="gradient-text">Natural Language to Code</h5>
+                        <p class="text-white-50">Transforms business descriptions into BPMN 2.0-compliant workflows with auto-generated scripts, forms, and integrations—from intent to execution</p>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
@@ -111,34 +111,34 @@ require_once 'config.php';
                 <div class="col-lg-8 mx-auto text-center mb-5">
                     <h2 class="gradient-text mb-4">GIA Platform: Revolutionary Differentiators</h2>
                     <p class="lead text-white-50">
-                        GIA introduces groundbreaking capabilities that fundamentally distinguish it from traditional automation platforms, offering unprecedented flexibility, autonomy, and intelligence.
+                        GIA introduces groundbreaking capabilities that fundamentally distinguish it from traditional automation platforms. By converting natural language into production-ready workflows with auto-generated code and forms, GIA delivers unprecedented flexibility, autonomy, and intelligence—all while maintaining rigid BPMN 2.0 compliance for highly regulated environments.
                     </p>
                     <div class="alert alert-info bg-transparent border-info text-info mt-4">
-                        <i class="fas fa-quote-left"></i> "Patent-pending technology enabling runtime BPMN generation, decentralized agent ecosystems, and adaptive BPA-RPA fusion for true hyper-automation." <i class="fas fa-quote-right"></i>
+                        <i class="fas fa-quote-left"></i> "Patent-pending technology enabling natural language to BPMN code generation, intelligent connector selection, and adaptive hyper-automation across any vertical." <i class="fas fa-quote-right"></i>
                     </div>
                 </div>
             </div>
             
             <div class="row">
-                <div class="col-lg-4 mb-4">
+                <div class="col-md-6 col-lg-4 mb-4">
                     <div class="capability-card p-4 h-100">
                         <div class="mb-3 text-center">
                             <i class="fas fa-project-diagram fa-3x" style="color: #F929D5;"></i>
                         </div>
                         <h4 class="text-white mb-3">Dynamic Process Generation</h4>
                         <p class="text-white-50 mb-3">
-                            Unlike static BPMN orchestrators (Camunda, UiPath), GIA generates complete executable workflows at runtime from natural language, IoT data, or API inputs—enabling emergent process synthesis.
+                            GIA interprets natural language requirements and automatically generates BPMN 2.0-compliant workflows with full code synthesis. The platform creates execution scripts, UI forms, and integration logic in real-time—ensuring rigid compliance standards for highly secure environments while maintaining unprecedented flexibility.
                         </p>
                         <ul class="text-white-50 small">
-                            <li>Real-time workflow adaptation to business changes</li>
-                            <li>No pre-defined templates required</li>
-                            <li>Processes evolve with data payloads</li>
-                            <li>Python-optimized for AI/data handling</li>
+                            <li>Natural language to executable code generation</li>
+                            <li>Auto-generated forms and UI components</li>
+                            <li>Pre-built connectors + custom code synthesis</li>
+                            <li>BPMN 2.0 compliance by design</li>
                         </ul>
                     </div>
                 </div>
                 
-                <div class="col-lg-4 mb-4">
+                <div class="col-md-6 col-lg-4 mb-4">
                     <div class="capability-card p-4 h-100">
                         <div class="mb-3 text-center">
                             <i class="fas fa-network-wired fa-3x" style="color: #09EEFD;"></i>
@@ -156,7 +156,7 @@ require_once 'config.php';
                     </div>
                 </div>
                 
-                <div class="col-lg-4 mb-4">
+                <div class="col-md-6 col-lg-4 mb-4">
                     <div class="capability-card p-4 h-100">
                         <div class="mb-3 text-center">
                             <i class="fas fa-sync-alt fa-3x" style="color: #F929D5;"></i>
@@ -176,7 +176,25 @@ require_once 'config.php';
             </div>
             
             <div class="row mt-4">
-                <div class="col-lg-4 mb-4">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="capability-card p-4 h-100">
+                        <div class="mb-3 text-center">
+                            <i class="fas fa-code fa-3x" style="color: #F929D5;"></i>
+                        </div>
+                        <h4 class="text-white mb-3">Intelligent Code Generation</h4>
+                        <p class="text-white-50 mb-3">
+                            Generates production-ready code, forms, and connectors from business requirements. GIA intelligently selects between pre-built functions for speed or synthesizes custom code for unique needs—ensuring hyper-automation across any vertical.
+                        </p>
+                        <ul class="text-white-50 small">
+                            <li>On-the-fly form and UI generation</li>
+                            <li>Smart pre-built connector selection</li>
+                            <li>Custom script synthesis when needed</li>
+                            <li>Cross-vertical adaptability</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 mb-4">
                     <div class="capability-card p-4 h-100">
                         <div class="mb-3 text-center">
                             <i class="fas fa-shield-alt fa-3x" style="color: #09EEFD;"></i>
@@ -194,7 +212,7 @@ require_once 'config.php';
                     </div>
                 </div>
                 
-                <div class="col-lg-4 mb-4">
+                <div class="col-md-6 col-lg-4 mb-4">
                     <div class="capability-card p-4 h-100">
                         <div class="mb-3 text-center">
                             <i class="fas fa-server fa-3x" style="color: #F929D5;"></i>
@@ -211,8 +229,10 @@ require_once 'config.php';
                         </ul>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 mb-4">
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-6 col-lg-4 mb-4">
                     <div class="capability-card p-4 h-100">
                         <div class="mb-3 text-center">
                             <i class="fas fa-heartbeat fa-3x" style="color: #09EEFD;"></i>
@@ -229,6 +249,42 @@ require_once 'config.php';
                         </ul>
                     </div>
                 </div>
+                
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="capability-card p-4 h-100">
+                        <div class="mb-3 text-center">
+                            <i class="fas fa-puzzle-piece fa-3x" style="color: #F929D5;"></i>
+                        </div>
+                        <h4 class="text-white mb-3">Dynamic Function & Connector Discovery</h4>
+                        <p class="text-white-50 mb-3">
+                            Automatically discovers and integrates available functions, APIs, and connectors across your enterprise ecosystem. GIA intelligently maps capabilities to requirements without manual configuration.
+                        </p>
+                        <ul class="text-white-50 small">
+                            <li>Automatic API and function discovery</li>
+                            <li>Intelligent capability matching</li>
+                            <li>Pre-built connector auto-detection</li>
+                            <li>Zero-configuration integration</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="capability-card p-4 h-100">
+                        <div class="mb-3 text-center">
+                            <i class="fas fa-users-cog fa-3x" style="color: #09EEFD;"></i>
+                        </div>
+                        <h4 class="text-white mb-3">Human-AI Collaborative Workflows</h4>
+                        <p class="text-white-50 mb-3">
+                            Seamlessly orchestrates long-running workflows where human expertise and AI automation work in harmony. Smart handoffs between people, processes, and technology with context preservation.
+                        </p>
+                        <ul class="text-white-50 small">
+                            <li>Intelligent human-in-the-loop design</li>
+                            <li>Context-aware task handoffs</li>
+                            <li>Long-running process management</li>
+                            <li>Collaborative decision making</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -237,23 +293,33 @@ require_once 'config.php';
     <section class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 mx-auto">
+                <div class="col-lg-12 mx-auto">
                     <h2 class="gradient-text text-center mb-5">GIA vs. Traditional Automation Platforms</h2>
                     <div class="comparison-table">
                         <div class="table-responsive">
-                            <table class="table table-dark table-bordered">
-                                <thead>
-                                    <tr class="gradient-text">
-                                        <th>Feature</th>
-                                        <th>Traditional Platforms</th>
-                                        <th>GIA Platform</th>
+                            <table class="table table-dark table-bordered table-hover">
+                                <thead class="table-header-gradient">
+                                    <tr>
+                                        <th class="text-white" style="min-width: 180px;">Feature</th>
+                                        <th class="text-white" style="min-width: 280px;">Traditional Platforms</th>
+                                        <th class="text-white" style="min-width: 280px;">GIA Platform</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td><strong>Process Generation</strong></td>
                                         <td class="text-white-50">Static BPMN templates; predefined workflows; manual redesign required</td>
-                                        <td class="text-success">Runtime BPMN generation from diverse inputs; emergent process synthesis</td>
+                                        <td class="text-success">Natural language to BPMN code; auto-generates scripts, forms, connectors on-demand</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Code & Form Creation</strong></td>
+                                        <td class="text-white-50">Manual coding; template-based forms; limited connector library</td>
+                                        <td class="text-success">Intelligent synthesis from business intent; pre-built + custom code generation</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>BPMN Compliance</strong></td>
+                                        <td class="text-white-50">Post-deployment validation; manual compliance checks</td>
+                                        <td class="text-success">Rigid BPMN 2.0 standards enforced at generation; compliance-by-design</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Agent Management</strong></td>
@@ -264,6 +330,11 @@ require_once 'config.php';
                                         <td><strong>BPA-RPA Integration</strong></td>
                                         <td class="text-white-50">Sequential invocation; suspension-based chaining</td>
                                         <td class="text-success">Real-time fusion; RPA outputs adapt BPA flows dynamically</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Vertical Adaptability</strong></td>
+                                        <td class="text-white-50">Industry-specific platforms; limited cross-vertical use</td>
+                                        <td class="text-success">Universal hyper-automation; adapts to any vertical with context awareness</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Self-Healing</strong></td>
@@ -320,7 +391,7 @@ require_once 'config.php';
                             <small class="text-info d-block mb-1"><strong>22%</strong> improvement in equipment lifespan</small>
                         </div>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
-                            <small class="text-white-50"><strong>GIA Advantage:</strong> Dynamic workflow adaptation based on sensor data payloads; autonomous agent discovery for specialist analysis tasks</small>
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Natural language input generates complete BPMN workflows with FFT analysis scripts and custom forms—all compliance-ready for regulated environments</small>
                         </div>
                     </div>
                 </div>
@@ -338,7 +409,7 @@ require_once 'config.php';
                             <small class="text-info d-block mb-1"><strong>35%</strong> reduction in manual review time</small>
                         </div>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
-                            <small class="text-white-50"><strong>GIA Advantage:</strong> On-premise deployment for HIPAA compliance; multi-LLM for secure medical data interpretation</small>
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Interprets medical protocols in natural language; generates HIPAA-compliant forms and processing scripts with pre-built healthcare connectors</small>
                         </div>
                     </div>
                 </div>
@@ -356,7 +427,7 @@ require_once 'config.php';
                             <small class="text-info d-block mb-1"><strong>52%</strong> faster vendor response time</small>
                         </div>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
-                            <small class="text-white-50"><strong>GIA Advantage:</strong> Runtime process generation from IoT and API feeds; adaptive BPA-RPA for purchase automation</small>
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Converts vendor requirements to executable code; auto-generates purchase forms and integration scripts using pre-built ERP connectors</small>
                         </div>
                     </div>
                 </div>
@@ -374,7 +445,7 @@ require_once 'config.php';
                             <small class="text-info d-block mb-1"><strong>Zero</strong> regulatory penalties post-deployment</small>
                         </div>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
-                            <small class="text-white-50"><strong>GIA Advantage:</strong> Proactive self-healing for regulatory changes; deploy-anywhere for data sovereignty requirements</small>
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Translates regulatory text to BPMN 2.0 workflows; synthesizes compliant reporting scripts and forms adhering to rigid security standards</small>
                         </div>
                     </div>
                 </div>
@@ -392,7 +463,7 @@ require_once 'config.php';
                             <small class="text-info d-block mb-1"><strong>25%</strong> improvement in energy distribution</small>
                         </div>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
-                            <small class="text-white-50"><strong>GIA Advantage:</strong> Real-time IoT payload processing; decentralized agent discovery for distributed grid management</small>
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Natural language incident descriptions become executable response workflows; leverages pre-built IoT connectors or custom code as needed</small>
                         </div>
                     </div>
                 </div>
@@ -410,7 +481,7 @@ require_once 'config.php';
                             <small class="text-info d-block mb-1"><strong>50%</strong> faster decision cycles</small>
                         </div>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
-                            <small class="text-white-50"><strong>GIA Advantage:</strong> Multi-LLM for document understanding; seamless integration with Google, Microsoft, Zapier, UiPath, Camunda</small>
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Describes document requirements in plain language; GIA generates extraction code, classification forms, and routing logic with 300+ pre-built connectors</small>
                         </div>
                     </div>
                 </div>
@@ -665,6 +736,9 @@ require_once 'config.php';
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
         transition: all 0.3s ease;
+        min-height: 280px;
+        display: flex;
+        flex-direction: column;
     }
     
     .feature-box:hover {
@@ -674,17 +748,21 @@ require_once 'config.php';
     }
     
     .capability-card {
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.05);
+        border: 2px solid rgba(255, 255, 255, 0.15);
         border-radius: 12px;
         height: 100%;
         transition: all 0.3s ease;
+        min-height: 420px;
+        display: flex;
+        flex-direction: column;
     }
     
     .capability-card:hover {
-        background: rgba(255, 255, 255, 0.06);
-        border-color: rgba(9, 238, 253, 0.3);
+        background: rgba(255, 255, 255, 0.08);
+        border-color: rgba(9, 238, 253, 0.4);
         transform: translateY(-3px);
+        box-shadow: 0 8px 24px rgba(9, 238, 253, 0.2);
     }
     
     .comparison-card.traditional {
@@ -697,6 +775,54 @@ require_once 'config.php';
         background: rgba(25, 135, 84, 0.1);
         border: 1px solid rgba(25, 135, 84, 0.3);
         border-radius: 12px;
+    }
+    
+    /* Table Styling Fixes */
+    .comparison-table {
+        background: rgba(255, 255, 255, 0.03);
+        padding: 1.5rem;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .comparison-table .table {
+        margin-bottom: 0;
+        color: #fff;
+    }
+    
+    .comparison-table .table-header-gradient {
+        background: linear-gradient(135deg, rgba(249, 41, 213, 0.2), rgba(9, 238, 253, 0.2));
+        border-bottom: 2px solid rgba(9, 238, 253, 0.5);
+    }
+    
+    .comparison-table th {
+        font-weight: 600;
+        padding: 1rem;
+        vertical-align: middle;
+        color: #fff !important;
+        font-size: 1.05rem;
+        border-color: rgba(255, 255, 255, 0.2) !important;
+    }
+    
+    .comparison-table td {
+        padding: 1rem;
+        vertical-align: middle;
+        border-color: rgba(255, 255, 255, 0.1) !important;
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    .comparison-table td strong {
+        color: #fff;
+        font-weight: 600;
+    }
+    
+    .comparison-table tbody tr {
+        transition: all 0.2s ease;
+    }
+    
+    .comparison-table tbody tr:hover {
+        background: rgba(255, 255, 255, 0.05);
     }
     
     .timeline-item {
@@ -712,28 +838,40 @@ require_once 'config.php';
     }
     
     .implementation-step {
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.05);
+        border: 2px solid rgba(255, 255, 255, 0.15);
         border-radius: 12px;
         transition: all 0.3s ease;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     
     .implementation-step:hover {
-        background: rgba(255, 255, 255, 0.06);
-        border-color: rgba(9, 238, 253, 0.3);
+        background: rgba(255, 255, 255, 0.08);
+        border-color: rgba(9, 238, 253, 0.4);
         transform: translateY(-5px);
+        box-shadow: 0 8px 24px rgba(9, 238, 253, 0.2);
     }
     
     .architecture-component {
         background: rgba(255, 255, 255, 0.05);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.15);
         border-radius: 8px;
         transition: all 0.3s ease;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     
     .architecture-component:hover {
         background: rgba(255, 255, 255, 0.08);
-        border-color: rgba(255, 79, 216, 0.3);
+        border-color: rgba(255, 79, 216, 0.4);
+        transform: scale(1.05);
     }
     
     .capability-card ul {
@@ -756,23 +894,28 @@ require_once 'config.php';
     }
     
     .industry-card {
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.05);
+        border: 2px solid rgba(255, 255, 255, 0.15);
         border-radius: 12px;
         height: 100%;
         transition: all 0.3s ease;
+        min-height: 450px;
+        display: flex;
+        flex-direction: column;
     }
     
     .industry-card:hover {
-        background: rgba(255, 255, 255, 0.06);
-        border-color: rgba(249, 41, 213, 0.3);
+        background: rgba(255, 255, 255, 0.08);
+        border-color: rgba(249, 41, 213, 0.4);
         transform: translateY(-5px);
+        box-shadow: 0 8px 24px rgba(249, 41, 213, 0.2);
     }
     
     .stat-box {
         background: rgba(255, 255, 255, 0.05);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.15);
         border-radius: 8px;
+        padding: 0.5rem 1rem;
     }
     
     .feature-icon svg {
@@ -785,17 +928,22 @@ require_once 'config.php';
         -webkit-text-fill-color: transparent;
         background-clip: text;
         font-weight: bold;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
     }
     
     .practice-item, .trend-item, .regulatory-item, .action-item {
         transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.1);
     }
     
     .practice-item:hover, .trend-item:hover, .regulatory-item:hover, .action-item:hover {
         background: rgba(255, 255, 255, 0.08) !important;
         transform: translateY(-2px);
+        border-color: rgba(9, 238, 253, 0.3);
     }
     
+    /* Responsive Design */
     @media (max-width: 768px) {
         .d-flex.gap-3 {
             flex-direction: column;
@@ -804,6 +952,29 @@ require_once 'config.php';
         
         .timeline-item, .implementation-step {
             margin-bottom: 1rem;
+        }
+        
+        .comparison-table th,
+        .comparison-table td {
+            font-size: 0.85rem;
+            padding: 0.75rem;
+        }
+        
+        .capability-card,
+        .industry-card {
+            min-height: auto;
+        }
+    }
+    
+    @media (max-width: 576px) {
+        .comparison-table th,
+        .comparison-table td {
+            font-size: 0.8rem;
+            padding: 0.5rem;
+        }
+        
+        .comparison-table th {
+            min-width: 120px !important;
         }
     }
     </style>
