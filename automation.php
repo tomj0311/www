@@ -22,7 +22,7 @@ require_once 'config.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="gradient-text" data-animate="fade-up">Building Enterprise AI Agents with GIA</h1>
+                    <h1 class="gradient-text" data-animate="fade-up">Building Enterprise AI Workflows with GIA</h1>
                     <p class="description" data-animate="fade-up">Redefining operations in regulated and complex industries through generative intelligent automation. Experience the next evolution of AI - where systems reason, plan strategically, and execute autonomously.</p>
                     <div class="d-flex gap-3 mt-4" data-animate="fade-up">
                         <a href="contact.php" class="btn-gradient-border">Request AI Readiness Assessment</a>
