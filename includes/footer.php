@@ -3,17 +3,23 @@
     <div class="row">
       <div class="col-lg-4 mb-4 mb-lg-0">
         <div class="footer-brand">
-          <img src="assets/Images/logo.png" alt="Hub8.ai" class="footer-logo">
+          <img src="assets/Images/logo.png" alt="Hub8" class="footer-logo">
           <div class="footer-contact mt-1">
             <p class="contact-address mb-2">
-              <strong>Headquarters:</strong><br>
-              7901 4TH STREET NORTH STE 300<br>
-              ST. PETERSBURG, FL 33702<br>
-              <span class="text-white-75">• Global Operations: UAE • India • Singapore</span>
+              <strong>India Headquarters:</strong><br>
+              16F Yale Skyline, Infopark Road<br>
+              Kakkanad, Kerala 682030<br>
+              India
+            </p>
+            <p class="contact-address mb-2">
+              <strong>US Office:</strong><br>
+              7901 4th Street North, Suite 300<br>
+              St. Petersburg, FL 33702<br>
+              United States
             </p>
             <p class="contact-info mb-2">
               <strong>Email:</strong> <a href="mailto:contact@hub8.ai">contact@hub8.ai</a><br>
-              <strong>Phone:</strong> <a href="tel:+18004828724">1-800-HUB8-AI</a>
+              <strong>Phone:</strong> <a href="tel:+914843135025">+91 484 3135025</a>
             </p>
           </div>
         </div>
@@ -67,7 +73,8 @@
     <div class="row align-items-center">
       <div class="col-md-6">
         <p class="copyright">
-          &copy; <?php echo date('Y'); ?> Hub8 Technologies LLC. All rights reserved.
+          &copy; <?php echo date('Y'); ?> H8 Technologies Pvt Ltd. All rights reserved.<br>
+          <small>Hub8&reg; is a registered trademark of H8 Technologies Pvt Ltd.</small>
         </p>
       </div>
       <div class="col-md-6 text-md-end">

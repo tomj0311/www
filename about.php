@@ -1,7 +1,7 @@
 <?php
-$page_title = "About Hub8.ai - Revolutionary AI Automation Technology | Generative Intelligent Automation Platform";
-$page_description = "Discover Hub8.ai's revolutionary approach to automating complex processes with AI. Our Generative Intelligent Automation (GIA) technology learns, adapts, and optimizes workflows using advanced AI, backed by decades of global IT and AI experience.";
-$page_keywords = "Hub8.ai about, AI automation technology, Generative Intelligent Automation, GIA technology, complex process automation, AI automation solutions, intelligent workflow optimization, automation technology platform, AI-driven business solutions, machine learning automation, decades IT experience, AI experience, business process automation, intelligent automation platform";
+$page_title = "About Hub8 - Revolutionary AI Automation Technology | Generative Intelligent Automation Platform";
+$page_description = "Discover Hub8's revolutionary approach to automating complex processes with AI. Our Generative Intelligent Automation (GIA) technology learns, adapts, and optimizes workflows using advanced AI, backed by decades of global IT and AI experience.";
+$page_keywords = "Hub8 about, AI automation technology, Generative Intelligent Automation, GIA technology, complex process automation, AI automation solutions, intelligent workflow optimization, automation technology platform, AI-driven business solutions, machine learning automation, decades IT experience, AI experience, business process automation, intelligent automation platform";
 $canonical_url = "https://www.hub8.ai/about.php";
 $og_image = "https://www.hub8.ai/assets/Images/gia.png";
 $page_type = "webpage";
@@ -21,12 +21,12 @@ require_once 'config.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6" data-animate="fade-in">
-                    <h1 class="gradient-text">About Hub8.ai</h1>
-                    <p class="description">Hub8.ai delivers advanced business automation through our Generative Intelligent Automation (GIA) technology. Our AI-powered platform learns and adapts to optimize complex business processes. With decades of global IT and AI experience, we provide intelligent automation solutions that enhance business operations and drive competitive advantage.</p>
+                    <h1 class="gradient-text">About Hub8</h1>
+                    <p class="description">Hub8 delivers advanced business automation through our Generative Intelligent Automation (GIA) technology. Our AI-powered platform learns and adapts to optimize complex business processes. With decades of global IT and AI experience, we provide intelligent automation solutions that enhance business operations and drive competitive advantage.</p>
                     <a href="contact.php" class="btn-gradient-border">Get Started</a>
                 </div>
                 <div class="col-lg-6" data-animate="slide-in-right">
-                    <img src="assets/Images/gia.png" alt="About Hub8.ai" class="img-fluid">
+                    <img src="assets/Images/gia.png" alt="About Hub8" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@ require_once 'config.php';
                 <div class="col-lg-8 mx-auto">
                     <h2 class="gradient-text mb-4" data-animate="fade-in">Our Story</h2>
                     <p class="lead text-white-50 mb-4" data-animate="slide-in-up">
-                        Hub8.ai was founded to address a critical gap in business automation. Traditional tools struggle with complex processes that require intelligent decision-making. Our team combines decades of global IT and AI expertise to create solutions that go beyond simple rule-based automation.
+                        Hub8 was founded to address a critical gap in business automation. Traditional tools struggle with complex processes that require intelligent decision-making. Our team combines decades of global IT and AI expertise to create solutions that go beyond simple rule-based automation.
                     </p>
                     <p class="text-white-50 mb-5" data-animate="slide-in-up">
                         Our Generative Intelligent Automation platform learns from business workflows and continuously improves performance. With global operations ensuring comprehensive support, we deliver AI-powered automation that maintains high standards of data privacy and security while adapting to diverse business requirements.
@@ -49,7 +49,7 @@ require_once 'config.php';
                         To advance business automation through intelligent technology that handles complex processes. We leverage our team's global IT and AI expertise to deliver solutions that improve efficiency, reduce costs, and provide competitive advantages through advanced workflow optimization.
                     </p>
                     
-                    <h3 class="text-white mb-3" data-animate="fade-in">What Makes Hub8.ai Different</h3>
+                    <h3 class="text-white mb-3" data-animate="fade-in">What Makes Hub8 Different</h3>
                     <div class="row">
                         <div class="col-md-6 mb-4" data-animate="fade-in">
                             <div class="feature-box p-4 h-100">
@@ -118,7 +118,16 @@ require_once 'config.php';
                         <div class="row">
                             <div class="col-md-6 mb-3" data-animate="fade-in">
                                 <div class="d-flex align-items-start">
-                                    <span class="me-3 fs-4">🇺🇸</span>
+                                    <span class="me-3 fs-4">��</span>
+                                    <div>
+                                        <h5 class="text-white mb-1">AI Development Lab</h5>
+                                        <p class="text-white-50 small mb-0">Machine Learning Engineering & Automation R&D</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3" data-animate="fade-in">
+                                <div class="d-flex align-items-start">
+                                    <span class="me-3 fs-4">��</span>
                                     <div>
                                         <h5 class="text-white mb-1">US Innovation Hub</h5>
                                         <p class="text-white-50 small mb-0">Advanced AI Research & Development Center</p>
@@ -127,19 +136,10 @@ require_once 'config.php';
                             </div>
                             <div class="col-md-6 mb-3" data-animate="fade-in">
                                 <div class="d-flex align-items-start">
-                                    <span class="me-3 fs-4">🇦🇪</span>
+                                    <span class="me-3 fs-4">��</span>
                                     <div>
                                         <h5 class="text-white mb-1">Middle East Technology Center</h5>
                                         <p class="text-white-50 small mb-0">Enterprise Solutions & Regional AI Support</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-3" data-animate="fade-in">
-                                <div class="d-flex align-items-start">
-                                    <span class="me-3 fs-4">🇮🇳</span>
-                                    <div>
-                                        <h5 class="text-white mb-1">AI Development Lab</h5>
-                                        <p class="text-white-50 small mb-0">Machine Learning Engineering & Automation R&D</p>
                                     </div>
                                 </div>
                             </div>
