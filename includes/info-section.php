@@ -6,7 +6,7 @@
         <h2 class="gradient-white-text" data-typewriter data-typewriter-speed="100" style="word-break: break-word;">
           Automating Complex Processes
         </h2>
-        <p>Headquartered in Kochi, Kerala—also known as God's Own Country, India—with operations spanning the US and UAE, Hub8 is an innovative tech startup with a unique approach to automating complex processes using AI. Our team's decades of global IT and AI experience powers intelligent automation solutions that tackle challenges others can't solve, enabling you to focus on strategic growth and market expansion while we handle the complexity.</p>
+  <p>Headquartered in Kochi, Kerala, India, with operations in the US and UAE, Hub8 is a technology startup specializing in intelligent automation. Our proprietary platform, GIA (Generative Intelligent Automation), is a patent-pending solution built on Python that streamlines complex business processes. With decades of global IT and AI expertise, our team delivers automation solutions that empower you to focus on growth while we manage the complexity.</p>
         <a href="automation.php" class="underline-link">Learn More About GIA (Generative Intelligent Automation)</a>
       </div>
 
