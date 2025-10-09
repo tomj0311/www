@@ -384,14 +384,9 @@ require_once 'config.php';
                             <i class="fas fa-industry fa-3x" style="color: #F929D5;"></i>
                         </div>
                         <h5 class="text-white mb-3">Predictive Maintenance (Manufacturing)</h5>
-                        <p class="text-white-50 mb-3">Real-time BPMN workflow generation for vibration analysis, FFT processing, and root cause analysis of rotatory equipment.</p>
-                        <div class="mt-3">
-                            <small class="text-info d-block mb-1"><strong>28%</strong> reduction in unplanned downtime</small>
-                            <small class="text-info d-block mb-1"><strong>17%</strong> decrease in maintenance costs</small>
-                            <small class="text-info d-block mb-1"><strong>22%</strong> improvement in equipment lifespan</small>
-                        </div>
+                        <p class="text-white-50 mb-3">Real-time workflow generation for vibration analysis, frequency pattern processing, and root cause analysis of rotatory equipment.</p>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
-                            <small class="text-white-50"><strong>GIA Advantage:</strong> Natural language input generates complete BPMN workflows with FFT analysis scripts and custom forms—all compliance-ready for regulated environments</small>
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Natural language input generates complete workflows with signal analysis scripts and custom forms—all compliance-ready for regulated environments</small>
                         </div>
                     </div>
                 </div>
@@ -403,11 +398,6 @@ require_once 'config.php';
                         </div>
                         <h5 class="text-white mb-3">Healthcare Lab Automation</h5>
                         <p class="text-white-50 mb-3">Automated lab testing workflows with anomaly detection from scanned medical images, compliance tracking, and real-time reporting.</p>
-                        <div class="mt-3">
-                            <small class="text-info d-block mb-1"><strong>40%</strong> faster anomaly detection</small>
-                            <small class="text-info d-block mb-1"><strong>99.7%</strong> compliance adherence</small>
-                            <small class="text-info d-block mb-1"><strong>35%</strong> reduction in manual review time</small>
-                        </div>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
                             <small class="text-white-50"><strong>GIA Advantage:</strong> Interprets medical protocols in natural language; generates HIPAA-compliant forms and processing scripts with pre-built healthcare connectors</small>
                         </div>
@@ -421,11 +411,6 @@ require_once 'config.php';
                         </div>
                         <h5 class="text-white mb-3">Supply Chain Optimization</h5>
                         <p class="text-white-50 mb-3">Dynamic vendor sync processes, automated order processing, and real-time inventory management based on predictive analytics.</p>
-                        <div class="mt-3">
-                            <small class="text-info d-block mb-1"><strong>45%</strong> improvement in order fulfillment</small>
-                            <small class="text-info d-block mb-1"><strong>32%</strong> reduction in inventory costs</small>
-                            <small class="text-info d-block mb-1"><strong>52%</strong> faster vendor response time</small>
-                        </div>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
                             <small class="text-white-50"><strong>GIA Advantage:</strong> Converts vendor requirements to executable code; auto-generates purchase forms and integration scripts using pre-built ERP connectors</small>
                         </div>
@@ -439,11 +424,6 @@ require_once 'config.php';
                         </div>
                         <h5 class="text-white mb-3">Financial Compliance</h5>
                         <p class="text-white-50 mb-3">Automated regulatory reporting with real-time fraud detection, risk assessment, and dynamic compliance workflow generation.</p>
-                        <div class="mt-3">
-                            <small class="text-info d-block mb-1"><strong>35%</strong> improved risk detection accuracy</small>
-                            <small class="text-info d-block mb-1"><strong>60%</strong> reduction in compliance processing time</small>
-                            <small class="text-info d-block mb-1"><strong>Zero</strong> regulatory penalties post-deployment</small>
-                        </div>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
                             <small class="text-white-50"><strong>GIA Advantage:</strong> Translates regulatory text to BPMN 2.0 workflows; synthesizes compliant reporting scripts and forms adhering to rigid security standards</small>
                         </div>
@@ -457,11 +437,6 @@ require_once 'config.php';
                         </div>
                         <h5 class="text-white mb-3">Energy & Utilities</h5>
                         <p class="text-white-50 mb-3">Grid optimization through predictive analytics, equipment monitoring, and automated incident response workflows.</p>
-                        <div class="mt-3">
-                            <small class="text-info d-block mb-1"><strong>38%</strong> reduction in grid downtime</small>
-                            <small class="text-info d-block mb-1"><strong>42%</strong> faster incident resolution</small>
-                            <small class="text-info d-block mb-1"><strong>25%</strong> improvement in energy distribution</small>
-                        </div>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
                             <small class="text-white-50"><strong>GIA Advantage:</strong> Natural language incident descriptions become executable response workflows; leverages pre-built IoT connectors or custom code as needed</small>
                         </div>
@@ -475,11 +450,6 @@ require_once 'config.php';
                         </div>
                         <h5 class="text-white mb-3">Enterprise Document Processing</h5>
                         <p class="text-white-50 mb-3">Intelligent document extraction, classification, and workflow routing across 300+ system integrations.</p>
-                        <div class="mt-3">
-                            <small class="text-info d-block mb-1"><strong>72%</strong> reduction in manual processing</small>
-                            <small class="text-info d-block mb-1"><strong>95%</strong> extraction accuracy</small>
-                            <small class="text-info d-block mb-1"><strong>50%</strong> faster decision cycles</small>
-                        </div>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
                             <small class="text-white-50"><strong>GIA Advantage:</strong> Describes document requirements in plain language; GIA generates extraction code, classification forms, and routing logic with 300+ pre-built connectors</small>
                         </div>
@@ -758,6 +728,10 @@ require_once 'config.php';
         flex-direction: column;
     }
     
+    .capability-card p {
+        flex-grow: 1;
+    }
+    
     .capability-card:hover {
         background: rgba(255, 255, 255, 0.08);
         border-color: rgba(9, 238, 253, 0.4);
@@ -902,6 +876,10 @@ require_once 'config.php';
         min-height: 450px;
         display: flex;
         flex-direction: column;
+    }
+    
+    .industry-card p {
+        flex-grow: 1;
     }
     
     .industry-card:hover {
