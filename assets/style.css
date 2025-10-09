@@ -320,6 +320,8 @@ section[id],
   background-image: linear-gradient(#000, #000), linear-gradient(90deg, #ff9d42, #ff4fd8, #5d00ff);
   background-origin: border-box;
   background-clip: padding-box, border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .btn-gradient-border:hover {
   opacity: 0.9;
