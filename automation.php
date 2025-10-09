@@ -955,6 +955,15 @@ require_once 'config.php';
             min-width: 120px !important;
         }
     }
+    
+    .action-item {
+        min-height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
     </style>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
