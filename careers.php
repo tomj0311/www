@@ -1,22 +1,13 @@
 <?php
-// PHP Configuration    <section class="careers-hero py-5">
-      <div class="container">
-        <div class="row justify-content-center text-center">
-          <div class="col-lg-8">
-            <h1 class="display-4 mb-4">Join the Future of Global AI Automation</h1>
-            <p class="lead mb-4">Be part of a global technology startup with operations spanning from St. Petersburg, Florida to UAE, India, and Singapore. Help us revolutionize business automation across continents.</p>
-            <p class="text-muted">🌍 Global Opportunities • 🇺🇸 St. Petersburg HQ • 🇦🇪 UAE • 🇮🇳 India • 🇸🇬 Singapore</p>
-          </div>
-        </div>
-      </div>
-    </section>rting(E_ALL);
+// PHP Configuration
+error_reporting(E_ALL);
 ini_set('display_errors', 0);
 date_default_timezone_set('UTC');
 
 // SEO and Meta Information
 $site_name = "Hub8.ai";
-$page_title = "Careers - Join Hub8.ai | St. Petersburg AI Automation Startup Jobs";
-$page_description = "Join our innovative team at Hub8.ai, a St. Petersburg, Florida-based AI automation startup. Explore exciting career opportunities in artificial intelligence, machine learning, and automation technology. Help shape the future of business automation.";
+$page_title = "INDIA • USA • UAE | Careers - Join Hub8.ai | H8 Technologies & Hub8 Technologies Jobs";
+$page_description = "Join our innovative team at Hub8.ai (H8 Technologies Pvt Ltd India & Hub8 Technologies LLC USA). Explore exciting career opportunities in artificial intelligence, machine learning, and automation technology. Help shape the future of business automation with offices in India, USA, and serving UAE.";
 $canonical_url = "https://www.hub8.ai/careers.php";
 $og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
 $page_keywords = "Hub8.ai careers, St. Petersburg AI jobs, startup careers Florida, AI automation jobs, machine learning careers, software developer jobs Florida, AI engineer positions, tech startup jobs, automation careers, AI startup jobs St. Petersburg, Florida tech jobs, intelligent automation careers, GIA technology jobs, startup opportunities St. Petersburg";

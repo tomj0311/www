@@ -6,11 +6,11 @@ date_default_timezone_set('UTC');
 
 // SEO and Meta Information
 $site_name = "Hub8.ai";
-$page_title = "Platform Overview - AI Automation Solutions | Hub8.ai";
-$page_description = "The Hub8.ai platform eliminates the need for complex coding and technical expertise. Discover our comprehensive AI automation platform designed for businesses of all sizes.";
+$page_title = "INDIA • USA • UAE | Platform Overview - AI Automation Solutions | Hub8 Technologies";
+$page_description = "The Hub8.ai platform (H8 Technologies Pvt Ltd India & Hub8 Technologies LLC USA) eliminates the need for complex coding and technical expertise. Discover our comprehensive AI automation platform designed for businesses of all sizes in USA, UAE, and India.";
 $canonical_url = "https://www.hub8.ai/platform.php";
 $og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
-$page_keywords = "platform overview, AI automation platform, no-code automation, business automation platform, intelligent automation, automation software, AI platform";
+$page_keywords = "Hub8, Hub8 ai, H8 Technologies, Hub8 Technologies, H8, platform overview, AI automation platform, no-code automation, business automation platform, intelligent automation, automation software, AI platform, H8 Technologies Pvt Ltd, Hub8 Technologies LLC";
 $page_type = "website";
 ?>
 <!DOCTYPE html>

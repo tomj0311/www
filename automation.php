@@ -1,7 +1,7 @@
 <?php
-$page_title = "GIA - Building Enterprise AI Agents | Strategic Guide for Regulated Industries";
-$page_description = "Discover GIA's revolutionary generative intelligent automation platform - building enterprise AI agents for regulated and complex industries. Transform operations with contextual reasoning, strategic planning, and autonomous execution.";
-$page_keywords = "enterprise AI agents, GIA platform, generative intelligent automation, regulated industries, AI automation, contextual reasoning, strategic planning, autonomous execution, enterprise software, AI governance, compliance automation, intelligent workflows";
+$page_title = "INDIA • USA • UAE | GIA - Building Enterprise AI Agents | Hub8 Technologies";
+$page_description = "Discover GIA's revolutionary generative intelligent automation platform by Hub8 (H8 Technologies Pvt Ltd India & Hub8 Technologies LLC USA) - building enterprise AI agents for regulated and complex industries. Transform operations with contextual reasoning, strategic planning, and autonomous execution.";
+$page_keywords = "Hub8, Hub8 ai, H8 Technologies, Hub8 Technologies, H8, enterprise AI agents, GIA platform, generative intelligent automation, regulated industries, AI automation, contextual reasoning, strategic planning, autonomous execution, enterprise software, AI governance, compliance automation, intelligent workflows, H8 Technologies Pvt Ltd, Hub8 Technologies LLC";
 $canonical_url = "https://www.hub8.ai/automation.php";
 $og_image = "https://www.hub8.ai/assets/Images/gia.png";
 $page_type = "webpage";

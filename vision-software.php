@@ -6,11 +6,11 @@ date_default_timezone_set('UTC');
 
 // SEO and Meta Information
 $site_name = "Hub8.ai";
-$page_title = "Vision Software - AI-Powered Solutions | Hub8.ai";
-$page_description = "Hub8.ai's AI-powered vision software helps businesses turn automation challenges into competitive advantages with intelligent computer vision solutions.";
+$page_title = "INDIA • USA • UAE | Vision Software - AI-Powered Solutions | Hub8 Technologies";
+$page_description = "Hub8.ai's (H8 Technologies Pvt Ltd India & Hub8 Technologies LLC USA) AI-powered vision software helps businesses turn automation challenges into competitive advantages with intelligent computer vision solutions.";
 $canonical_url = "https://www.hub8.ai/vision-software.php";
 $og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
-$page_keywords = "vision software, computer vision, AI vision, image recognition, visual automation, machine vision, AI-powered vision, intelligent vision systems";
+$page_keywords = "Hub8, Hub8 ai, H8 Technologies, Hub8 Technologies, H8, vision software, computer vision, AI vision, image recognition, visual automation, machine vision, AI-powered vision, intelligent vision systems, H8 Technologies Pvt Ltd, Hub8 Technologies LLC";
 $page_type = "website";
 ?>
 <!DOCTYPE html>

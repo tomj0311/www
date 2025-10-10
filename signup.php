@@ -25,9 +25,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-$page_title = "Sign Up for Hub8.ai - Start Your AI Journey";
-$page_description = "Create your Hub8.ai account and start automating your business processes with intelligent AI workflows.";
-$page_keywords = "Hub8.ai signup, create account, AI automation registration, start automation journey";
+$page_title = "INDIA • USA • UAE | Sign Up for Hub8.ai - Start Your AI Journey | H8 Technologies";
+$page_description = "Create your Hub8.ai (H8 Technologies Pvt Ltd India & Hub8 Technologies LLC USA) account and start automating your business processes with intelligent AI workflows.";
+$page_keywords = "Hub8, Hub8 ai, H8 Technologies, Hub8 Technologies, H8, Hub8.ai signup, create account, AI automation registration, start automation journey, H8 Technologies Pvt Ltd, Hub8 Technologies LLC";
 $canonical_url = "https://www.hub8.ai/signup.php";
 $og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
 $page_type = "webpage";

@@ -6,11 +6,11 @@ date_default_timezone_set('UTC');
 
 // SEO and Meta Information
 $site_name = "Hub8.ai";
-$page_title = "Support - Help Center | Hub8.ai";
-$page_description = "Get help and support for Hub8.ai's AI automation platform. Find answers to common questions and contact our support team.";
+$page_title = "INDIA • USA • UAE | Support - Help Center | Hub8 Technologies";
+$page_description = "Get help and support for Hub8.ai's (H8 Technologies Pvt Ltd India & Hub8 Technologies LLC USA) AI automation platform. Find answers to common questions and contact our support team.";
 $canonical_url = "https://www.hub8.ai/support.php";
 $og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
-$page_keywords = "support, help center, customer support, technical support, FAQ, documentation, help desk";
+$page_keywords = "Hub8, Hub8 ai, H8 Technologies, Hub8 Technologies, H8, support, help center, customer support, technical support, FAQ, documentation, help desk, H8 Technologies Pvt Ltd, Hub8 Technologies LLC";
 $page_type = "website";
 ?>
 <!DOCTYPE html>

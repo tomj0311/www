@@ -6,11 +6,11 @@ date_default_timezone_set('UTC');
 
 // Basic SEO and Meta Information
 $site_name = "Hub8.ai";
-$page_title = "Hub8.ai — Automating Complex Processes with AI | USA • UAE • India • Singapore";
-$page_description = "Transform your business with intelligent AI automation from Hub8.ai, an innovative tech startup with operations in USA, UAE, India, and Singapore. Our unique approach to automating complex processes, backed by decades of global IT and AI experience, delivers competitive advantages worldwide.";
+$page_title = "INDIA • USA • UAE | Hub8.ai — Automating Complex Processes with AI | H8 Technologies & Hub8 Technologies";
+$page_description = "Transform your business with intelligent AI automation from Hub8.ai (H8 Technologies Pvt Ltd India & Hub8 Technologies LLC USA). Our unique approach to automating complex processes, backed by decades of global IT and AI experience, delivers competitive advantages worldwide. Serving USA, UAE, India, and Singapore.";
 $canonical_url = "https://www.hub8.ai/";
 $og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
-$page_keywords = "AI automation, business automation, intelligent automation, global AI startup, Hub8.ai, machine learning, productivity, workflow automation, artificial intelligence, dynamic workflows, AI-generated workflows, competitive advantage, cost advantage, automated business processes, intelligent workflow optimization, AI-driven cost reduction, competitive edge automation, smart business workflows, AI workflow builder, automated decision making, business process optimization, intelligent task automation, AI competitive strategy, cost-effective automation, automated workflow management, AI business intelligence, smart process automation, global tech startup, GIA technology, international AI company, USA UAE India Singapore operations";
+$page_keywords = "Hub8, Hub8 ai, H8 Technologies, Hub8 Technologies, H8, H8 Technologies Pvt Ltd, Hub8 Technologies LLC, AI automation, business automation, intelligent automation, global AI startup, machine learning, productivity, workflow automation, artificial intelligence, dynamic workflows, AI-generated workflows, competitive advantage, cost advantage, automated business processes, intelligent workflow optimization, AI-driven cost reduction, competitive edge automation, smart business workflows, AI workflow builder, automated decision making, business process optimization, intelligent task automation, AI competitive strategy, cost-effective automation, automated workflow management, AI business intelligence, smart process automation, global tech startup, GIA technology, international AI company, India AI company, USA AI company, UAE AI automation, Singapore AI";
 $page_type = "website";
 ?>
 <!DOCTYPE html>

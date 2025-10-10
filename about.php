@@ -1,7 +1,7 @@
 <?php
-$page_title = "About Hub8 - Revolutionary AI Automation Technology | Generative Intelligent Automation Platform";
-$page_description = "Discover Hub8's revolutionary approach to automating complex processes with AI. Our Generative Intelligent Automation (GIA) technology learns, adapts, and optimizes workflows using advanced AI, backed by decades of global IT and AI experience.";
-$page_keywords = "Hub8 about, AI automation technology, Generative Intelligent Automation, GIA technology, complex process automation, AI automation solutions, intelligent workflow optimization, automation technology platform, AI-driven business solutions, machine learning automation, decades IT experience, AI experience, business process automation, intelligent automation platform";
+$page_title = "INDIA • USA • UAE | About Hub8 - Revolutionary AI Automation | H8 Technologies Pvt Ltd & Hub8 Technologies LLC";
+$page_description = "Discover Hub8's revolutionary approach to automating complex processes with AI. Operating as H8 Technologies Pvt Ltd (India) and Hub8 Technologies LLC (USA), our Generative Intelligent Automation (GIA) technology learns, adapts, and optimizes workflows using advanced AI, backed by decades of global IT and AI experience. Serving USA, UAE, and India.";
+$page_keywords = "Hub8, Hub8 ai, H8 Technologies, Hub8 Technologies, H8, H8 Technologies Pvt Ltd, Hub8 Technologies LLC, Hub8 about, AI automation technology, Generative Intelligent Automation, GIA technology, complex process automation, AI automation solutions, intelligent workflow optimization, automation technology platform, AI-driven business solutions, machine learning automation, decades IT experience, AI experience, business process automation, intelligent automation platform, India AI company, USA AI company, UAE AI solutions";
 $canonical_url = "https://www.hub8.ai/about.php";
 $og_image = "https://www.hub8.ai/assets/Images/gia.png";
 $page_type = "webpage";

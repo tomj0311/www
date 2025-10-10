@@ -12,12 +12,12 @@ if (!defined('SITE_NAME')) {
 
 // Fallback values if not set on individual pages
 $site_name = $site_name ?? SITE_NAME ?? "Hub8.ai";
-$page_title = $page_title ?? "Hub8.ai — Simple AI Automation for Your Business";
-$page_description = $page_description ?? "Save time and money with AI automation that's easy to use. Hub8.ai handles your repetitive tasks with dynamic workflows and AI-generated processes, giving you a competitive advantage and significant cost savings so you can focus on growing your business.";
+$page_title = $page_title ?? "INDIA • USA • UAE | Hub8.ai — Simple AI Automation for Your Business";
+$page_description = $page_description ?? "Hub8 (H8 Technologies Pvt Ltd India, Hub8 Technologies LLC USA) - Save time and money with AI automation that's easy to use. Hub8.ai handles your repetitive tasks with dynamic workflows and AI-generated processes, giving you a competitive advantage and significant cost savings so you can focus on growing your business. Serving USA, UAE, and India.";
 $canonical_url = $canonical_url ?? (SITE_URL ?? "https://www.hub8.ai") . $_SERVER['REQUEST_URI'];
 $og_image = $og_image ?? (SITE_URL ?? "https://www.hub8.ai") . "/assets/Images/bannar-bg.png";
-$page_keywords = $page_keywords ?? "AI automation, business automation, intelligent automation, GPT, machine learning, productivity, dynamic workflows, AI-generated workflows, competitive advantage, cost advantage, automated business processes, intelligent workflow optimization, AI-driven cost reduction, competitive edge automation, smart business workflows, AI workflow builder, automated decision making, business process optimization, intelligent task automation, AI competitive strategy, cost-effective automation, automated workflow management, AI business intelligence, smart process automation";
-$author = $author ?? "Hub8.ai";
+$page_keywords = $page_keywords ?? "Hub8, Hub8 ai, H8 Technologies, Hub8 Technologies, H8, AI automation, business automation, intelligent automation, GPT, machine learning, productivity, dynamic workflows, AI-generated workflows, competitive advantage, cost advantage, automated business processes, intelligent workflow optimization, AI-driven cost reduction, competitive edge automation, smart business workflows, AI workflow builder, automated decision making, business process optimization, intelligent task automation, AI competitive strategy, cost-effective automation, automated workflow management, AI business intelligence, smart process automation, H8 Technologies Pvt Ltd, Hub8 Technologies LLC, India AI, USA AI, UAE AI";
+$author = $author ?? "Hub8.ai (H8 Technologies Pvt Ltd & Hub8 Technologies LLC)";
 $page_type = $page_type ?? "website";
 
 // Get Google Analytics ID from config
@@ -135,6 +135,48 @@ $clarity_project_id = defined('CLARITY_PROJECT_ID') ? CLARITY_PROJECT_ID : "XXXX
             "name": "<?php echo addslashes($site_name); ?>"
         }
         <?php endif; ?>
+    }
+    </script>
+
+    <!-- Structured Data: Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Hub8.ai",
+        "alternateName": ["Hub8", "H8 Technologies", "Hub8 Technologies", "H8 Technologies Pvt Ltd", "Hub8 Technologies LLC"],
+        "url": "<?php echo addslashes(SITE_URL ?? 'https://www.hub8.ai'); ?>",
+        "logo": "<?php echo addslashes((SITE_URL ?? 'https://www.hub8.ai') . '/assets/Images/logo.png'); ?>",
+        "description": "Hub8.ai operates as H8 Technologies Pvt Ltd in India and Hub8 Technologies LLC in USA, providing revolutionary AI automation and Generative Intelligent Automation (GIA) solutions globally.",
+        "sameAs": [
+            "<?php echo addslashes(SITE_URL ?? 'https://www.hub8.ai'); ?>"
+        ],
+        "areaServed": [
+            {
+                "@type": "Country",
+                "name": "India"
+            },
+            {
+                "@type": "Country",
+                "name": "United States"
+            },
+            {
+                "@type": "Country",
+                "name": "United Arab Emirates"
+            },
+            {
+                "@type": "Country",
+                "name": "Singapore"
+            }
+        ],
+        "knowsAbout": [
+            "Artificial Intelligence",
+            "AI Automation",
+            "Generative Intelligent Automation",
+            "Business Process Automation",
+            "Machine Learning",
+            "Intelligent Workflows"
+        ]
     }
     </script>
 
