@@ -2,6 +2,13 @@
 // No layout/background changes, only transitions and opacity transforms
 
 (function () {
+  // EMERGENCY FAILSAFE: Ensure body is always visible
+  // This prevents blank screen on back button or any loading issues
+  if (document.body) {
+    document.body.style.opacity = '1';
+    document.body.style.visibility = 'visible';
+  }
+  
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // Add a class to root if reduced motion to skip animations
@@ -15,13 +22,16 @@
                                    (performance.getEntriesByType && 
                                     performance.getEntriesByType('navigation')[0]?.type === 'back_forward');
 
-  // Only apply loading classes if NOT a back/forward navigation
-  if (!isBackForwardNavigation) {
+  // ALWAYS ensure page is visible - never hide it
+  // Only apply loading classes if NOT a back/forward navigation AND not already loaded
+  if (!isBackForwardNavigation && document.readyState === 'loading') {
     // Prevent initial flash by adding loading class immediately
     document.documentElement.classList.add('page-loading');
     document.body.classList.add('loading');
   } else {
-    // For back/forward navigation, ensure page is visible immediately
+    // For back/forward navigation or already loaded, ensure page is visible immediately
+    document.documentElement.classList.remove('page-loading');
+    document.body.classList.remove('loading');
     document.body.classList.add('loaded');
     sessionStorage.removeItem('internalNav');
   }
@@ -63,6 +73,13 @@
   } else {
     setTimeout(handlePageLoad, 100);
   }
+
+  // FAILSAFE: Always ensure page is visible after max 1 second
+  setTimeout(() => {
+    document.documentElement.classList.remove('page-loading');
+    document.body.classList.remove('loading');
+    document.body.classList.add('loaded');
+  }, 1000);
 
   // Observe elements with data-animate
   const animated = new Set();
