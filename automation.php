@@ -30,7 +30,7 @@ require_once 'config.php';
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="assets/Images/gia.png" alt="GIA Enterprise AI Agents" class="img-fluid animate-float hero-image" data-animate="fade-in">
+                    <img src="assets/Images/gia.png" alt="GIA Enterprise AI Agents" class="img-fluid">
                 </div>
             </div>
         </div>
