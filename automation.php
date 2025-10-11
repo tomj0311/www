@@ -43,7 +43,7 @@ require_once 'config.php';
                 <div class="col-lg-8 mx-auto text-center">
                     <h2 class="gradient-text mb-4">About GIA Platform</h2>
                     <p class="lead text-white-50 mb-5">
-                        GIA (Generative Intelligent Automation) is a revolutionary Python-based platform that transforms natural language into executable BPMN 2.0 workflows at runtime. By understanding business intent, GIA automatically generates the necessary scripts, forms, and integrations—creating complete, compliance-ready processes on-the-fly. Whether leveraging pre-built connectors or synthesizing custom code, GIA delivers true hyper-automation for any vertical in highly regulated environments.
+                        GIA (Generative Intelligent Automation) is a Python-based platform that transforms natural language into executable workflows by understanding business intent. GIA automatically generates the necessary scripts, forms, and integrations—creating complete, compliance-ready processes on-the-fly. Whether leveraging pre-built connectors or synthesizing custom code or calling exernal connectors, GIA delivers true hyper-automation for any vertical in highly regulated environments.
                     </p>
                 </div>
             </div>
