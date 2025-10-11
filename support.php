@@ -6,7 +6,7 @@ date_default_timezone_set('UTC');
 
 // SEO and Meta Information
 $site_name = "Hub8.ai";
-$page_title = "INDIA • USA • UAE | Support - Help Center | Hub8 Technologies";
+$page_title = "Support - Help Center";
 $page_description = "Get help and support for Hub8.ai's (H8 Technologies Pvt Ltd India & Hub8 Technologies LLC USA) AI automation platform. Find answers to common questions and contact our support team.";
 $canonical_url = "https://www.hub8.ai/support.php";
 $og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";

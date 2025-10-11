@@ -12,7 +12,7 @@ if (!defined('SITE_NAME')) {
 
 // Fallback values if not set on individual pages
 $site_name = $site_name ?? SITE_NAME ?? "Hub8.ai";
-$page_title = $page_title ?? "INDIA • USA • UAE | Hub8.ai — Simple AI Automation for Your Business";
+$page_title = $page_title ?? "Hub8.ai — Simple AI Automation for Your Business";
 $page_description = $page_description ?? "Hub8 (H8 Technologies Pvt Ltd India, Hub8 Technologies LLC USA) - Save time and money with AI automation that's easy to use. Hub8.ai handles your repetitive tasks with dynamic workflows and AI-generated processes, giving you a competitive advantage and significant cost savings so you can focus on growing your business. Serving USA, UAE, and India.";
 $canonical_url = $canonical_url ?? (SITE_URL ?? "https://www.hub8.ai") . $_SERVER['REQUEST_URI'];
 $og_image = $og_image ?? (SITE_URL ?? "https://www.hub8.ai") . "/assets/Images/bannar-bg.png";

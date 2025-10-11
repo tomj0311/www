@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 $contact_type = $_GET['type'] ?? 'general';
-$page_title = "INDIA • USA • UAE | Contact Hub8.ai - Get Started with AI Automation | H8 Technologies & Hub8 Technologies";
+$page_title = "Contact Hub8.ai - Get Started with AI Automation";
 $page_description = "Contact Hub8.ai (H8 Technologies Pvt Ltd India & Hub8 Technologies LLC USA) to schedule a consultation or get your impact assessment. Transform your business with intelligent automation. Serving clients in USA, UAE, India, and globally.";
 $page_keywords = "Hub8, Hub8 ai, H8 Technologies, Hub8 Technologies, H8, contact Hub8.ai, AI consultation, business automation contact, schedule demo, automation assessment, H8 Technologies Pvt Ltd contact, Hub8 Technologies LLC contact, India AI company, USA AI company, UAE AI automation, AI automation consultation";
 $canonical_url = "https://www.hub8.ai/contact.php";

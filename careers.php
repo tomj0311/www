@@ -6,7 +6,7 @@ date_default_timezone_set('UTC');
 
 // SEO and Meta Information
 $site_name = "Hub8.ai";
-$page_title = "INDIA • USA • UAE | Careers - Join Hub8.ai | H8 Technologies & Hub8 Technologies Jobs";
+$page_title = "Careers - Join Hub8.ai";
 $page_description = "Join our innovative team at Hub8.ai (H8 Technologies Pvt Ltd India & Hub8 Technologies LLC USA). Explore exciting career opportunities in artificial intelligence, machine learning, and automation technology. Help shape the future of business automation with offices in India, USA, and serving UAE.";
 $canonical_url = "https://www.hub8.ai/careers.php";
 $og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";

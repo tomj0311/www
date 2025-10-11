@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-$page_title = "INDIA • USA • UAE | Login to Hub8.ai - Access Your AI Dashboard | H8 Technologies";
+$page_title = "Login to Hub8.ai - Access Your AI Dashboard";
 $page_description = "Login to your Hub8.ai (H8 Technologies Pvt Ltd India & Hub8 Technologies LLC USA) account to access your AI automation dashboard and manage your intelligent workflows.";
 $page_keywords = "Hub8, Hub8 ai, H8 Technologies, Hub8 Technologies, H8, Hub8.ai login, AI dashboard, automation login, user account access, H8 Technologies Pvt Ltd, Hub8 Technologies LLC";
 $canonical_url = "https://www.hub8.ai/login.php";

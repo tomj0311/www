@@ -6,7 +6,7 @@ date_default_timezone_set('UTC');
 
 // SEO and Meta Information
 $site_name = "Hub8.ai";
-$page_title = "INDIA • USA • UAE | Vision Software - AI-Powered Solutions | Hub8 Technologies";
+$page_title = "Vision Software - AI-Powered Solutions";
 $page_description = "Hub8.ai's (H8 Technologies Pvt Ltd India & Hub8 Technologies LLC USA) AI-powered vision software helps businesses turn automation challenges into competitive advantages with intelligent computer vision solutions.";
 $canonical_url = "https://www.hub8.ai/vision-software.php";
 $og_image = "https://www.hub8.ai/assets/Images/bannar-bg.png";
