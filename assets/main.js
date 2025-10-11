@@ -9,9 +9,22 @@
     document.documentElement.classList.add('reduced-motion');
   }
 
-  // Prevent initial flash by adding loading class immediately
-  document.documentElement.classList.add('page-loading');
-  document.body.classList.add('loading');
+  // Check if this is a back/forward navigation BEFORE applying loading classes
+  // performance.navigation.type === 2 means back/forward navigation
+  const isBackForwardNavigation = (performance.navigation && performance.navigation.type === 2) ||
+                                   (performance.getEntriesByType && 
+                                    performance.getEntriesByType('navigation')[0]?.type === 'back_forward');
+
+  // Only apply loading classes if NOT a back/forward navigation
+  if (!isBackForwardNavigation) {
+    // Prevent initial flash by adding loading class immediately
+    document.documentElement.classList.add('page-loading');
+    document.body.classList.add('loading');
+  } else {
+    // For back/forward navigation, ensure page is visible immediately
+    document.body.classList.add('loaded');
+    sessionStorage.removeItem('internalNav');
+  }
 
   // Check if we're coming from an internal navigation
   const isInternalNavigation = sessionStorage.getItem('internalNav') === 'true';
@@ -817,5 +830,37 @@
     `;
     document.head.appendChild(momentumCSS);
   }
+
+  // Fix for back/forward button navigation (bfcache)
+  // When user navigates back using browser back button, the page may be loaded from cache
+  // and the loading classes need to be removed to prevent blank page
+  window.addEventListener('pageshow', function(event) {
+    // If page was loaded from cache (back/forward navigation)
+    if (event.persisted) {
+      // Immediately remove all loading classes
+      document.documentElement.classList.remove('page-loading');
+      document.body.classList.remove('loading', 'page-fade-out');
+      document.body.classList.add('loaded');
+      
+      // Clear the internal navigation flag
+      sessionStorage.removeItem('internalNav');
+      
+      // Force a reflow to ensure styles are applied
+      void document.body.offsetHeight;
+      
+      // Ensure all content is visible
+      document.body.style.opacity = '1';
+      document.body.style.visibility = 'visible';
+    }
+  });
+
+  // Also handle popstate event for better back button support
+  window.addEventListener('popstate', function() {
+    // Remove loading classes when navigating with back/forward
+    document.documentElement.classList.remove('page-loading');
+    document.body.classList.remove('loading', 'page-fade-out');
+    document.body.classList.add('loaded');
+    sessionStorage.removeItem('internalNav');
+  });
 
 })();
