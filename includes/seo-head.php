@@ -77,6 +77,33 @@ $clarity_project_id = defined('CLARITY_PROJECT_ID') ? CLARITY_PROJECT_ID : "XXXX
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style.css">
 
+    <!-- EMERGENCY FIX: Always show page content immediately - NO BLANK SCREENS -->
+    <script>
+        // This runs IMMEDIATELY before anything else to prevent blank screens
+        (function() {
+            // Remove any loading classes that might hide content
+            if (document.documentElement) {
+                document.documentElement.classList.remove('page-loading');
+            }
+            // Ensure body is always visible when it's created
+            document.addEventListener('DOMContentLoaded', function() {
+                document.body.classList.remove('loading', 'page-fade-out');
+                document.body.classList.add('loaded');
+                document.body.style.opacity = '1';
+                document.body.style.visibility = 'visible';
+            });
+            // Also run immediately if DOM is already loaded
+            if (document.readyState !== 'loading') {
+                if (document.body) {
+                    document.body.classList.remove('loading', 'page-fade-out');
+                    document.body.classList.add('loaded');
+                    document.body.style.opacity = '1';
+                    document.body.style.visibility = 'visible';
+                }
+            }
+        })();
+    </script>
+
     <!-- Google tag (gtag.js) -->
     <?php if ($ga_measurement_id !== "G-XXXXXXXXXX"): ?>
     <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo htmlspecialchars($ga_measurement_id); ?>"></script>

@@ -2,13 +2,6 @@
 // No layout/background changes, only transitions and opacity transforms
 
 (function () {
-  // EMERGENCY FAILSAFE: Ensure body is always visible
-  // This prevents blank screen on back button or any loading issues
-  if (document.body) {
-    document.body.style.opacity = '1';
-    document.body.style.visibility = 'visible';
-  }
-  
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // Add a class to root if reduced motion to skip animations
@@ -16,70 +9,13 @@
     document.documentElement.classList.add('reduced-motion');
   }
 
-  // Check if this is a back/forward navigation BEFORE applying loading classes
-  // performance.navigation.type === 2 means back/forward navigation
-  const isBackForwardNavigation = (performance.navigation && performance.navigation.type === 2) ||
-                                   (performance.getEntriesByType && 
-                                    performance.getEntriesByType('navigation')[0]?.type === 'back_forward');
-
-  // ALWAYS ensure page is visible - never hide it
-  // Only apply loading classes if NOT a back/forward navigation AND not already loaded
-  if (!isBackForwardNavigation && document.readyState === 'loading') {
-    // Prevent initial flash by adding loading class immediately
-    document.documentElement.classList.add('page-loading');
-    document.body.classList.add('loading');
-  } else {
-    // For back/forward navigation or already loaded, ensure page is visible immediately
-    document.documentElement.classList.remove('page-loading');
-    document.body.classList.remove('loading');
-    document.body.classList.add('loaded');
-    sessionStorage.removeItem('internalNav');
-  }
-
-  // Check if we're coming from an internal navigation
-  const isInternalNavigation = sessionStorage.getItem('internalNav') === 'true';
-  
-  // Remove flag immediately to avoid affecting subsequent navigations
-  sessionStorage.removeItem('internalNav');
-
-  // Remove loading class and add loaded class when page is ready
-  function handlePageLoad() {
-    // If it's internal navigation, reduce delay for smoother experience
-    const delay = isInternalNavigation ? 50 : 150;
-    
-    setTimeout(() => {
-      // Use multiple requestAnimationFrame for better timing
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          document.documentElement.classList.remove('page-loading');
-          document.body.classList.remove('loading');
-          document.body.classList.add('loaded');
-          
-          // Remove the loading overlay after a brief delay
-          setTimeout(() => {
-            const overlay = document.querySelector('.page-loading::before');
-            if (overlay) overlay.style.display = 'none';
-          }, 100);
-        });
-      });
-    }, delay);
-  }
-
-  // Handle page load for smooth entry
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      setTimeout(handlePageLoad, 150);
-    });
-  } else {
-    setTimeout(handlePageLoad, 100);
-  }
-
-  // FAILSAFE: Always ensure page is visible after max 1 second
-  setTimeout(() => {
-    document.documentElement.classList.remove('page-loading');
-    document.body.classList.remove('loading');
-    document.body.classList.add('loaded');
-  }, 1000);
+  // COMPLETELY DISABLE PAGE LOADING ANIMATION - ALWAYS SHOW CONTENT
+  // Remove any loading classes immediately
+  document.documentElement.classList.remove('page-loading');
+  document.body.classList.remove('loading', 'page-fade-out');
+  document.body.classList.add('loaded');
+  document.body.style.opacity = '1';
+  document.body.style.visibility = 'visible';
 
   // Observe elements with data-animate
   const animated = new Set();
@@ -849,34 +785,23 @@
   }
 
   // Fix for back/forward button navigation (bfcache)
-  // When user navigates back using browser back button, the page may be loaded from cache
-  // and the loading classes need to be removed to prevent blank page
+  // ALWAYS ensure page is visible - no loading animations
   window.addEventListener('pageshow', function(event) {
-    // If page was loaded from cache (back/forward navigation)
-    if (event.persisted) {
-      // Immediately remove all loading classes
-      document.documentElement.classList.remove('page-loading');
-      document.body.classList.remove('loading', 'page-fade-out');
-      document.body.classList.add('loaded');
-      
-      // Clear the internal navigation flag
-      sessionStorage.removeItem('internalNav');
-      
-      // Force a reflow to ensure styles are applied
-      void document.body.offsetHeight;
-      
-      // Ensure all content is visible
-      document.body.style.opacity = '1';
-      document.body.style.visibility = 'visible';
-    }
+    document.documentElement.classList.remove('page-loading');
+    document.body.classList.remove('loading', 'page-fade-out');
+    document.body.classList.add('loaded');
+    document.body.style.opacity = '1';
+    document.body.style.visibility = 'visible';
+    sessionStorage.removeItem('internalNav');
   });
 
   // Also handle popstate event for better back button support
   window.addEventListener('popstate', function() {
-    // Remove loading classes when navigating with back/forward
     document.documentElement.classList.remove('page-loading');
     document.body.classList.remove('loading', 'page-fade-out');
     document.body.classList.add('loaded');
+    document.body.style.opacity = '1';
+    document.body.style.visibility = 'visible';
     sessionStorage.removeItem('internalNav');
   });
 
