@@ -324,36 +324,8 @@
     }
   });
 
-  // Gentle page fade-out on internal navigation (non-hash)
-  document.addEventListener('click', (e) => {
-    const a = e.target.closest && e.target.closest('a');
-    if (!a) return;
-    if (prefersReduced) return;
-    if (a.target === '_blank' || a.hasAttribute('download')) return;
-    const href = a.getAttribute('href');
-    if (!href || href.startsWith('#')) return;
-    // Only same-origin links
-    let url;
-    try { url = new URL(href, window.location.href); } catch { return; }
-    if (url.origin !== window.location.origin) return;
-
-    // Allow Bootstrap collapses to work first if it's a toggler
-    if (a.hasAttribute('data-bs-toggle')) return;
-
-    e.preventDefault();
-    
-    // Mark this as internal navigation for the next page
-    sessionStorage.setItem('internalNav', 'true');
-    
-    // Add loading class immediately to prevent flash
-    document.documentElement.classList.add('page-loading');
-    document.body.classList.add('page-fade-out');
-    
-    // Navigate after fade completes
-    setTimeout(() => { 
-      window.location.href = url.href; 
-    }, 200);
-  }, true);
+  // REMOVED: Page fade-out navigation intercept that was breaking back button behavior
+  // Links now work normally without JavaScript interference
 
   // Interactive tilt-on-hover for cards (no library)
   const tiltEls = document.querySelectorAll('.tilt');
@@ -784,25 +756,7 @@
     document.head.appendChild(momentumCSS);
   }
 
-  // Fix for back/forward button navigation (bfcache)
-  // ALWAYS ensure page is visible - no loading animations
-  window.addEventListener('pageshow', function(event) {
-    document.documentElement.classList.remove('page-loading');
-    document.body.classList.remove('loading', 'page-fade-out');
-    document.body.classList.add('loaded');
-    document.body.style.opacity = '1';
-    document.body.style.visibility = 'visible';
-    sessionStorage.removeItem('internalNav');
-  });
-
-  // Also handle popstate event for better back button support
-  window.addEventListener('popstate', function() {
-    document.documentElement.classList.remove('page-loading');
-    document.body.classList.remove('loading', 'page-fade-out');
-    document.body.classList.add('loaded');
-    document.body.style.opacity = '1';
-    document.body.style.visibility = 'visible';
-    sessionStorage.removeItem('internalNav');
-  });
+  // REMOVED: Unnecessary pageshow and popstate handlers that interfered with browser navigation
+  // Browser now handles back/forward navigation normally
 
 })();
