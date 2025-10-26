@@ -22,7 +22,7 @@ require_once 'config.php';
             <div class="row align-items-center">
                 <div class="col-lg-6" data-animate="fade-in">
                     <h1 class="gradient-text">About Hub8</h1>
-                    <p class="description">Hub8 delivers revolutionary business automation through our Generative Intelligent Automation (GIA) platform—a patent-pending Python-based system that dynamically generates executable BPMN 2.0 workflows at runtime. Unlike traditional automation tools that rely on static templates, GIA creates, adapts, and optimizes complex business processes on-the-fly using multi-agent AI systems, enabling true hyper-automation for regulated industries worldwide.</p>
+                    <p class="description">Hub8 delivers revolutionary business automation through our Generative Intelligent Automation (GIA) platform—a patent-pending Python-based system that dynamically generates executable workflows at runtime. Unlike traditional automation tools that rely on static templates, GIA creates, adapts, and optimizes complex business processes on-the-fly using multi-agent AI systems, enabling true hyper-automation for regulated industries worldwide.</p>
                     <a href="contact.php" class="btn-gradient-border">Get Started</a>
                 </div>
                 <div class="col-lg-6" data-animate="slide-in-right">
