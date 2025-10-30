@@ -102,6 +102,15 @@ img {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* 
+  RESPONSIVE DESIGN OPTIMIZATION
+  - Mobile: < 768px
+  - Tablet: 768px - 991px
+  - 14" Laptops: 992px - 1600px (optimized for 1366x768, 1440x900, 1600x900)
+  - Desktop: > 1600px
+*/
+
 html {
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -113,6 +122,17 @@ body {
   color: #fff;
   margin: 0;
   padding-top: 80px; /* Compensate for fixed header */
+}
+
+/* 14" laptop specific adjustments */
+@media (min-width: 992px) and (max-width: 1600px) {
+  body {
+    padding-top: 60px;
+  }
+  
+  .container {
+    max-width: 1140px;
+  }
 }
 
 /* Offset anchor targets for fixed header */
@@ -339,8 +359,16 @@ section[id],
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4) 100%), url("Images/bannar-bg.png") center/cover no-repeat;
 }
 
+/* Reduce top margin on 14" screens */
+@media (min-width: 992px) and (max-width: 1600px) {
+  .banner {
+    margin-top: 10px;
+    padding: 2.5rem 0;
+  }
+}
+
 .banner .banner-content h1 {
-  font-size: 3.75rem;
+  font-size: clamp(2rem, 5vw, 3.75rem);
   padding-bottom: 12px;
   font-weight: 200;
   opacity: 0;
@@ -428,6 +456,13 @@ section[id],
   margin-top: clamp(20px, 3vw, 32px);
 }
 
+/* Reduce top margin on 14" screens */
+@media (min-width: 992px) and (max-width: 1600px) {
+  .banner-carousel {
+    margin-top: 10px;
+  }
+}
+
 .carousel-slide {
   padding: 4rem 0;
   position: relative;
@@ -437,7 +472,7 @@ section[id],
 }
 
 .banner-carousel .banner-content h1 {
-  font-size: 3.75rem;
+  font-size: clamp(2rem, 5vw, 3.75rem);
   padding-bottom: 12px;
   font-weight: 200;
   opacity: 0;
@@ -536,12 +571,61 @@ section[id],
 /* Responsive styles for carousel */
 @media (min-width: 1200px) {
   .banner-carousel .banner-content.text-lg-start p {
-    max-width: 76%;
+    max-width: 90%;
   }
   
   .banner-carousel .banner-content.text-center p {
     max-width: 100%;
     margin: 0 auto;
+  }
+}
+
+/* 14" laptop screens (1366x768 to 1600x900) */
+@media (min-width: 992px) and (max-width: 1600px) {
+  .carousel-slide {
+    padding: 3rem 0;
+    min-height: 60vh;
+  }
+  
+  .banner-carousel .banner-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .banner-carousel .banner-content p {
+    font-size: 1rem;
+  }
+  
+  .banner-carousel .banner-content.text-lg-start p {
+    max-width: 100%;
+  }
+  
+  .hero-image {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .info-section {
+    padding: 80px 0;
+  }
+  
+  .info-section h2 {
+    font-size: 2.5rem;
+  }
+  
+  .ai-engine-section {
+    padding: 80px 0;
+  }
+  
+  .impact-section {
+    padding: 60px 0;
+  }
+  
+  .cta-section {
+    padding: 80px 0;
+  }
+  
+  .capabilities {
+    padding: 80px 0;
   }
 }
 
@@ -728,8 +812,16 @@ html.reduced-motion .hero-image {
 .info-section {
   padding: 120px 0;
 }
+
+/* Reduce padding on 14" screens */
+@media (min-width: 992px) and (max-width: 1600px) {
+  .info-section {
+    padding: 60px 0 !important;
+  }
+}
+
 .info-section h2 {
-  font-size: 3.75rem;
+  font-size: clamp(2rem, 5vw, 3.75rem);
   /* 60px */
   margin-bottom: 1rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6));
@@ -958,7 +1050,7 @@ html.reduced-motion .hero-image {
   -webkit-text-fill-color: transparent;
 }
 .ai-engine-section .main-heading {
-  font-size: 2.875rem;
+  font-size: clamp(1.75rem, 4vw, 2.875rem);
   font-weight: 500;
   margin-bottom: 28px;
   background: linear-gradient(to bottom, #ffffff 0%, #bababa 100%);
@@ -1091,7 +1183,7 @@ html.reduced-motion .hero-image {
   margin-bottom: 50px;
 }
 .impact-section .impact-header h2 {
-  font-size: 3.75rem;
+  font-size: clamp(1.75rem, 5vw, 3.75rem);
   font-weight: 500;
   line-height: 1.1;
   background: linear-gradient(to bottom, #ffffff 0%, #bababa 100%);
@@ -1772,14 +1864,14 @@ body::before {
 
 /* Header horizontal breathing room */
 .site-header .container-fluid {
-  padding-left: clamp(32px, 8vw, 160px) !important;
-  padding-right: clamp(32px, 8vw, 160px) !important;
+  padding-left: clamp(16px, 4vw, 80px) !important;
+  padding-right: clamp(16px, 4vw, 80px) !important;
 }
 
 /* Footer horizontal breathing room to match header */
 .site-footer .container-fluid {
-  padding-left: clamp(32px, 8vw, 160px) !important;
-  padding-right: clamp(32px, 8vw, 160px) !important;
+  padding-left: clamp(16px, 4vw, 80px) !important;
+  padding-right: clamp(16px, 4vw, 80px) !important;
 }
 
 /*# sourceMappingURL=style.css.map */
@@ -2448,6 +2540,135 @@ body::before {
   .feature-card, .step-card, .platform-feature, .vision-feature,
   .support-option {
     padding: 1.5rem;
+  }
+}
+
+/* 14" Laptop Optimization (1366x768, 1440x900, 1600x900) */
+@media (min-width: 992px) and (max-width: 1600px) {
+  /* Reduce excessive spacing on smaller laptops */
+  section {
+    padding: 50px 0 !important;
+  }
+  
+  .banner, .banner-carousel {
+    padding: 2.5rem 0;
+    margin-top: 10px;
+  }
+  
+  .info-section {
+    padding: 60px 0 !important;
+  }
+  
+  .ai-engine-section, .impact-section, .capabilities, .cta-section {
+    padding: 50px 0 !important;
+  }
+  
+  .automation-cards {
+    padding: 50px 0 !important;
+  }
+  
+  /* Optimize font sizes for 14" screens */
+  h1 {
+    font-size: 2.5rem !important;
+  }
+  
+  h2 {
+    font-size: 2rem !important;
+  }
+  
+  h3 {
+    font-size: 1.5rem !important;
+  }
+  
+  p, .description {
+    font-size: 0.95rem !important;
+  }
+  
+  /* Reduce container padding */
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  
+  /* Optimize header for 14" screens */
+  .site-header .nav-link {
+    font-size: 13px;
+    margin-right: 0.75rem;
+  }
+  
+  .site-header .navbar-brand img {
+    height: 60px;
+  }
+  
+  /* Adjust card padding */
+  .automation-card {
+    padding: 24px 20px;
+  }
+  
+  .ai-engine-section .ai-cards .ai-card {
+    padding: 40px;
+  }
+  
+  .impact-section .impact-cards .impact-card {
+    padding: 24px;
+  }
+  
+  /* Optimize button sizes */
+  .btn-gradient-border, .btn-gradient {
+    padding: 0.6rem 1.2rem;
+    font-size: 13px;
+  }
+  
+  /* Reduce hero image size on smaller laptops */
+  .hero-image {
+    max-width: 85%;
+  }
+  
+  /* Optimize footer */
+  .site-footer {
+    padding: 60px 0 30px;
+    margin-top: 80px;
+  }
+  
+  .footer-logo {
+    height: 60px;
+  }
+}
+
+/* Extra small 14" screens (1366x768) */
+@media (min-width: 992px) and (max-width: 1400px) {
+  .carousel-slide {
+    min-height: 55vh;
+    padding: 2.5rem 0;
+  }
+  
+  .banner-carousel .banner-content h1 {
+    font-size: 2.25rem !important;
+  }
+  
+  .info-section h2 {
+    font-size: 2.25rem !important;
+  }
+  
+  .ai-engine-section .main-heading {
+    font-size: 2rem !important;
+  }
+  
+  .impact-section .impact-header h2 {
+    font-size: 2rem !important;
+  }
+  
+  /* Make cards more compact */
+  .automation-card {
+    padding: 20px 16px;
+  }
+  
+  .ai-engine-section .ai-cards .ai-card {
+    padding: 30px;
+  }
+  
+  .impact-section .impact-cards .impact-card {
+    padding: 20px;
   }
 }
 
