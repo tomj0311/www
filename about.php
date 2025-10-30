@@ -22,7 +22,7 @@ require_once 'config.php';
             <div class="row align-items-center">
                 <div class="col-lg-6" data-animate="fade-in">
                     <h1 class="gradient-text">About Hub8</h1>
-                    <p class="description">Hub8 delivers revolutionary business automation through our Generative Intelligent Automation (GIA) platform—a patent-pending Python-based system that dynamically generates executable workflows at runtime. Unlike traditional automation tools that rely on static templates, GIA creates, adapts, and optimizes complex business processes on-the-fly using multi-agent AI systems, enabling true hyper-automation for regulated industries worldwide.</p>
+                    <p class="description">Hub8 delivers revolutionary business automation through our Generative Intelligent Automation (GIA) platform, a patent-pending Python-based system that dynamically generates executable workflows at runtime. Unlike traditional automation tools that rely on static templates, GIA creates, adapts, and optimizes complex business processes on the fly using multi-agent AI systems, enabling true hyper-automation for regulated industries worldwide.</p>
                     <a href="contact.php" class="btn-gradient-border">Get Started</a>
                 </div>
                 <div class="col-lg-6" data-animate="slide-in-right">
@@ -38,18 +38,18 @@ require_once 'config.php';
                 <div class="col-lg-8 mx-auto">
                     <h2 class="gradient-text mb-4" data-animate="fade-in">Our Story</h2>
                     <p class="lead text-white-50 mb-4" data-animate="slide-in-up">
-                        Hub8 was born from a simple observation: businesses were drowning in repetitive tasks while their most valuable asset—their people—spent countless hours on work that didn't require human creativity or judgment.
+                        Hub8 was born from a simple observation: businesses were drowning in repetitive tasks while their most valuable asset, their people, spent countless hours on work that didn't require human creativity or judgment.
                     </p>
                     <p class="text-white-50 mb-4" data-animate="slide-in-up">
                         We saw companies struggling with traditional automation tools that broke at the slightest change, required armies of programmers to maintain, and couldn't handle anything beyond the most basic tasks. That's when we knew there had to be a better way.
                     </p>
                     <p class="text-white-50 mb-5" data-animate="slide-in-up">
-                        Drawing on decades of combined experience in AI and enterprise technology across continents, our founding team built Hub8 to be different. We created GIA—our Generative Intelligent Automation platform—to think, learn, and adapt like a skilled team member, not just follow rigid rules. Today, we help organizations worldwide transform their operations, freeing their people to focus on what truly matters: innovation, strategy, and growth.
+                        Drawing on decades of combined experience in AI and enterprise technology across continents, our founding team built Hub8 to be different. We created GIA, our Generative Intelligent Automation platform, to think, learn, and adapt like a skilled team member, not just follow rigid rules. Today, we help organizations worldwide transform their operations, freeing their people to focus on what truly matters: innovation, strategy, and growth.
                     </p>
                     
                     <h3 class="text-white mb-4" data-animate="fade-in">Our Mission</h3>
                     <p class="lead text-white-50 mb-5" data-animate="slide-in-up">
-                        To empower businesses with intelligent automation that works the way people think—adapting, learning, and improving over time. We believe technology should enhance human capabilities, not replace them. By automating the mundane, we help organizations unlock their full potential and create more meaningful work for their teams.
+                        To empower businesses with intelligent automation that works the way people think: adapting, learning, and improving over time. We believe technology should enhance human capabilities, not replace them. By automating the mundane, we help organizations unlock their full potential and create more meaningful work for their teams.
                     </p>
                     
                     <h3 class="text-white mb-3" data-animate="fade-in">What Makes Hub8 Different</h3>
@@ -169,7 +169,7 @@ require_once 'config.php';
                         </div>
                         <div class="mt-3 p-3" style="background: rgba(255, 255, 255, 0.03); border-radius: 8px;">
                             <p class="text-white-50 mb-0 small">
-                                <strong>Distributed AI Infrastructure:</strong> Our global technology centers provide 24/7 AI development, system monitoring, and localized support. This approach ensures maximum uptime, faster response times, and regionally-aware solutions while maintaining high standards of security and performance.
+                                <strong>Distributed AI Infrastructure:</strong> Our global technology centers provide 24/7 AI development, system monitoring, and localized support. This approach ensures maximum uptime, faster response times, and regionally aware solutions while maintaining high standards of security and performance.
                             </p>
                         </div>
                     </div>
@@ -177,10 +177,10 @@ require_once 'config.php';
                     <div class="mt-5 p-4" data-animate="slide-in-up" style="background: rgba(255, 255, 255, 0.05); border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);">
                         <h3 class="gradient-text mb-3">Our Vision for the Future</h3>
                         <p class="text-white-50 mb-3" data-animate="fade-in">
-                            We envision artificial intelligence that enhances how businesses operate and grow. Through our Generative Intelligent Automation technology and decades of global IT and AI expertise, we deliver solutions that handle complex automation challenges—enabling businesses to focus on innovation and strategic growth.
+                            We envision artificial intelligence that enhances how businesses operate and grow. Through our Generative Intelligent Automation technology and decades of global IT and AI expertise, we deliver solutions that handle complex automation challenges, enabling businesses to focus on innovation and strategic growth.
                         </p>
                         <p class="text-white-50" data-animate="fade-in">
-                            As we advance AI automation technology, we remain committed to delivering intelligent solutions that understand, learn, and optimize complex business workflows. Our goal is to create AI that works alongside humans, enhancing productivity while maintaining complete privacy, security, and control over business-critical data.
+                            As we advance AI automation technology, we remain committed to delivering intelligent solutions that understand, learn, and optimize complex business workflows. Our goal is to create AI that works alongside humans, enhancing productivity while maintaining complete privacy, security, and control over business critical data.
                         </p>
                     </div>
                 </div>

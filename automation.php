@@ -23,7 +23,7 @@ require_once 'config.php';
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h1 class="gradient-text" data-animate="fade-up">Building Enterprise AI Workflows with GIA</h1>
-                    <p class="description" data-animate="fade-up">Redefining operations in regulated and complex industries through generative intelligent automation. Experience the next evolution of AI - where systems reason, plan strategically, and execute autonomously.</p>
+                    <p class="description" data-animate="fade-up">Redefining operations in regulated and complex industries through generative intelligent automation. Experience the next evolution of AI where systems reason, plan strategically, and execute autonomously.</p>
                     <div class="d-flex gap-3 mt-4" data-animate="fade-up">
                         <a href="contact.php" class="btn-gradient-border">Request AI Readiness Assessment</a>
                         <a href="#implementation" class="btn-gradient-border">Schedule Strategy Workshop</a>
@@ -43,7 +43,7 @@ require_once 'config.php';
                 <div class="col-lg-8 mx-auto text-center">
                     <h2 class="gradient-text mb-4">About GIA Platform</h2>
                     <p class="lead text-white-50 mb-5">
-                        GIA (Generative Intelligent Automation) is a Python-based platform that transforms natural language into executable workflows by understanding business intent. GIA automatically generates the necessary scripts, forms, and integrations—creating complete, compliance-ready processes on-the-fly. Whether leveraging pre-built connectors or synthesizing custom code or calling exernal connectors, GIA delivers true hyper-automation for any vertical in highly regulated environments.
+                        GIA (Generative Intelligent Automation) is a Python-based platform that transforms natural language into executable workflows by understanding business intent. GIA automatically generates the necessary scripts, forms, and integrations, creating complete, compliance ready processes on the fly. Whether leveraging pre-built connectors or synthesizing custom code or calling external connectors, GIA delivers true hyper-automation for any vertical in highly regulated environments.
                     </p>
                 </div>
             </div>
@@ -63,7 +63,7 @@ require_once 'config.php';
                             </svg>
                         </div>
                         <h5 class="gradient-text">Natural Language to Code</h5>
-                        <p class="text-white-50">Transforms business descriptions into BPMN 2.0-compliant workflows with auto-generated scripts, forms, and integrations—from intent to execution</p>
+                        <p class="text-white-50">Transforms business descriptions into BPMN 2.0 compliant workflows with auto-generated scripts, forms, and integrations from intent to execution</p>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
@@ -109,9 +109,9 @@ require_once 'config.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center mb-5">
-                    <h2 class="gradient-text mb-4">GIA Platform: Revolutionary Differentiators</h2>
+                    <h2 class="gradient-text text-center mb-5">GIA Platform: Revolutionary Differentiators</h2>
                     <p class="lead text-white-50">
-                        GIA introduces groundbreaking capabilities that fundamentally distinguish it from traditional automation platforms. By converting natural language into production-ready workflows with auto-generated code and forms, GIA delivers unprecedented flexibility, autonomy, and intelligence—all while maintaining rigid BPMN 2.0 compliance for highly regulated environments.
+                        GIA introduces groundbreaking capabilities that fundamentally distinguish it from traditional automation platforms. By converting natural language into production ready workflows with auto-generated code and forms, GIA delivers unprecedented flexibility, autonomy, and intelligence, all while maintaining rigid BPMN 2.0 compliance for highly regulated environments.
                     </p>
                     <div class="alert alert-info bg-transparent border-info text-info mt-4">
                         <i class="fas fa-quote-left"></i> "Patent-pending technology enabling natural language to BPMN code generation, intelligent connector selection, and adaptive hyper-automation across any vertical." <i class="fas fa-quote-right"></i>
@@ -127,12 +127,12 @@ require_once 'config.php';
                         </div>
                         <h4 class="text-white mb-3">Dynamic Process Generation</h4>
                         <p class="text-white-50 mb-3">
-                            GIA interprets natural language requirements and automatically generates BPMN 2.0-compliant workflows with full code synthesis. The platform creates execution scripts, UI forms, and integration logic in real-time—ensuring rigid compliance standards for highly secure environments while maintaining unprecedented flexibility.
+                            GIA interprets natural language requirements and automatically generates BPMN 2.0 compliant workflows with full code synthesis. The platform creates execution scripts, UI forms, and integration logic in real time, ensuring rigid compliance standards for highly secure environments while maintaining unprecedented flexibility.
                         </p>
                         <ul class="text-white-50 small">
                             <li>Natural language to executable code generation</li>
                             <li>Auto-generated forms and UI components</li>
-                            <li>Pre-built connectors + custom code synthesis</li>
+                            <li>Pre-built connectors plus custom code synthesis</li>
                             <li>BPMN 2.0 compliance by design</li>
                         </ul>
                     </div>
@@ -145,7 +145,7 @@ require_once 'config.php';
                         </div>
                         <h4 class="text-white mb-3">Autonomous Agent Ecosystem</h4>
                         <p class="text-white-50 mb-3">
-                            Agents autonomously discover and recruit peers using Python ML (scikit-learn clustering) or distributed protocols—eliminating centralized coordination bottlenecks.
+                            Agents autonomously discover and recruit peers using Python ML (scikit-learn clustering) or distributed protocols, eliminating centralized coordination bottlenecks.
                         </p>
                         <ul class="text-white-50 small">
                             <li>Decentralized capability matching</li>
@@ -183,10 +183,10 @@ require_once 'config.php';
                         </div>
                         <h4 class="text-white mb-3">Intelligent Code Generation</h4>
                         <p class="text-white-50 mb-3">
-                            Generates production-ready code, forms, and connectors from business requirements. GIA intelligently selects between pre-built functions for speed or synthesizes custom code for unique needs—ensuring hyper-automation across any vertical.
+                            Generates production ready code, forms, and connectors from business requirements. GIA intelligently selects between pre-built functions for speed or synthesizes custom code for unique needs, ensuring hyper-automation across any vertical.
                         </p>
                         <ul class="text-white-50 small">
-                            <li>On-the-fly form and UI generation</li>
+                            <li>On the fly form and UI generation</li>
                             <li>Smart pre-built connector selection</li>
                             <li>Custom script synthesis when needed</li>
                             <li>Cross-vertical adaptability</li>
@@ -201,7 +201,7 @@ require_once 'config.php';
                         </div>
                         <h4 class="text-white mb-3">Multi-LLM Security</h4>
                         <p class="text-white-50 mb-3">
-                            Supports multiple language models including open-source and small models for optimal security, performance, and cost—reducing dependency on proprietary APIs.
+                            Supports multiple language models including open-source and small models for optimal security, performance, and cost, reducing dependency on proprietary APIs.
                         </p>
                         <ul class="text-white-50 small">
                             <li>No vendor lock-in</li>
@@ -217,9 +217,9 @@ require_once 'config.php';
                         <div class="mb-3 text-center">
                             <i class="fas fa-server fa-3x" style="color: #F929D5;"></i>
                         </div>
-                        <h4 class="text-white mb-3">Deploy-Anywhere Architecture</h4>
+                        <h4 class="text-white mb-3">Deploy Anywhere Architecture</h4>
                         <p class="text-white-50 mb-3">
-                            On-premise, cloud, or hybrid hosting ensures data sovereignty and compliance flexibility (GDPR, HIPAA)—critical for regulated industries.
+                            On premise, cloud, or hybrid hosting ensures data sovereignty and compliance flexibility (GDPR, HIPAA), critical for regulated industries.
                         </p>
                         <ul class="text-white-50 small">
                             <li>Complete data sovereignty control</li>
@@ -239,7 +239,7 @@ require_once 'config.php';
                         </div>
                         <h4 class="text-white mb-3">Proactive Self-Healing</h4>
                         <p class="text-white-50 mb-3">
-                            Uses Python AI stack (TensorFlow, PyTorch) for predictive failure detection and autonomous resolution via agent collaboration—minimizing human intervention.
+                            Uses Python AI stack (TensorFlow, PyTorch) for predictive failure detection and autonomous resolution via agent collaboration, minimizing human intervention.
                         </p>
                         <ul class="text-white-50 small">
                             <li>Predictive anomaly detection</li>
@@ -309,17 +309,17 @@ require_once 'config.php';
                                     <tr>
                                         <td><strong>Process Generation</strong></td>
                                         <td class="text-white-50">Static BPMN templates; predefined workflows; manual redesign required</td>
-                                        <td class="text-success">Natural language to BPMN code; auto-generates scripts, forms, connectors on-demand</td>
+                                        <td class="text-success">Natural language to BPMN code; auto-generates scripts, forms, connectors on demand</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Code & Form Creation</strong></td>
                                         <td class="text-white-50">Manual coding; template-based forms; limited connector library</td>
-                                        <td class="text-success">Intelligent synthesis from business intent; pre-built + custom code generation</td>
+                                        <td class="text-success">Intelligent synthesis from business intent; pre-built plus custom code generation</td>
                                     </tr>
                                     <tr>
                                         <td><strong>BPMN Compliance</strong></td>
                                         <td class="text-white-50">Post-deployment validation; manual compliance checks</td>
-                                        <td class="text-success">Rigid BPMN 2.0 standards enforced at generation; compliance-by-design</td>
+                                        <td class="text-success">Rigid BPMN 2.0 standards enforced at generation; compliance by design</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Agent Management</strong></td>
@@ -349,11 +349,11 @@ require_once 'config.php';
                                     <tr>
                                         <td><strong>Deployment Options</strong></td>
                                         <td class="text-white-50">Cloud-centric; limited on-premise flexibility</td>
-                                        <td class="text-success">Deploy-anywhere: on-prem, cloud, hybrid; data sovereignty</td>
+                                        <td class="text-success">Deploy anywhere: on-prem, cloud, hybrid; data sovereignty</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Data Payload Handling</strong></td>
-                                        <td class="text-white-50">Structured inputs only; ETL-focused</td>
+                                        <td class="text-white-50">Structured inputs only; ETL focused</td>
                                         <td class="text-success">Heterogeneous payloads (IoT, JSON, streams); real-time parsing</td>
                                     </tr>
                                 </tbody>
@@ -386,7 +386,7 @@ require_once 'config.php';
                         <h5 class="text-white mb-3">Predictive Maintenance (Manufacturing)</h5>
                         <p class="text-white-50 mb-3">Real-time workflow generation for vibration analysis, frequency pattern processing, and root cause analysis of rotatory equipment.</p>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
-                            <small class="text-white-50"><strong>GIA Advantage:</strong> Natural language input generates complete workflows with signal analysis scripts and custom forms—all compliance-ready for regulated environments</small>
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Natural language input generates complete workflows with signal analysis scripts and custom forms, all compliance ready for regulated environments</small>
                         </div>
                     </div>
                 </div>
@@ -399,7 +399,7 @@ require_once 'config.php';
                         <h5 class="text-white mb-3">Healthcare Lab Automation</h5>
                         <p class="text-white-50 mb-3">Automated lab testing workflows with anomaly detection from scanned medical images, compliance tracking, and real-time reporting.</p>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
-                            <small class="text-white-50"><strong>GIA Advantage:</strong> Interprets medical protocols in natural language; generates HIPAA-compliant forms and processing scripts with pre-built healthcare connectors</small>
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Interprets medical protocols in natural language; generates HIPAA compliant forms and processing scripts with pre-built healthcare connectors</small>
                         </div>
                     </div>
                 </div>
@@ -412,7 +412,7 @@ require_once 'config.php';
                         <h5 class="text-white mb-3">Supply Chain Optimization</h5>
                         <p class="text-white-50 mb-3">Dynamic vendor sync processes, automated order processing, and real-time inventory management based on predictive analytics.</p>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
-                            <small class="text-white-50"><strong>GIA Advantage:</strong> Converts vendor requirements to executable code; auto-generates purchase forms and integration scripts using pre-built ERP connectors</small>
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Converts vendor requirements to executable code; auto generates purchase forms and integration scripts using pre-built ERP connectors</small>
                         </div>
                     </div>
                 </div>
@@ -451,7 +451,7 @@ require_once 'config.php';
                         <h5 class="text-white mb-3">Enterprise Document Processing</h5>
                         <p class="text-white-50 mb-3">Intelligent document extraction, classification, and workflow routing across 300+ system integrations.</p>
                         <div class="mt-3 p-2" style="background: rgba(255, 255, 255, 0.05); border-radius: 6px;">
-                            <small class="text-white-50"><strong>GIA Advantage:</strong> Describes document requirements in plain language; GIA generates extraction code, classification forms, and routing logic with 300+ pre-built connectors</small>
+                            <small class="text-white-50"><strong>GIA Advantage:</strong> Describes document requirements in plain language; GIA generates extraction code, classification forms, and routing logic with 300 plus pre-built connectors</small>
                         </div>
                     </div>
                 </div>
@@ -466,7 +466,7 @@ require_once 'config.php';
                 <div class="col-lg-8 mx-auto text-center mb-5">
                     <h2 class="gradient-text mb-4">Implementation Roadmap</h2>
                     <p class="lead text-white-50">
-                        Strategic approach to building your enterprise AI agent architecture with GIA. Timeline: 8-14 months.
+                        Strategic approach to building your enterprise AI agent architecture with GIA. Timeline: 8 to 14 months.
                     </p>
                 </div>
             </div>
@@ -624,8 +624,7 @@ require_once 'config.php';
                 <div class="col-lg-8 mx-auto text-center">
                     <h2 class="gradient-text mb-4">2025 Action Plan: The GIA Advantage</h2>
                     <p class="lead text-white-50 mb-5">
-                        Transform your organization with enterprise AI agents. Start your journey to autonomous, 
-                        intelligent operations that drive unprecedented business value.
+                        Transform your organization with enterprise AI agents. Start your journey to autonomous, intelligent operations that drive unprecedented business value.
                     </p>
                     
                     <div class="row mb-5">
@@ -686,8 +685,7 @@ require_once 'config.php';
                 <div class="col-lg-8 mx-auto text-center">
                     <h2 class="gradient-text mb-4">Ready to Build Your Enterprise AI Agent?</h2>
                     <p class="lead text-white-50 mb-4">
-                        Join industry leaders who are transforming their operations with GIA's enterprise AI agents. 
-                        Experience the future of intelligent automation today.
+                        Join industry leaders who are transforming their operations with GIA's enterprise AI agents. Experience the future of intelligent automation today.
                     </p>
                     <div class="d-flex gap-3 justify-content-center flex-wrap">
                         <a href="contact.php?type=consultation" class="btn-gradient">Free Strategic Consultation</a>
