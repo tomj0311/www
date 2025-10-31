@@ -454,6 +454,19 @@ section[id],
   position: relative;
   overflow: hidden;
   margin-top: clamp(20px, 3vw, 32px);
+  min-height: 70vh;
+}
+
+.banner-fixed-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 70vh;
+  height: 70vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4) 100%), url('Images/bannar-bg.png') center/cover no-repeat;
+  z-index: 1;
+  pointer-events: none;
 }
 
 /* Reduce top margin on 14" screens */
@@ -467,8 +480,18 @@ section[id],
   padding: 4rem 0;
   position: relative;
   min-height: 70vh;
+  height: 100%;
   display: flex;
   align-items: center;
+  background: transparent !important;
+}
+
+#heroCarousel .carousel-inner {
+  min-height: 70vh;
+}
+
+#heroCarousel .carousel-item {
+  min-height: 70vh;
 }
 
 .banner-carousel .banner-content h1 {

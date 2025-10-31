@@ -1,11 +1,14 @@
 <section class="banner-carousel" id="home">
+  <!-- Fixed Background -->
+  <div class="banner-fixed-background"></div>
+  
   <!-- Bootstrap Carousel -->
-  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000" style="position: relative; z-index: 2;">
     <!-- Carousel Inner -->
     <div class="carousel-inner">
       <!-- Slide 1: AI-Powered Custom Software Development -->
       <div class="carousel-item active">
-        <div class="carousel-slide" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4) 100%), url('assets/Images/bannar-bg.png') center/cover no-repeat;">
+        <div class="carousel-slide">
           <div class="container">
             <div class="row align-items-center justify-content-center">
               <div class="col-lg-6 banner-content text-lg-start" data-animate="slide-right">
@@ -41,7 +44,7 @@
 
       <!-- Slide 2: Intelligent Business Process Automation -->
       <div class="carousel-item">
-        <div class="carousel-slide" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4) 100%), url('assets/Images/technologyical_egde.png') center/cover no-repeat;">
+        <div class="carousel-slide">
           <div class="container">
             <div class="row align-items-center justify-content-center">
               <div class="col-lg-12 banner-content text-center">
@@ -73,7 +76,7 @@
 
       <!-- Slide 3: AI-Enhanced Security & Reliability -->
       <div class="carousel-item">
-        <div class="carousel-slide" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4) 100%), url('assets/Images/impact-bg.png') center/cover no-repeat;">
+        <div class="carousel-slide">
           <div class="container">
             <div class="row align-items-center justify-content-center">
               <div class="col-lg-12 banner-content text-center">
@@ -105,7 +108,7 @@
 
       <!-- Slide 4: Smart Integration & Connectivity -->
       <div class="carousel-item">
-        <div class="carousel-slide" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4) 100%), url('assets/Images/feature_bg.png') center/cover no-repeat;">
+        <div class="carousel-slide">
           <div class="container">
             <div class="row align-items-center justify-content-center">
               <div class="col-lg-12 banner-content text-center">
